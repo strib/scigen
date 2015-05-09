@@ -1,0 +1,86 @@
+#!/usr/bin/perl -w
+
+#    This file is part of SCIgen.
+#
+#    SCIgen is free software; you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation; either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    SCIgen is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with SCIgen; if not, write to the Free Software
+#    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+
+use strict;
+use IO::Socket;
+use scigen;
+
+print "about to use port $scigen::SCIGEND_PORT\n";
+my $server = IO::Socket::INET->new( Proto => 'tcp', 
+				    LocalPort => $scigen::SCIGEND_PORT,
+				    Listen => 1, Reuse => 1);
+
+die "Cannot start $0 on port $scigen::SCIGEND_PORT" unless $server;
+
+my $client;
+my $name_dat = {};
+my $name_RE = undef;
+my $tex_dat = {};
+my $tex_RE = undef;
+
+&initialize();
+
+print "Initialized . . .\n";
+
+while(1) {
+
+    while( $client = $server->accept() ) {
+
+	while( <$client> ) {
+	    print "Received message: $_\n";
+	    my $fh = select $client;
+	    print &get_system_name() . "\n";
+	    close $client; 
+	    select $fh;
+	    last;
+	}
+
+    }
+
+    next if $!{EINTR};
+    last;
+
+}
+
+
+sub initialize {
+
+    my $fh = new IO::File( "<system_names.in" );
+    &scigen::read_rules( $fh, $name_dat, \$name_RE, 0 ); 
+
+    $fh = new IO::File( "<scirules.in" );
+    &scigen::read_rules( $fh, $tex_dat, \$tex_RE, 0 );
+
+}
+
+sub get_system_name {
+
+    my $name = &scigen::generate ($name_dat, "SYSTEM_NAME", $name_RE, 0, 0);
+    chomp($name);
+
+    # how about some effects?
+    my $rand = rand;
+    if( $rand < .1 ) {
+	$name = "{\\em $name}";
+    } elsif( length($name) <= 6 and $rand < .4 ) {
+	$name = uc($name);
+    }
+
+    return $name;
+}

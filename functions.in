@@ -1,0 +1,36 @@
+#    This file is part of SCIgen.
+#
+#    SCIgen is free software; you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation; either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    SCIgen is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with SCIgen; if not, write to the Free Software
+#    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+NUM	2
+NUM	3
+NUM	10
+NUM	($$/1000.0)
+
+EXPR	EXPR + EXPR
+EXPR	EXPR * EXPR
+EXPR	sin(NUM*EXPR)
+EXPR	cos(NUM*EXPR)
+EXPR	atan2(EXPR,EXPR)
+EXPR	exp(EXPR)
+EXPR	log(abs(EXPR))
+EXPR	sqrt(abs(EXPR))
+EXPR	int(EXPR)+1
+EXPR	(EXPR)**NUM
+EXPR	xxx
+EXPR	xxx
+EXPR	xxx
+EXPR	xxx
+EXPR	NUM
