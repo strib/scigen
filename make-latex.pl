@@ -163,7 +163,9 @@ while( <TEX> ) {
 	push @figures, $figfile;
     }
 
-    if( /[=\{](dia[^\,\}]*)[\,\}]/ ) {
+#Modified by youkie in 20161110. The old regex would match \ref{dia:label0} in the tex file, Thus lead to transfer a non-exist filename, dia:label0, to make-diagram.pl.
+#    if( /[=\{](dia[^\,\}]*)[\,\}]/ ) {
+    if( /[=](dia[^\,\}]*)[\}]/ ) {
 	my $figfile = "$tmp_dir/$1";
 	my $done = 0;
 	while( !$done ) {
