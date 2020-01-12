@@ -1,0 +1,403 @@
+{
+  "EDGES_8": [
+    "\n  EDGE;\n  EDGES_7\n\n"
+  ],
+  "LAYOUT": [
+    "\nGRAPH_DIR {\n\n"
+  ],
+  "NODENUM\\+": [
+    ""
+  ],
+  "EDGE": [
+    "OLD_NODE EDGEOP LABELED_EDGE"
+  ],
+  "GRAPHVIZ": [
+    "\nLAYOUT\n\nsize=\"3,3\";\n\nNODES\nEDGES\n\nEND\n\n"
+  ],
+  "NODES_7": [
+    "\n  NEW_NODE;\n  NODES_6\n\n"
+  ],
+  "NODES_5": [
+    "\n  NEW_NODE;\n  NODES_4\n\n"
+  ],
+  "EDGE!!!": [
+    ""
+  ],
+  "END": [
+    "}"
+  ],
+  "NODES_3": [
+    "\n  NEW_NODE;\n  NODES_2\n\n"
+  ],
+  "NODES_10": [
+    "\n  NEW_NODE;\n  NODES_9\n\n"
+  ],
+  "PICK_GRAPH_TYPE": [
+    "graph",
+    "digraph"
+  ],
+  "EDGES_6": [
+    "\n  EDGE;\n  EDGES_5\n\n"
+  ],
+  "EDGES_12": [
+    "\n  EDGE;\n  EDGES_11\n\n"
+  ],
+  "NODENUM\\#": [
+    ""
+  ],
+  "EDGES_9": [
+    "\n  EDGE;\n  EDGES_8\n\n"
+  ],
+  "EDGES_2": [
+    "\n  EDGE;\n  EDGES_1\n\n"
+  ],
+  "EDGES_13": [
+    "\n  EDGE;\n  EDGES_12\n\n"
+  ],
+  "UNDIR_LAYOUT": [
+    "neato",
+    "twopi",
+    "circo",
+    "fdp"
+  ],
+  "NODES_4": [
+    "\n  NEW_NODE;\n  NODES_3\n\n"
+  ],
+  "NODES_1": [
+    "NEW_NODE;"
+  ],
+  "IP_PORT": [
+    "NONZDIGIT"
+  ],
+  "OLD_NODE": [
+    "nodeNODENUM#"
+  ],
+  "NODES_2": [
+    "\n  NEW_NODE;\n  NODES_1\n\n"
+  ],
+  "NONZ": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "NODES_9": [
+    "\n  NEW_NODE;\n  NODES_8\n\n"
+  ],
+  "NUM_NODES": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
+  "EDGES_4": [
+    "\n  EDGE;\n  EDGES_3\n\n"
+  ],
+  "EDGES_1": [
+    "EDGE;"
+  ],
+  "PICK_SHAPE_TYPE": [
+    "SHAPE_TYPE",
+    "SHAPE_TYPE",
+    "SHAPE_TYPE",
+    "SHAPE_TYPE SHAPE_TYPE",
+    "SHAPE_TYPE SHAPE_TYPE",
+    "SHAPE_TYPE SHAPE_TYPE SHAPE_TYPE",
+    "SHAPE_TYPE SHAPE_TYPE SHAPE_TYPE SHAPE_TYPE SHAPE_TYPE"
+  ],
+  "NODE_LABEL_PROG": [
+    "\"Web Browser\"",
+    "Kernel",
+    "Userspace",
+    "JVM",
+    "SYSNAME",
+    "SYSNAME",
+    "SYSNAME",
+    "SYSNAME",
+    "SYSNAME",
+    "SYSNAME",
+    "SYSNAME",
+    "SYSNAME",
+    "SYSNAME",
+    "SYSNAME",
+    "Editor",
+    "Simulator",
+    "Emulator",
+    "\"File System\"",
+    "Network",
+    "\"Video Card\"",
+    "X",
+    "\"Trap handler\"",
+    "Memory",
+    "Shell",
+    "Keyboard",
+    "Display"
+  ],
+  "NODE_LABEL_HW": [
+    "\"L1\\ncache\"",
+    "\"L2\\ncache\"",
+    "\"L3\\ncache\"",
+    "\"Memory\\nbus\"",
+    "\"CPU\"",
+    "\"GPU\"",
+    "\"Page\\ntable\"",
+    "\"Register\\nfile\"",
+    "\"SYSNAME\\ncore\"",
+    "\"Trap\\nhandler\"",
+    "\"DMA\"",
+    "\"Disk\"",
+    "\"ALU\"",
+    "\"PC\"",
+    "\"Stack\"",
+    "\"Heap\""
+  ],
+  "EDGES_15": [
+    "\n  EDGE;\n  EDGES_14\n\n"
+  ],
+  "IP_FONT_SIZE": [
+    "fontsize=9"
+  ],
+  "NODE_LABEL_DEC": [
+    "\"NODE_LABEL_LET < NODE_LABEL_LET\"",
+    "\"NODE_LABEL_LET == NODE_LABEL_LET\"",
+    "\"NODE_LABEL_LET > NODE_LABEL_LET\"",
+    "\"NODE_LABEL_LET != NODE_LABEL_LET\"",
+    "\"NODE_LABEL_LET % 2\\n== 0\"",
+    "\"goto\\nTWODIG\"",
+    "\"goto\\nSYSNAME\"",
+    "stop",
+    "start"
+  ],
+  "LABELED_EDGE!!!": [
+    ""
+  ],
+  "EDGES_11": [
+    "\n  EDGE;\n  EDGES_10\n\n"
+  ],
+  "NODES_6": [
+    "\n  NEW_NODE;\n  NODES_5\n\n"
+  ],
+  "NODE_LABEL_IP": [
+    "\"IP_PART.IP_PART.IP_PART.IP_PART\", IP_FONT_SIZE",
+    "\"IP_PART.IP_PART.IP_PART.IP_PART\", IP_FONT_SIZE",
+    "\"IP_PART.IP_PART.IP_PART.IP_PART\", IP_FONT_SIZE",
+    "\"IP_PART.IP_PART.IP_PART.IP_PART\", IP_FONT_SIZE",
+    "\"IP_PART.IP_PART.IP_PART.IP_PART\", IP_FONT_SIZE",
+    "\"IP_PART.IP_PART.IP_PART.0/24\", IP_FONT_SIZE",
+    "\"IP_PART.IP_PART.0.0/16\", IP_FONT_SIZE",
+    "\"IP_PART.0.0.0/8\", IP_FONT_SIZE",
+    "\"IP_PART.IP_PART.IP_PART.IP_PART:IP_PORT\", IP_FONT_SIZE"
+  ],
+  "DIGIT": [
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "0"
+  ],
+  "EDGES_7": [
+    "\n  EDGE;\n  EDGES_6\n\n"
+  ],
+  "SHAPE_TYPE!!!": [
+    ""
+  ],
+  "EDGES_5": [
+    "\n  EDGE;\n  EDGES_4\n\n"
+  ],
+  "LABELED_EDGE": [
+    "OLD_NODE [label=EDGE_LABEL, dir=\"back\"]"
+  ],
+  "EDGES_14": [
+    "\n  EDGE;\n  EDGES_13\n\n"
+  ],
+  "EDGES_10": [
+    "\n  EDGE;\n  EDGES_9\n\n"
+  ],
+  "SHAPE_TYPE": [
+    "ellipse",
+    "ellipse",
+    "ellipse",
+    "ellipse",
+    "ellipse",
+    "ellipse",
+    "ellipse",
+    "circle",
+    "egg",
+    "triangle",
+    "triangle",
+    "triangle",
+    "triangle",
+    "triangle",
+    "diamond",
+    "diamond",
+    "diamond",
+    "diamond",
+    "diamond",
+    "box",
+    "box",
+    "box",
+    "box",
+    "box",
+    "box",
+    "box",
+    "box",
+    "box",
+    "box",
+    "trapezium",
+    "parallelogram",
+    "house",
+    "hexagon",
+    "octagon",
+    "record",
+    "polygon"
+  ],
+  "NODE_LABEL!!!": [
+    ""
+  ],
+  "IP_PART": [
+    "DIGIT",
+    "NONZDIGIT",
+    "NONZDIGIT",
+    "NONZDIGIT",
+    "NONZDIGIT",
+    "1DIGITDIGIT",
+    "1DIGITDIGIT",
+    "1DIGITDIGIT",
+    "1DIGITDIGIT",
+    "20DIGIT",
+    "21DIGIT",
+    "22DIGIT",
+    "23DIGIT",
+    "23DIGIT",
+    "24DIGIT",
+    "250",
+    "251",
+    "252",
+    "253",
+    "254",
+    "255"
+  ],
+  "EDGES_3": [
+    "\n  EDGE;\n  EDGES_2\n\n"
+  ],
+  "NODE_LABEL_LET": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z"
+  ],
+  "PICK_LABEL_TYPE": [
+    "0",
+    "0",
+    "1",
+    "1",
+    "2",
+    "2",
+    "3",
+    "4",
+    "4",
+    "5",
+    "5"
+  ],
+  "EXPR": [
+    "EXPR + EXPR",
+    "EXPR * EXPR",
+    "sin(NUM*EXPR)",
+    "cos(NUM*EXPR)",
+    "atan2(EXPR,EXPR)",
+    "exp(EXPR)",
+    "log(abs(EXPR))",
+    "sqrt(abs(EXPR))",
+    "int(EXPR)+1",
+    "(EXPR)**NUM",
+    "xxx",
+    "xxx",
+    "xxx",
+    "xxx",
+    "NUM"
+  ],
+  "EDGE_LABEL_YESNO": [
+    "yes",
+    "no"
+  ],
+  "NODE_LABEL_NET": [
+    "Gateway",
+    "\"SYSNAME\\nnode\"",
+    "\"SYSNAME\\nserver\"",
+    "\"SYSNAME\\nclient\"",
+    "\"Web proxy\"",
+    "Firewall",
+    "\"Remote\\nfirewall\"",
+    "\"Remote\\nserver\"",
+    "\"DNS\\nserver\"",
+    "\"CDN\\ncache\"",
+    "\"Home\\nuser\"",
+    "VPN",
+    "\"Bad\\nnode\"",
+    "\"Failed!\"",
+    "\"Client\\nA\"",
+    "\"Client\\nB\"",
+    "\"Server\\nA\"",
+    "\"Server\\nB\"",
+    "\"NAT\""
+  ],
+  "NEW_NODE": [
+    "nodeNODENUM+ [label=NODE_LABEL, shape=SHAPE_TYPE]"
+  ],
+  "DIR_LAYOUT": [
+    "dot"
+  ],
+  "NODES_8": [
+    "\n  NEW_NODE;\n  NODES_7\n\n"
+  ],
+  "TWODIG": [
+    "NONZ",
+    "NONZDIGIT"
+  ],
+  "EDGES_16": [
+    "\n  EDGE;\n  EDGES_15\n\n"
+  ],
+  "NUM": [
+    "2",
+    "3",
+    "10",
+    "($$/1000.0)"
+  ]
+}
