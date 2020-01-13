@@ -1,0 +1,5016 @@
+{
+  "RELWORK_INTRO_P": [
+    "RELWORK_INTRO_1 RELWORK_BODY_INSIDE RELWORK_CONCL"
+  ],
+  "SCI_BUZZWORD_ADJ_MULTI": [
+    "SCI_BUZZWORD_ADJ",
+    "SCI_BUZZWORD_ADJ",
+    "SCI_BUZZWORD_ADJ",
+    "SCI_BUZZWORD_ADJ",
+    "SCI_BUZZWORD_ADJ",
+    "SCI_BUZZWORD_ADJ, SCI_BUZZWORD_ADJ",
+    "SCI_BUZZWORD_ADJ, SCI_BUZZWORD_ADJ",
+    "SCI_BUZZWORD_ADJ, SCI_BUZZWORD_ADJ",
+    "SCI_BUZZWORD_ADJ, SCI_BUZZWORD_ADJ",
+    "SCI_BUZZWORD_ADJ, SCI_BUZZWORD_ADJ",
+    "SCI_BUZZWORD_ADJ, SCI_BUZZWORD_ADJ",
+    "SCI_BUZZWORD_ADJ, SCI_BUZZWORD_ADJ",
+    "SCI_BUZZWORD_ADJ, SCI_BUZZWORD_ADJ",
+    "SCI_BUZZWORD_ADJ, SCI_BUZZWORD_ADJ",
+    "SCI_BUZZWORD_ADJ, SCI_BUZZWORD_ADJ",
+    "SCI_BUZZWORD_ADJ, SCI_BUZZWORD_ADJ, SCI_BUZZWORD_ADJ"
+  ],
+  "EVAL_SEC_SOFTWARE_INTRO": [
+    "SYSNAME does not run on a commodity operating system but instead requires a SCI_MATH_ADV HACKED version of OSFULL",
+    "SYSNAME runs on HACKED standard software",
+    "We ran SCI_OUR_SYSTEM on commodity operating systems, such as OSFULL and OSFULL",
+    "Building a sufficient software environment took time, but was well worth it in the end",
+    "When SCI_SOURCE HACKED OSFULL's SOFTWARE_PROP in SCI_YEAR, he could not have anticipated the impact; our work here FOLLOWS_SUIT"
+  ],
+  "AMBITIOUS": [
+    "ambitious",
+    "novel",
+    "experimental",
+    "unstable",
+    "complex",
+    "overengineered"
+  ],
+  "SCI_IDEAL": [
+    "ideal",
+    "optimal",
+    "perfect",
+    "different",
+    "distinct"
+  ],
+  "SOFTWARE_PROP_OR_MEASUREMENT": [
+    "SOFTWARE_PROP",
+    "EVAL_MEASUREMENT"
+  ],
+  "SCI_THING_HAS": [
+    "SCI_THING_S has",
+    "SCI_THING_P have"
+  ],
+  "SCI_IPF_FINAL": [
+    "SCI_B_LEADIN_C we conclude."
+  ],
+  "LICENSE_TYPE": [
+    "the Gnu Public License",
+    "public domain",
+    "X11 license",
+    "BSD license",
+    "Microsoft's Shared Source License",
+    "Old Plan 9 License",
+    "Sun Public License",
+    "copy-once, run-nowhere",
+    "GPL Version 2",
+    "draconian",
+    "very restrictive",
+    "Microsoft-style",
+    "open source",
+    "CITE_INST",
+    "write-only"
+  ],
+  "SCI_SYSTEM_PROP": [
+    "we allow SCI_THING_MOD to SCI_SYS_VERB SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN without the SCI_ACT",
+    "SCI_OUR_SYSTEM SCI_SYSTEM_ACTION",
+    "SCI_OUR_SYSTEM SCI_SYSTEM_ACTION",
+    "SCI_OUR_SYSTEM SCI_SYSTEM_ACTION",
+    "SCI_OUR_SYSTEM SCI_SYSTEM_ACTION",
+    "SCI_OUR_SYSTEM SCI_SYSTEM_ACTION",
+    "SCI_OUR_SYSTEM SCI_SYSTEM_ACTION",
+    "SCI_OUR_SYSTEM SCI_SYSTEM_ACTION",
+    "SCI_OUR_SYSTEM SCI_SYSTEM_ACTION",
+    "SCI_OUR_SYSTEM SCI_SYSTEM_ACTION",
+    "SCI_OUR_SYSTEM SCI_SYSTEM_ACTION",
+    "SCI_OUR_SYSTEM SCI_SYSTEM_ACTION, without SCI_SYS_VERBING SCI_THING_MOD",
+    "SCI_OUR_SYSTEM is LIT_BASED_ON the SCI_ACT",
+    "SCI_OUR_SYSTEM turns the SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN sledgehammer into a scalpel",
+    "SCI_OUR_SYSTEM is LIT_BASED_ON the principles of SCI_FIELD",
+    "SCI_OUR_SYSTEM SCI_CAN be SCI_VERBED to SCI_SYS_VERB SCI_GENERIC_NOUN"
+  ],
+  "END": [
+    "}"
+  ],
+  "SCI_GOAL_ACHIEVE": [
+    "achieve",
+    "realize",
+    "fulfill",
+    "accomplish"
+  ],
+  "NONZ": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "PROCESSOR_ITEM": [
+    "PROCESSOR_TYPE"
+  ],
+  "EVAL_MOD_WHY": [
+    "EVAL_WHY",
+    "PROBE_VERB the HARDWARE_PROP_OR_MEASUREMENT of EVAL_MOD_OBJECT",
+    "PROBE_VERB EVAL_MOD_OBJECT",
+    "PROBE_VERB SCI_BUZZWORD_NOUN"
+  ],
+  "LIT_LAST_OR_MIDDLE": [
+    "LIT_LAST",
+    "LIT_MIDDLE"
+  ],
+  "NODES_8": [
+    "\n  NEW_NODE;\n  NODES_7\n\n"
+  ],
+  "XXX": [
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    "CITATION.",
+    "CITATION.",
+    "CITATION.",
+    "CITATION.",
+    "CITATION_MULTI.",
+    ". FILLER_SENTENCE.",
+    ". FILLER_SENTENCE.",
+    ". FILLER_SENTENCE.",
+    ". FILLER_SENTENCE."
+  ],
+  "SCI_PRESENT_VERBED": [
+    "presented",
+    "introduced",
+    "proposed",
+    "motivated",
+    "constructed",
+    "described",
+    "explored"
+  ],
+  "EVAL_MOD_HARDWARE": [
+    "hard drive space",
+    "memory",
+    "network bandwidth"
+  ],
+  "LIT_GOOD": [
+    "good",
+    "bad",
+    "excellent",
+    "useful",
+    "satisfactory",
+    "numerous",
+    "promising",
+    "significant",
+    "encouraging",
+    "outdated"
+  ],
+  "SCI_ADV": [
+    "ostensibly",
+    "obviously",
+    "evidently",
+    "clearly",
+    "apparently",
+    "perhaps"
+  ],
+  "NEWFIGNUM\\+": [
+    ""
+  ],
+  "SCI_INTRO_GENERIC_MID": [
+    "LIT_LEADIN the SCI_DRAWBACK of this type of SCI_APPROACH, however, is that SCI_OVERALL_THESIS_PROVE XXX",
+    "LIT_LEADIN the basic tenet of this SCI_APPROACH is the SCI_ACT XXX",
+    "LIT_LEADIN LIT_ALTHOUGH conventional wisdom states that this SCI_PROBLEM is LIT_OFTEN SCI_PROBLEM_SOLVED by the SCI_ACT, we believe that a different SCI_APPROACH is necessary XXX",
+    "LIT_LEADIN indeed, SCI_THING_MOD and SCI_THING_MOD have a long history of SCI_VERBING_PL in this manner XXX",
+    "LIT_LEADIN two properties make this SCI_APPROACH SCI_IDEAL:  SCI_SYSTEM_PROP, and also SCI_SYSTEM_PROP XXX",
+    "LIT_LEADIN SCI_SYSTEM_PROP XXX",
+    "LIT_LEADIN we view SCI_FIELD as following a cycle of four phases: SCI_SYS_VERBION, SCI_SYS_VERBION, SCI_SYS_VERBION, and SCI_SYS_VERBION XXX",
+    "LIT_LEADIN for example, many SCI_SYSTEM_PL SCI_SYS_VERB SCI_GENERIC_NOUN XXX",
+    "LIT_REVERSAL, this SCI_APPROACH is LIT_OFTEN SCI_REACTION XXX",
+    "LIT_REVERSAL, SCI_GENERIC_NOUN might not be the panacea that SCI_PEOPLE expected XXX",
+    "LIT_LEADIN it should be noted that SCI_SYSTEM_PROP XXX",
+    "LIT_LEADIN we emphasize that SCI_SYSTEM_PROP XXX",
+    "LIT_LEADIN existing SCI_BUZZWORD_ADJ and SCI_BUZZWORD_ADJ SCI_SYSTEM_PL use SCI_GENERIC_NOUN to SCI_SYS_VERB SCI_GENERIC_NOUN XXX",
+    "SCI_INTRO_FILLER"
+  ],
+  "CITE_VOLUME": [
+    "SMALL_NUM"
+  ],
+  "SCI_ABSTRACT": [
+    "\n SCI_ABSTRACT_HEADER \n\n SCI_INTRO_A SCI_ABSTRACT_A SCI_INTRO_THESIS\n\n"
+  ],
+  "SCI_CAN": [
+    "can",
+    "can",
+    "can",
+    "can",
+    "can",
+    "cannot",
+    "cannot",
+    "cannot",
+    "cannot",
+    "cannot",
+    "should not",
+    "should",
+    "might",
+    "is able to",
+    "may be able to",
+    "is not able to",
+    "will not able to",
+    "will be able to"
+  ],
+  "CHIP_SPEED": [
+    "EVAL_MOD_NGHz",
+    "EVAL_MOD_NMHz"
+  ],
+  "LAYOUT": [
+    "\nGRAPH_DIR {\n\n"
+  ],
+  "IMPL_BODY_INSIDE": [
+    "IMPL_MID IMPL_MID IMPL_MID IMPL_MID",
+    "IMPL_MID IMPL_MID IMPL_MID IMPL_MID",
+    "IMPL_MID IMPL_MID IMPL_MID IMPL_MID",
+    "IMPL_MID IMPL_MID IMPL_MID",
+    "IMPL_MID IMPL_MID IMPL_MID",
+    "IMPL_MID IMPL_MID IMPL_MID",
+    "IMPL_MID IMPL_MID",
+    "IMPL_MID IMPL_MID",
+    "IMPL_MID"
+  ],
+  "OLD_NODE": [
+    "nodeNODENUM#"
+  ],
+  "EVAL_MOD_UNITS": [
+    "MB",
+    "GB",
+    "kb",
+    "Hz",
+    "GHz"
+  ],
+  "EVAL_GUTS_ANALYSIS_1_A": [
+    "We first ANALYZE WHICH_EXPERIMENTS EXP_FIG_REF",
+    "Now for the climactic analysis of WHICH_EXPERIMENTS"
+  ],
+  "UNIQUE": [
+    "unique",
+    "conventional",
+    "expected"
+  ],
+  "SCI_INTRO_PARAGRAPH_FINAL": [
+    "SCI_IPF_ORG SCI_IPF_FIRST SCI_IPF_MID SCI_IPF_FINAL"
+  ],
+  "EDGES_4": [
+    "\n  EDGE;\n  EDGES_3\n\n"
+  ],
+  "EVAL_GUTS_INTRO": [
+    "our hardware and software modficiations PROVE_THAT EMULATING SCI_OUR_SYSTEM is one thing, but EMULATING_IT is a completely different story.",
+    "we have taken great pains to describe out EVALUATION setup; now, the payoff, is to discuss our results.",
+    "given these trivial configurations, we achieved non-trivial results.",
+    "is it possible to justify the great pains we took in our implementation? SCI_RESPONSE.",
+    "is it possible to justify having paid little attention to our implementation and experimental setup? SCI_RESPONSE."
+  ],
+  "EMULATING_THEM": [
+    "simulating them in WARE",
+    "emulating them in WARE",
+    "deploying them in THE_WILD"
+  ],
+  "PROP_OR_MEASUREMENT_2": [
+    "SOFTWARE_PROP",
+    "HARDWARE_PROP",
+    "EVAL_MEASUREMENT"
+  ],
+  "SCI_VERB_PL": [
+    "interact",
+    "collaborate",
+    "interfere",
+    "connect",
+    "agree",
+    "collude",
+    "cooperate",
+    "synchronize"
+  ],
+  "PERFORMANCE": [
+    "performance",
+    "throughput",
+    "latency"
+  ],
+  "EXPANSION_ITEM": [
+    "joystick",
+    "2400 baud modem",
+    "SoundBlaster 8-bit sound card",
+    "Knesis keyboard",
+    "power strip",
+    "Ethernet card",
+    "tulip card",
+    "laser label printer",
+    "dot-matrix printer",
+    "5.25\" floppy drive"
+  ],
+  "SOFTWARE_SYSTEM": [
+    "operating system",
+    "distributed system",
+    "mesh network",
+    "SCI_THING"
+  ],
+  "SCI_COMPLEXITY_COMPLEX": [
+    "$ SCC_EXPR $"
+  ],
+  "EMULATION": [
+    "WARE emulation",
+    "WARE simulation",
+    "WARE deployment",
+    "earlier deployment"
+  ],
+  "SCI_VERBS": [
+    "explores",
+    "enables",
+    "harnesses",
+    "develops",
+    "refines",
+    "investigates",
+    "analyzes",
+    "improves",
+    "emulates",
+    "simulates",
+    "constructs",
+    "evaluates",
+    "deploys",
+    "synthesizes",
+    "visualizes",
+    "studies"
+  ],
+  "SCI_ACH": [
+    "SCI_VERBED SCI_THING_MOD",
+    "SCI_VERBED SCI_THING_MOD (which SCI_EFFECT )"
+  ],
+  "LATEX_DIAGRAM": [
+    "\n\\begin{figure}[t]\n\\centerline{\\epsfig{figure=LATEX_DIA_FILENAME}}\n\\caption{\\small{\nSCI_DIAGRAM_CAPTION\n}}\n\\label{LATEX_DIA_LABEL}\n\\end{figure}\n\n"
+  ],
+  "SCI_GOAL_PL": [
+    "goals",
+    "missions",
+    "objectives",
+    "purposes",
+    "ambitions"
+  ],
+  "SCI_TITLE_PREFIX": [
+    "SYSNAME:",
+    ""
+  ],
+  "EXP_FIGS": [
+    "Figures~\\ref{LATEX_FIG_LABEL_REF} and~\\ref{LATEX_FIG_LABEL_REF}"
+  ],
+  "IMPL_MID": [
+    "LIT_MIDDLE_MAYBE IMPL_MID_X XXX"
+  ],
+  "SCI_B_LEADIN_C": [
+    "Finally, ",
+    "Ultimately, ",
+    "As a result, ",
+    "In the end, "
+  ],
+  "FILLER_SURPRISE_1": [
+    "might seem PERVERSE",
+    "is LIT_OFTEN a SCI_ADJ SCI_GOAL",
+    "at first glance seems PERVERSE"
+  ],
+  "PROGRAMMING_VERBING": [
+    "hacking",
+    "programming",
+    "coding",
+    "designing",
+    "architecting",
+    "implementing",
+    "optimizing"
+  ],
+  "BAD": [
+    "bad",
+    "good",
+    "obsolete",
+    "outmoded"
+  ],
+  "EDGE": [
+    "OLD_NODE EDGEOP LABELED_EDGE"
+  ],
+  "EVAL_GUTS_ANALYSIS_3": [
+    "EVAL_GUTS_ANALYSIS_3_A XXX EVAL_GUTS_ANALYSIS"
+  ],
+  "SCI_INTRO_GENERIC_MID_4": [
+    "SCI_INTRO_GENERIC_MID_3 SCI_INTRO_GENERIC_MID"
+  ],
+  "BIBTEX_ENTRY": [
+    "\n @InProceedings{CITE_LABEL_GIVEN, \n  author = {CITE_AUTHOR_LIST},\n  title = {SCI_TITLE_X},\n  booktitle = {CITE_CONF},\n  month = CITE_MONTH,\n  year = CITE_YEAR}\n\n",
+    "\n @InProceedings{CITE_LABEL_GIVEN, \n  author = {CITE_AUTHOR_LIST},\n  title = {SCI_TITLE_X},\n  booktitle = {CITE_CONF},\n  month = CITE_MONTH,\n  year = CITE_YEAR}\n\n",
+    "\n @InProceedings{CITE_LABEL_GIVEN, \n  author = {CITE_AUTHOR_LIST},\n  title = {SCI_TITLE_X},\n  booktitle = {CITE_CONF},\n  month = CITE_MONTH,\n  year = CITE_YEAR}\n\n",
+    "\n @InProceedings{CITE_LABEL_GIVEN, \n  author = {CITE_AUTHOR_LIST},\n  title = {SCI_TITLE_X},\n  booktitle = {CITE_CONF},\n  month = CITE_MONTH,\n  year = CITE_YEAR}\n\n",
+    "\n @InProceedings{CITE_LABEL_GIVEN, \n  author = {CITE_AUTHOR_LIST},\n  title = {SCI_TITLE_X},\n  booktitle = {CITE_CONF},\n  month = CITE_MONTH,\n  year = CITE_YEAR}\n\n",
+    "\n @InProceedings{CITE_LABEL_GIVEN, \n  author = {CITE_AUTHOR_LIST},\n  title = {SCI_TITLE_X},\n  booktitle = {CITE_CONF},\n  month = CITE_MONTH,\n  year = CITE_YEAR}\n\n",
+    "\n @InProceedings{CITE_LABEL_GIVEN, \n  author = {CITE_AUTHOR_LIST},\n  title = {SCI_TITLE_X},\n  booktitle = {CITE_CONF},\n  month = CITE_MONTH,\n  year = CITE_YEAR}\n\n",
+    "\n @InProceedings{CITE_LABEL_GIVEN, \n  author = {CITE_AUTHOR_LIST},\n  title = {SCI_TITLE_X},\n  booktitle = {CITE_CONF},\n  month = CITE_MONTH,\n  year = CITE_YEAR}\n\n",
+    "\n @InProceedings{CITE_LABEL_GIVEN, \n  author = {CITE_AUTHOR_LIST},\n  title = {SCI_TITLE_X},\n  booktitle = {CITE_CONF},\n  month = CITE_MONTH,\n  year = CITE_YEAR}\n\n",
+    "\n @InProceedings{CITE_LABEL_GIVEN, \n  author = {CITE_AUTHOR_LIST},\n  title = {SCI_TITLE_X},\n  booktitle = {CITE_CONF},\n  month = CITE_MONTH,\n  year = CITE_YEAR}\n\n",
+    "\n @article{CITE_LABEL_GIVEN, \n  author = {CITE_AUTHOR_LIST},\n  title = {SCI_TITLE_X},\n  journal = {CITE_JOURNAL},\n  month = CITE_MONTH,\n  year = CITE_YEAR,\n  volume = CITE_VOLUME,\n  pages = {CITE_PAGES}}\n\n",
+    "\n @article{CITE_LABEL_GIVEN, \n  author = {CITE_AUTHOR_LIST},\n  title = {SCI_TITLE_X},\n  journal = {CITE_JOURNAL},\n  month = CITE_MONTH,\n  year = CITE_YEAR,\n  volume = CITE_VOLUME,\n  pages = {CITE_PAGES}}\n\n",
+    "\n @article{CITE_LABEL_GIVEN, \n  author = {CITE_AUTHOR_LIST},\n  title = {SCI_TITLE_X},\n  journal = {CITE_JOURNAL},\n  month = CITE_MONTH,\n  year = CITE_YEAR,\n  volume = CITE_VOLUME,\n  pages = {CITE_PAGES}}\n\n",
+    "\n @article{CITE_LABEL_GIVEN, \n  author = {CITE_AUTHOR_LIST},\n  title = {SCI_TITLE_X},\n  journal = {CITE_JOURNAL},\n  month = CITE_MONTH,\n  year = CITE_YEAR,\n  volume = CITE_VOLUME,\n  pages = {CITE_PAGES}}\n\n",
+    "\n @article{CITE_LABEL_GIVEN, \n  author = {CITE_AUTHOR_LIST},\n  title = {SCI_TITLE_X},\n  journal = {CITE_JOURNAL},\n  month = CITE_MONTH,\n  year = CITE_YEAR,\n  volume = CITE_VOLUME,\n  pages = {CITE_PAGES}}\n\n",
+    "\n @article{CITE_LABEL_GIVEN, \n  author = {CITE_AUTHOR_LIST},\n  title = {SCI_TITLE_X},\n  journal = {CITE_JOURNAL},\n  month = CITE_MONTH,\n  year = CITE_YEAR,\n  volume = CITE_VOLUME,\n  pages = {CITE_PAGES}}\n\n",
+    "\n @techreport{CITE_LABEL_GIVEN, \n  author = {CITE_AUTHOR_LIST},\n  title = {SCI_TITLE_X},\n  institution = {CITE_INST},\n  number = {CITE_TRNUM},\t\n  month = CITE_MONTH,\n  year = CITE_YEAR}\n\n"
+  ],
+  "NETWORK_TYPE_N": [
+    "2",
+    "10",
+    "100",
+    "1000"
+  ],
+  "SCI_IPF_MID_REL": [
+    "we place our work in context with the RELATED work in this area"
+  ],
+  "LABELED_EDGE!!!": [
+    ""
+  ],
+  "LINKER_SUFFIX": [
+    "linked against SCI_BUZZWORD_ADJ libraries for SCI_VERBING SCI_THING_MOD",
+    "with the help of SCI_SOURCE's libraries for SCI_MATH_ADV SCI_VERBING EVAL_ITEMS",
+    "built on SCI_SOURCE's toolkit for SCI_MATH_ADV SCI_VERBING EVAL_ITEMS",
+    "built on the SCI_COUNTRY toolkit for SCI_MATH_ADV SCI_VERBING EVAL_ITEMS"
+  ],
+  "IMPL_INTRO": [
+    "after several TRACE_UNITs of DIFFICULT_X PROGRAMMING_VERBING, we finally have a working implementation of SCI_OUR_SYSTEM XXX",
+    "our implementation of SCI_OUR_SYSTEM is SCI_BUZZWORD_ADJ, SCI_BUZZWORD_ADJ, and SCI_BUZZWORD_ADJ XXX",
+    "though many skeptics said it couldn't be done (most notably SCI_BY_WHO), we SCI_PRESENT_VERB a fully-working version of SCI_OUR_SYSTEM XXX",
+    "in this section, we SCI_PRESENT_VERB version VERSION of SYSNAME, the culmination of TRACE_UNITs of PROGRAMMING_VERBING XXX ",
+    "SCI_OUR_SYSTEM is elegant; so, too, must be our implementation XXX",
+    "IMPL_MID_X XXX"
+  ],
+  "EVAL_ITEMS": [
+    "EVAL_ITEMS_P",
+    "EVAL_ITEMS_S"
+  ],
+  "FGH_SUP": [
+    "-1",
+    "*",
+    "'"
+  ],
+  "SCI_SYS_VERBION": [
+    "location",
+    "storage",
+    "prevention",
+    "allowance",
+    "provision",
+    "creation",
+    "observation",
+    "management",
+    "SCI_VERBION",
+    "SCI_VERBION",
+    "SCI_VERBION",
+    "SCI_VERBION",
+    "SCI_VERBION",
+    "SCI_VERBION",
+    "SCI_VERBION",
+    "SCI_VERBION",
+    "SCI_VERBION",
+    "SCI_VERBION"
+  ],
+  "GRAPH_Y_AXIS": [
+    "PDF",
+    "GRAPH_AXIS",
+    "GRAPH_AXIS",
+    "GRAPH_AXIS",
+    "GRAPH_AXIS",
+    "GRAPH_AXIS",
+    "GRAPH_AXIS"
+  ],
+  "NODES_10": [
+    "\n  NEW_NODE;\n  NODES_9\n\n"
+  ],
+  "LATEX_CITEPACK": [
+    "\\usepackage{cite}",
+    "",
+    "",
+    ""
+  ],
+  "EVAL_SEC_INTRO_C": [
+    "we hope to make clear that our EVAL_MODING is the key to our EVALUATION.",
+    "our work in this regard is a novel contribution, in and of itself.",
+    "our EVALUATION will show that EVAL_MODING is crucial to our results.",
+    "we hope that this section PROVES SCI_A_FACT.",
+    "our evaluation strives to make these points clear.",
+    "our EVALUATION holds suprising results for patient reader."
+  ],
+  "EVAL_SYSTEM": [
+    "SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN",
+    "SCI_MATH_ADV SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN"
+  ],
+  "SCI_ABSTRACT_A": [
+    "SCI_AB_A_START the SCI_ACT SCI_AB_A_END XXX"
+  ],
+  "RELWORK_SEC_LATEX_HEADER": [
+    "\\section{Related Work}"
+  ],
+  "SUPPORTED": [
+    "supported",
+    "buffetted"
+  ],
+  "SCI_YEAR": [
+    "1935",
+    "1953",
+    "1967",
+    "1970",
+    "1977",
+    "1980",
+    "1986",
+    "1993",
+    "1995",
+    "1999",
+    "2001",
+    "2004"
+  ],
+  "GRAPH_TYPE_CURVE4": [
+    "\n graphtype curve=4\n curvelabel GRAPH_CURVE_LABEL\n curvelabel GRAPH_CURVE_LABEL\n curvelabel GRAPH_CURVE_LABEL\n curvelabel GRAPH_CURVE_LABEL\n\n"
+  ],
+  "HACK_VERBING": [
+    "patching",
+    "refactoring",
+    "reprogramming",
+    "extreme programming",
+    "exokernelizing",
+    "microkernelizing",
+    "distributing",
+    "autogenerating",
+    "automating",
+    "making autonomous",
+    "instrumenting",
+    "interposing on",
+    "monitoring"
+  ],
+  "RELWORK_BODY_P": [
+    "RELWORK_INTRO RELWORK_BODY_INSIDE RELWORK_CONCL"
+  ],
+  "EVAL_MOD_XXX": [
+    "XXX",
+    "XXX",
+    "XXX",
+    ".  EVAL_SEC_FILLER."
+  ],
+  "SCI_SYS_VERBED": [
+    "located",
+    "stored",
+    "prevented",
+    "allowed",
+    "provided",
+    "controlled",
+    "requested",
+    "cached",
+    "created",
+    "learned",
+    "observed",
+    "managed",
+    "SCI_VERBED",
+    "SCI_VERBED",
+    "SCI_VERBED",
+    "SCI_VERBED",
+    "SCI_VERBED",
+    "SCI_VERBED",
+    "SCI_VERBED",
+    "SCI_VERBED",
+    "SCI_VERBED",
+    "SCI_VERBED"
+  ],
+  "SCI_EFFECT": [
+    "made SCI_VERBING and possibly SCI_VERBING SCI_THING a reality",
+    "would allow for further study into SCI_THING",
+    "paved the way for the SCI_ACT_A SCI_THING",
+    "would make SCI_VERBING SCI_THING a real possibility"
+  ],
+  "EVAL_MOD_ACTION": [
+    "added HARDWARE to",
+    "removed HARDWARE from",
+    "MULTIPLE_VERBED the HARDWARE_PROP_OR_MEASUREMENT of"
+  ],
+  "SCI_IN_THIS_PAPER": [
+    "in this paper",
+    "in this position paper",
+    "in this work",
+    "in our research",
+    "here"
+  ],
+  "SCI_VERB": [
+    "explore",
+    "enable",
+    "harness",
+    "develop",
+    "refine",
+    "investigate",
+    "analyze",
+    "measure",
+    "improve",
+    "emulate",
+    "simulate",
+    "construct",
+    "evaluate",
+    "deploy",
+    "synthesize",
+    "visualize",
+    "study"
+  ],
+  "SCI_GENERIC_THESIS": [
+    "we SCI_PROVE_VERB that SCI_OVERALL_THESIS_PROVE",
+    "we use SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN to SCI_PROVE_VERB that SCI_OVERALL_THESIS_PROVE",
+    "we SCI_PRESENT_VERB SCI_OVERALL_THESIS_THING ({SYSNAME}), SCI_PROVE_VERBING that SCI_OVERALL_THESIS_PROVE",
+    "we SCI_PROVE_VERB not only that SCI_OVERALL_THESIS_PROVE, but that the same is true for SCI_THING_MOD ",
+    "we PROBE_VERB how SCI_THING_MOD can be applied to the SCI_ACT",
+    "we SCI_PROVE_VERB that LIT_ALTHOUGH SCI_OVERALL_THESIS_PROVE, SCI_OVERALL_THESIS_PROVE",
+    "we concentrate our efforts on SCI_PROVE_VERBING that SCI_OVERALL_THESIS_PROVE",
+    "we SCI_PRESENT_VERB SCI_OVERALL_THESIS_THING ({SYSNAME}), which we use to SCI_PROVE_VERB that SCI_OVERALL_THESIS_PROVE"
+  ],
+  "EVAL_HARDWARE_INTRO": [
+    "many hardware modifications were REQUIRED to measure SCI_OUR_SYSTEM.",
+    "our detailed EVALUATION REQUIRED many hardware modifications.",
+    "we modified our standard hardware as follows:",
+    "a well-tuned network setup holds the key to a useful EVALUATION.",
+    "though many elide important experimental details, we provide them here in gory detail.",
+    "one must understand our network configuration to grasp the genesis of our results."
+  ],
+  "SCI_SYS_VERBS": [
+    "locates",
+    "stores",
+    "prevents",
+    "allows",
+    "provides",
+    "controls",
+    "requests",
+    "caches",
+    "creates",
+    "learns",
+    "observes",
+    "manages",
+    "SCI_VERBS",
+    "SCI_VERBS",
+    "SCI_VERBS",
+    "SCI_VERBS",
+    "SCI_VERBS",
+    "SCI_VERBS",
+    "SCI_VERBS",
+    "SCI_VERBS",
+    "SCI_VERBS",
+    "SCI_VERBS"
+  ],
+  "CITATION": [
+    "\\cite{CITATION_SINGLE}"
+  ],
+  "CONCL_INTRO": [
+    "SCI_IN_THIS_PAPER we SCI_PRESENT_VERBED SYSNAME, SCI_OVERALL_THESIS_THING XXX",
+    "SCI_IN_THIS_PAPER we SCI_PROVE_VERBED that SCI_OVERALL_THESIS_PROVE XXX",
+    "SCI_OUR_SYSTEM will SCI_PROBLEM_SOLVE many of the SCI_PROBLEM_PL faced by today's SCI_PEOPLE XXX",
+    "we SCI_PROVE_VERBED SCI_IN_THIS_PAPER that SCI_OVERALL_THESIS_PROVE, and SCI_OUR_SYSTEM is no exception to that rule XXX",
+    "our experiences with SCI_OUR_SYSTEM and SCI_GENERIC_NOUN SCI_PROVE_VERB that SCI_OVERALL_THESIS_PROVE XXX",
+    "CONCL_MID_X XXX"
+  ],
+  "EDGE!!!": [
+    ""
+  ],
+  "LIT_INCREASING": [
+    "increasing",
+    "rising",
+    "decreasing",
+    "dwindling"
+  ],
+  "SCI_GOAL": [
+    "goal",
+    "mission",
+    "objective",
+    "purpose",
+    "ambition",
+    "aim",
+    "intent"
+  ],
+  "SCI_GROWTH_ADV": [
+    "linearly",
+    "quadratically",
+    "sublinearly",
+    "inversely",
+    "logarithmically",
+    "exponentially"
+  ],
+  "SCI_TITLE_POSTFIX": [
+    "using SYSNAME",
+    "with SYSNAME",
+    "",
+    ""
+  ],
+  "MEASURABLE_SYSTEM": [
+    "DNS",
+    "Web server",
+    "E-mail",
+    "instant messenger",
+    "RAID array",
+    "database",
+    "WHOIS",
+    "DHCP"
+  ],
+  "EVAL_MODING_SOFTWARE": [
+    "HACK_VERBING the SOFTWARE_PROP_OR_MEASUREMENT of our SOFTWARE_SYSTEM"
+  ],
+  "EDGES_12": [
+    "\n  EDGE;\n  EDGES_11\n\n"
+  ],
+  "EXP_TYPE_UM": [
+    "simulation",
+    "emulation",
+    "deployment",
+    "prototype"
+  ],
+  "AFFECT": [
+    "affect",
+    "impact",
+    "influence",
+    "toggle",
+    "adjust"
+  ],
+  "CITE_MONTH": [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec"
+  ],
+  "EVAL_WHO": [
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "we",
+    "SCI_COUNTRY SCI_PEOPLE",
+    "SCI_PEOPLE"
+  ],
+  "CITATIONLABEL\\#": [
+    ""
+  ],
+  "NODES_2": [
+    "\n  NEW_NODE;\n  NODES_1\n\n"
+  ],
+  "EVAL_UNIT": [
+    "EVAL_UNIT_UM",
+    "EVAL_UNIT_UM",
+    "EVAL_UNIT_UM",
+    "EVAL_UNIT_UM",
+    "EVAL_UNIT_UM",
+    "EVAL_UNIT_UM",
+    "EVAL_UNIT_UM",
+    "EVAL_UNIT_NUM"
+  ],
+  "SCI_INTRO_ACT": [
+    "offer a viable alternative to",
+    "have paved the way for",
+    "SCI_VERB_PL in order to SCI_GOAL_ACHIEVE",
+    "are LIT_OFTEN at odds with",
+    "do not necessarily obviate the need for",
+    "are based entirely on the assumption that SCI_THING_MOD and SCI_THING_MOD are not in conflict with"
+  ],
+  "SCI_MATH_ADJ": [
+    "SCI_MATH_ADV SCI_MATH_ADJ",
+    "SCI_MATH_ADV SCI_MATH_ADJ",
+    "SCI_MATH_ADV SCI_MATH_ADJ",
+    "SCI_MATH_ADJ, SCI_MATH_ADJ",
+    "disjoint",
+    "independent",
+    "mutually exclusive",
+    "noisy",
+    "fuzzy",
+    "random",
+    "stochastic",
+    "discrete",
+    "parallel",
+    "distributed",
+    "partitioned",
+    "exhaustive",
+    "Markov",
+    "Bayesian",
+    "randomized",
+    "pipelined",
+    "wireless",
+    "wired",
+    "separated",
+    "saturated",
+    "DoS-ed",
+    "replicated"
+  ],
+  "LATEX_BIBSTYLE": [
+    "\\bibliographystyle{acm}",
+    "\\bibliographystyle{acm}",
+    "\\bibliographystyle{acm}",
+    "\\bibliographystyle{IEEE}"
+  ],
+  "GRAPH_TYPE_CURVE10": [
+    "\n graphtype curve=10\n curvelabel GRAPH_CURVE_LABEL\n curvelabel GRAPH_CURVE_LABEL\n curvelabel GRAPH_CURVE_LABEL\n curvelabel GRAPH_CURVE_LABEL\n curvelabel GRAPH_CURVE_LABEL\n curvelabel GRAPH_CURVE_LABEL\n curvelabel GRAPH_CURVE_LABEL\n curvelabel GRAPH_CURVE_LABEL\n curvelabel GRAPH_CURVE_LABEL\n curvelabel GRAPH_CURVE_LABEL\n\n"
+  ],
+  "MODEL_CONCL": [
+    "the question is, will SYSNAME satisfy all of these assumptions?  SCI_RESPONSE XXX",
+    "see our RELATED technical report CITATION for details XXX",
+    "we use our previously SCI_VERBED results as a basis for all of these assumptions MODEL_XXX",
+    "LIT_CONCLUSION, the SCI_MODEL_TYPE that SCI_OUR_SYSTEM uses MODEL_GROUNDING XXX",
+    "MODEL_MID"
+  ],
+  "NEWDIANUM\\#": [
+    ""
+  ],
+  "WHAT": [
+    "it",
+    "this FINDING",
+    "such a claim",
+    "such a hypothesis"
+  ],
+  "EVAL_MOD_OBJECT": [
+    "our EXP_WHERE",
+    "EXP_WHOSE EXP_WHERE"
+  ],
+  "LANGUAGE_UM": [
+    "Perl",
+    "C",
+    "B",
+    "C++",
+    "Python",
+    "Lisp",
+    "Scheme",
+    "Smalltalk",
+    "Ruby",
+    "x86 assembly",
+    "Dylan",
+    "Java",
+    "SQL",
+    "Fortran",
+    "PHP",
+    "Prolog",
+    "ML",
+    "Simula-67"
+  ],
+  "CITATION_SINGLE": [
+    "cite:CITATIONLABEL+",
+    "cite:CITATIONLABEL+",
+    "cite:CITATIONLABEL+",
+    "cite:CITATIONLABEL+",
+    "cite:CITATIONLABEL#"
+  ],
+  "SCI_COMPLEXITY_FUNC": [
+    "O",
+    "$\\Omega$",
+    "$\\Theta$"
+  ],
+  "MODEL_BODY_P_2": [
+    "\n MODEL_BODY_P\n\n LATEX_DIAGRAM_MAYBE\n\n MODEL_BODY_P\n\n"
+  ],
+  "LANGUAGE": [
+    "LANGUAGE_UM",
+    "LANGUAGE_UM",
+    "LANGUAGE_MOD LANGUAGE_UM"
+  ],
+  "EVAL_MOD_PASSIVE_ACTION": [
+    "HARDWARE was added to",
+    "HARDWARE was removed from"
+  ],
+  "CONSTRAINT_TAKES": [
+    "CONSTRAINT_TYPE takes",
+    "CONSTRAINT_P take"
+  ],
+  "GRAPH_TYPE_SCATTER1": [
+    "\n graphtype scatter=1\n curvelabel notitle\n\n"
+  ],
+  "NEGLECTED": [
+    "neglected",
+    "failed"
+  ],
+  "TRACE_UNIT": [
+    "week",
+    "day",
+    "month",
+    "year",
+    "minute"
+  ],
+  "OMIT_WHY": [
+    "due to space constraints",
+    "due to resource constraints",
+    "for anonymity",
+    "for now",
+    "until future work"
+  ],
+  "LATEX_FIG_LABEL": [
+    "fig:labelNEWFIGLABEL+"
+  ],
+  "SCI_SYS_VERB": [
+    "locate",
+    "store",
+    "prevent",
+    "allow",
+    "provide",
+    "control",
+    "request",
+    "cache",
+    "create",
+    "learn",
+    "observe",
+    "manage",
+    "SCI_VERB",
+    "SCI_VERB",
+    "SCI_VERB",
+    "SCI_VERB",
+    "SCI_VERB",
+    "SCI_VERB",
+    "SCI_VERB",
+    "SCI_VERB",
+    "SCI_VERB",
+    "SCI_VERB"
+  ],
+  "IP_FONT_SIZE": [
+    "fontsize=9"
+  ],
+  "LIT_GREAT_ADV": [
+    "greatly",
+    "profoundly",
+    "tremendously",
+    "minimally",
+    "improbably"
+  ],
+  "PROBE_VERB": [
+    "probe",
+    "examine",
+    "investigate",
+    "discover",
+    "consider",
+    "better understand",
+    "understand"
+  ],
+  "DIFFERENT": [
+    "degraded",
+    "amplified",
+    "exaggerated",
+    "weakened",
+    "muted",
+    "duplicated",
+    "improved"
+  ],
+  "IMPL_COMPONENT": [
+    "client-side library",
+    "server daemon",
+    "centralized logging facility",
+    "collection of shell scripts",
+    "homegrown database",
+    "hand-optimized compiler",
+    "virtual machine monitor",
+    "hacked operating system",
+    "codebase of NONZDIGIT LANGUAGE_UM files"
+  ],
+  "SCI_INTRO_PARAGRAPH_CONTR": [
+    "Our contributions are as follows.  SCI_CONTR_ANY ",
+    "SCI_IN_THIS_PAPER we SCI_PRESENT_VERB the following contributions in detail.  SCI_CONTR_ANY ",
+    "Our main contributions are as follows.  SCI_CONTR_ANY ",
+    "The contributions of this work are as follows.  SCI_CONTR_ANY ",
+    "Our contributions are threefold.  SCI_CONTR_3  ",
+    "Our contributions are twofold.  SCI_CONTR_2",
+    "This work presents three advances above RELATED work.  SCI_CONTR_3  ",
+    "This work presents two advances above RELATED work.  SCI_CONTR_2",
+    "SCI_IN_THIS_PAPER, we make three main contributions.  SCI_CONTR_3",
+    "SCI_IN_THIS_PAPER, we make two main contributions.  SCI_CONTR_2",
+    "SCI_IN_THIS_PAPER, we make four main contributions.  SCI_CONTR_4"
+  ],
+  "THE_WILD": [
+    "the wild",
+    "a laboratory setting",
+    "a controlled environment",
+    "a chaotic spatio-temporal environment"
+  ],
+  "POWER_OF_TWO": [
+    "2",
+    "4",
+    "8",
+    "16",
+    "32",
+    "64",
+    "128"
+  ],
+  "SHAPE_TYPE!!!": [
+    ""
+  ],
+  "EXP_TYPE": [
+    "EXP_ADJ EXP_TYPE_UM",
+    "EXP_TYPE_UM"
+  ],
+  "IMPROVED": [
+    "improved"
+  ],
+  "LITTLE": [
+    "much",
+    "little",
+    "a whole lot"
+  ],
+  "EVAL_SEC_SUBHEAD_1": [
+    "Hardware and Software Configuration"
+  ],
+  "NODE_LABEL_DEC": [
+    "\"NODE_LABEL_LET < NODE_LABEL_LET\"",
+    "\"NODE_LABEL_LET == NODE_LABEL_LET\"",
+    "\"NODE_LABEL_LET > NODE_LABEL_LET\"",
+    "\"NODE_LABEL_LET != NODE_LABEL_LET\"",
+    "\"NODE_LABEL_LET % 2\\n== 0\"",
+    "\"goto\\nTWODIG\"",
+    "\"goto\\nSYSNAME\"",
+    "stop",
+    "start"
+  ],
+  "NODE_LABEL_NET": [
+    "Gateway",
+    "\"SYSNAME\\nnode\"",
+    "\"SYSNAME\\nserver\"",
+    "\"SYSNAME\\nclient\"",
+    "\"Web proxy\"",
+    "Firewall",
+    "\"Remote\\nfirewall\"",
+    "\"Remote\\nserver\"",
+    "\"DNS\\nserver\"",
+    "\"CDN\\ncache\"",
+    "\"Home\\nuser\"",
+    "VPN",
+    "\"Bad\\nnode\"",
+    "\"Failed!\"",
+    "\"Client\\nA\"",
+    "\"Client\\nB\"",
+    "\"Server\\nA\"",
+    "\"Server\\nB\"",
+    "\"NAT\""
+  ],
+  "INITIAL": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z"
+  ],
+  "SCI_PRESENT_VERBING": [
+    "presenting",
+    "introducing",
+    "proposing",
+    "motivating",
+    "constructing",
+    "describing",
+    "exploring"
+  ],
+  "MULTIPLE_VERBED": [
+    "doubled",
+    "halved",
+    "tripled",
+    "quadrupled",
+    "reduced"
+  ],
+  "SCI_TITLE_COMPARE": [
+    "comparing",
+    "contrasting",
+    "the relationship between",
+    "SCI_VERBING"
+  ],
+  "IDEAL": [
+    "ideal",
+    "approximate",
+    "contrived"
+  ],
+  "SCI_PROBLEM_PL": [
+    "problems",
+    "issues",
+    "obstacles",
+    "grand challenges",
+    "challenges"
+  ],
+  "LABELED_EDGE": [
+    "OLD_NODE [label=EDGE_LABEL, dir=\"back\"]"
+  ],
+  "EVAL_VERBED": [
+    "instrumented",
+    "performed",
+    "carried out",
+    "ran",
+    "executed",
+    "scripted"
+  ],
+  "SCI_SYSTEM": [
+    "algorithm",
+    "system",
+    "framework",
+    "heuristic",
+    "application",
+    "methodology",
+    "SCI_APPROACH"
+  ],
+  "SCI_INTRO_GENERIC_MID_2": [
+    "SCI_INTRO_GENERIC_MID SCI_INTRO_GENERIC_MID"
+  ],
+  "CITATIONLABEL\\+": [
+    ""
+  ],
+  "STORAGE_S": [
+    "a STORAGE_SIZE STORAGE_TYPE"
+  ],
+  "LATEX_DIAGRAM_MAYBE": [
+    "LATEX_DIAGRAM",
+    ""
+  ],
+  "LIT_FIRST": [
+    "First,",
+    "To begin with,",
+    "To start off with,",
+    "Primarily, ",
+    "For starters, ",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "LIT_MIDDLE_TWO": [
+    "",
+    "",
+    "",
+    "",
+    "Second,",
+    "LIT_MIDDLE",
+    "LIT_MIDDLE",
+    "LIT_MIDDLE"
+  ],
+  "OSNAME": [
+    "GNU/Debian Linux ",
+    "FreeBSD",
+    "NetBSD",
+    "OpenBSD",
+    "TinyOS",
+    "Multics",
+    "Coyotos",
+    "KeyKOS",
+    "ErOS",
+    "LeOS",
+    "EthOS",
+    "MacOS X",
+    "Microsoft DOS",
+    "DOS",
+    "Ultrix",
+    "Minix",
+    "Mach",
+    "GNU/Hurd",
+    "L4",
+    "Amoeba",
+    "Sprite",
+    "AT\\&T System V",
+    "Microsoft Windows WINVERS",
+    "Microsoft Windows WINVERS",
+    "Microsoft Windows WINVERS",
+    "Microsoft Windows WINVERS"
+  ],
+  "VERSION": [
+    "VERSION_BASE",
+    "VERSION_BASE, Service Pack DIGIT"
+  ],
+  "RELWORK_CITATION": [
+    "CITATION",
+    "CITATION",
+    "CITATION_MULTI",
+    "",
+    ""
+  ],
+  "EVAL_GUTS_EXP_SET": [
+    "EXP_SET_LEADIN we ran four novel experiments: (1) EVAL_EXP; (2) EVAL_EXP; (3) EVAL_EXP; and (4) EVAL_EXP XXX"
+  ],
+  "ATHLON_TYPE": [
+    "XP",
+    "64"
+  ],
+  "SCI_PROVE_VERBING": [
+    "demonstrating",
+    "arguing",
+    "proving",
+    "showing",
+    "disproving",
+    "validating",
+    "verifying",
+    "confirming",
+    "disconfirming"
+  ],
+  "SCI_GRAPH_CAPTION": [
+    "the STAT_ADJ EVAL_MEASUREMENT_UM of SCI_OUR_SYSTEM, as a function of EVAL_MEASUREMENT_UM XXX",
+    "the STAT_ADJ EVAL_MEASUREMENT_UM of SCI_OUR_SYSTEM, as a function of EVAL_MEASUREMENT_UM XXX",
+    "the STAT_ADJ EVAL_MEASUREMENT_UM of SCI_OUR_SYSTEM, as a function of EVAL_MEASUREMENT_UM XXX",
+    "the STAT_ADJ EVAL_MEASUREMENT_UM of SCI_OUR_SYSTEM, compared with the other SCI_SYSTEM_PL XXX",
+    "the STAT_ADJ EVAL_MEASUREMENT_UM of SCI_OUR_SYSTEM, compared with the other SCI_SYSTEM_PL XXX",
+    "the STAT_ADJ EVAL_MEASUREMENT_UM of SCI_OUR_SYSTEM, compared with the other SCI_SYSTEM_PL XXX",
+    "note that EVAL_MEASUREMENT_UM grows as EVAL_MEASUREMENT_UM decreases -- a phenomenon worth SCI_VERBING in its own right XXX",
+    "these results were obtained by SCI_BY_WHO CITATION; we reproduce them here for clarity XXX"
+  ],
+  "WHICH_EXPERIMENTS": [
+    "experiments (1) and (3) enumerated above",
+    "the first two experiments",
+    "the second half of our experiments",
+    "experiments (3) and (4) enumerated above",
+    "experiments (1) and (4) enumerated above",
+    "all four experiments"
+  ],
+  "SCI_BACK": [
+    "\nBACK_SEC_LATEX_HEADER\n\n"
+  ],
+  "SETUP": [
+    "setup",
+    "configuration",
+    "system",
+    "heuristic"
+  ],
+  "CONCL_P": [
+    "CONCL_START_MAYBE CONCL_INTRO CONCL_BODY_INSIDE CONCL_CONCL"
+  ],
+  "SCI_PEOPLE": [
+    "leading analysts",
+    "experts",
+    "analysts",
+    "scholars",
+    "information theorists",
+    "statisticians",
+    "computational biologists",
+    "system administrators",
+    "electrical engineers",
+    "cryptographers",
+    "security experts",
+    "systems engineers",
+    "hackers worldwide",
+    "biologists",
+    "mathematicians",
+    "physicists",
+    "theorists",
+    "researchers",
+    "steganographers",
+    "cyberinformaticians",
+    "end-users",
+    "futurists",
+    "cyberneticists"
+  ],
+  "NODE_LABEL_HW": [
+    "\"L1\\ncache\"",
+    "\"L2\\ncache\"",
+    "\"L3\\ncache\"",
+    "\"Memory\\nbus\"",
+    "\"CPU\"",
+    "\"GPU\"",
+    "\"Page\\ntable\"",
+    "\"Register\\nfile\"",
+    "\"SYSNAME\\ncore\"",
+    "\"Trap\\nhandler\"",
+    "\"DMA\"",
+    "\"Disk\"",
+    "\"ALU\"",
+    "\"PC\"",
+    "\"Stack\"",
+    "\"Heap\""
+  ],
+  "GRAPH_AXIS": [
+    "EVAL_MEASUREMENT_UM (EVAL_UNIT)"
+  ],
+  "SCI_BUZZWORD_NOUN": [
+    "technology",
+    "communication",
+    "algorithms",
+    "theory",
+    "methodologies",
+    "information",
+    "models",
+    "archetypes",
+    "configurations",
+    "modalities",
+    "symmetries",
+    "epistemologies"
+  ],
+  "NEWFIGNUM\\#": [
+    ""
+  ],
+  "EDGES_16": [
+    "\n  EDGE;\n  EDGES_15\n\n"
+  ],
+  "EVAL_SEC_SOFTWARE_MOD": [
+    "EVAL_WHO added support for SCI_OUR_SYSTEM as a KERNEL_MODULE",
+    "all software components were COMPILED using TOOLCHAIN LINKER_SUFFIX",
+    "all software was COMPILED using TOOLCHAIN LINKER_SUFFIX",
+    "our experiments soon proved that HACK_VERBING our EVAL_ITEMS_P was more effective than HACK_VERBING them, as previous work suggested",
+    "we implemented our SCI_THING_S server in LANGUAGE, augmented with SCI_MATH_ADV SCI_MATH_ADJ extensions"
+  ],
+  "NODENUM\\#": [
+    ""
+  ],
+  "NEW_NODE": [
+    "nodeNODENUM+ [label=NODE_LABEL, shape=SHAPE_TYPE]"
+  ],
+  "EXP_ADJ": [
+    "SCI_BUZZWORD_ADJ",
+    "real-time",
+    "packet-level",
+    "quantized",
+    "real-world",
+    "ad-hoc",
+    "software",
+    "hardware"
+  ],
+  "LATEX_FONTSIZE": [
+    "12pt",
+    "12pt",
+    "12pt",
+    "11pt",
+    "11pt",
+    "10pt"
+  ],
+  "SOFTWARE_ADJ": [
+    "legacy",
+    "virtual",
+    "traditional",
+    "historical",
+    "effective"
+  ],
+  "DIGIT": [
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "0",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "NONZ",
+    "0"
+  ],
+  "SCI_PROVE_VERB": [
+    "demonstrate",
+    "argue",
+    "prove",
+    "show",
+    "disprove",
+    "validate",
+    "verify",
+    "confirm",
+    "disconfirm"
+  ],
+  "SMALL_NUM": [
+    "DIGIT",
+    "DIGIT",
+    "DIGIT",
+    "NONZDIGIT",
+    "NONZDIGIT",
+    "NONZDIGIT",
+    "NONZDIGIT",
+    "NONZDIGIT",
+    "NONZDIGIT",
+    "NONZDIGIT",
+    "NONZDIGIT",
+    "NONZDIGITDIGIT"
+  ],
+  "EVAL_MEASUREMENT_UM": [
+    "throughput",
+    "clock speed",
+    "latency",
+    "time since SCI_YEAR",
+    "hit ratio",
+    "work factor",
+    "power",
+    "seek time",
+    "complexity",
+    "block size",
+    "popularity of SCI_THING_MOD",
+    "sampling rate",
+    "instruction rate",
+    "energy",
+    "response time",
+    "bandwidth",
+    "signal-to-noise ratio",
+    "distance",
+    "interrupt rate"
+  ],
+  "EVAL_SEC_SUBHEAD_1_LTX": [
+    "\\subsection{EVAL_SEC_SUBHEAD_1}"
+  ],
+  "NOTED": [
+    "noted",
+    "observed",
+    "measured",
+    "characterized"
+  ],
+  "EVAL_GUTS_ANALYSIS": [
+    "EVAL_ANALYZE_ONE XXX LIT_MIDDLE_TWO EVAL_ANALYZE_ONE XXX LIT_MIDDLE_3 EVAL_ANALYZE_ONE XXX"
+  ],
+  "EVAL_SEC_HYPOTHESIS": [
+    "that PROP_OR_MEASUREMENT is MORE_IMPORTANT_THAN PROP_OR_MEASUREMENT when MAXIMIZING EVAL_MEASUREMENT",
+    "that SCI_THING_HAS actually shown DIFFERENT EVAL_MEASUREMENT over time",
+    "that we can do LITTLE to AFFECT a SCI_SYSTEM's PROP_OR_MEASUREMENT_NO_SYSTEM",
+    "that the OLD_MACHINE of yesteryear actually exhibits better EVAL_MEASUREMENT than today's hardware",
+    "that EVAL_MEASUREMENT stayed constant across successive generations of OLD_MACHINEs",
+    "that HARDWARE_PROP behaves fundamentally differently on our EXP_WHERE",
+    "that THINGS_NO_LONGER_INFLUENCE PROP_OR_MEASUREMENT",
+    "that THINGS_NO_LONGER_INFLUENCE performance",
+    "that THINGS_NO_LONGER_INFLUENCE system design",
+    "that EVAL_MEASUREMENT is a BAD way to measure EVAL_MEASUREMENT"
+  ],
+  "MODEL_FILLER": [
+    "this may or may not actually hold in reality",
+    "this seems to hold in most cases",
+    "this is a SCI_ADJ property of SCI_OUR_SYSTEM",
+    "LIT_ALTHOUGH SCI_PEOPLE LIT_OFTEN SCI_ASSUME the exact opposite, SCI_OUR_SYSTEM depends on this property for correct behavior"
+  ],
+  "EVAL_SEC_HEADER_T": [
+    "Evaluation and Performance Results",
+    "Performance Results",
+    "Evaluation",
+    "Evaluation",
+    "Evaluation",
+    "Evaluation",
+    "Evaluation",
+    "Experimental Evaluation",
+    "Experimental Evaluation and Analysis",
+    "Results and Analysis",
+    "Results",
+    "Results",
+    "Results",
+    "Results",
+    "Results"
+  ],
+  "DISC_SEC_LATEX_HEADER": [
+    "\\section{Discussion}",
+    "\\section{Discussion}",
+    "\\section{Discussion}",
+    "\\section{Discussion}",
+    "\\section{Summary}",
+    "\\section{Analysis}"
+  ],
+  "EVAL_GUTS_ANALYSIS_2": [
+    "EVAL_GUTS_ANALYSIS_2_A XXX EVAL_GUTS_ANALYSIS "
+  ],
+  "HARDWARE_PROP": [
+    "MEMORY_TYPE space",
+    "MEMORY_TYPE speed",
+    "MEMORY_TYPE throughput",
+    "STORAGE_TYPE space",
+    "STORAGE_TYPE speed",
+    "STORAGE_TYPE throughput"
+  ],
+  "INITIALS": [
+    "INITIAL.",
+    "INITIAL.",
+    "INITIAL.",
+    "INITIAL.",
+    "INITIAL.",
+    "INITIAL.",
+    "INITIAL.",
+    "INITIAL. INITIAL."
+  ],
+  "MODEL_SEC_HEADER_T": [
+    "SCI_MODEL_TYPE",
+    "SCI_MODEL_TYPE",
+    "SCI_MODEL_TYPE",
+    "SCI_MODEL_TYPE",
+    "SCI_MODEL_TYPE",
+    "SCI_MODEL_TYPE",
+    "SYSNAME SCI_VERBION",
+    "Principles",
+    "SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN"
+  ],
+  "PROP_OR_MEASUREMENT": [
+    "a SCI_SYSTEM's SOFTWARE_PROP",
+    "HARDWARE_PROP",
+    "EVAL_MEASUREMENT"
+  ],
+  "SCI_TITLE": [
+    "SCI_TITLE_X"
+  ],
+  "IMPL_SEC_LATEX_HEADER": [
+    "\\section{Implementation}",
+    "\\section{Implementation}",
+    "\\section{Implementation}",
+    "\\section{Implementation}",
+    "\\section{Implementation}",
+    "\\section{Implementation}",
+    "\\section{Implementation}",
+    "\\section{Implementation}",
+    "\\section{Implementation}",
+    "\\section{Implementation}",
+    "\\section{SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN}"
+  ],
+  "IMPACT": [
+    "impact on",
+    "effect on",
+    "influence on",
+    "inability to effect",
+    "lack of influence on"
+  ],
+  "EVAL_WHY": [
+    "EVAL_WHY_VERB EVAL_FACT"
+  ],
+  "PICK_GRAPH_TYPE": [
+    "graph",
+    "digraph"
+  ],
+  "SCI_INTRO_THESIS": [
+    "SCI_IN_THIS_PAPER, SCI_GENERIC_THESIS XXX",
+    "in order to SCI_SOLVE_CLAUSE, SCI_GENERIC_THESIS XXX",
+    "SCI_IN_THIS_PAPER SCI_GENERIC_THESIS XXX",
+    "SCI_GENERIC_THESIS XXX",
+    "SYSNAME, our new SCI_SYSTEM for SCI_GENERIC_NOUN, is the solution to all of these SCI_PROBLEM_PL XXX",
+    "we SCI_PRESENT_VERB SCI_OVERALL_THESIS_THING, which we call SYSNAME XXX",
+    "our focus SCI_IN_THIS_PAPER is not on whether SCI_OVERALL_THESIS_PROVE, but rather on SCI_PRESENT_VERBING SCI_OVERALL_THESIS_THING ({SYSNAME}) XXX"
+  ],
+  "MODEL_INTRO": [
+    "Reality aside, we would like to SCI_VERB a SCI_MODEL_TYPE for how SCI_OUR_SYSTEM might behave in theory MODEL_XXX",
+    "Suppose that there exists SCI_GENERIC_NOUN such that we can easily SCI_VERB SCI_GENERIC_NOUN MODEL_XXX",
+    "SCI_OUR_SYSTEM relies on the SCI_ADJ SCI_MODEL_TYPE outlined in the recent SCI_STATUS_ADJ work by SCI_BY_WHO in the field of SCI_FIELD MODEL_XXX",
+    "MODEL_MID",
+    "MODEL_MID"
+  ],
+  "MORE_IMPORTANT_THAN": [
+    "MORE important than",
+    "not as important as"
+  ],
+  "LIT_BETTER": [
+    "better",
+    "better",
+    "better",
+    "more effectively",
+    "more effectively",
+    "less well",
+    "no better",
+    "worse"
+  ],
+  "SCI_OUR_SYSTEM": [
+    "our SCI_SYSTEM",
+    "SYSNAME"
+  ],
+  "EVAL_SEC_BODY_P_LIST": [
+    "EVAL_SEC_BODY_P",
+    "EVAL_SEC_BODY_P_LIST EVAL_SEC_BODY_P",
+    "EVAL_SEC_BODY_P_LIST EVAL_SEC_BODY_P"
+  ],
+  "GRAPH_TYPE": [
+    "GRAPH_TYPE_SCATTER1",
+    "GRAPH_TYPE_SCATTER1",
+    "GRAPH_TYPE_SCATTER2",
+    "GRAPH_TYPE_SCATTER2",
+    "GRAPH_TYPE_CURVE1",
+    "GRAPH_TYPE_CURVE1",
+    "GRAPH_TYPE_CURVE1",
+    "GRAPH_TYPE_CURVE1",
+    "GRAPH_TYPE_CURVE1",
+    "GRAPH_TYPE_CURVE2",
+    "GRAPH_TYPE_CURVE2",
+    "GRAPH_TYPE_CURVE2",
+    "GRAPH_TYPE_CURVE2",
+    "GRAPH_TYPE_CURVE4",
+    "GRAPH_TYPE_CURVE4",
+    "GRAPH_TYPE_BARGRAPH1",
+    "GRAPH_TYPE_CDF1",
+    "GRAPH_TYPE_CDF1"
+  ],
+  "GRAPH_CURVE_LABEL": [
+    "title 'NETWORK_TYPE'",
+    "title 'SCI_THING'",
+    "title 'EVAL_SYSTEM'"
+  ],
+  "SCI_VERBING": [
+    "harnessing",
+    "enabling",
+    "exploring",
+    "controlling",
+    "developing",
+    "refining",
+    "architecting",
+    "investigating",
+    "improving",
+    "analyzing",
+    "constructing",
+    "simulating",
+    "evaluating",
+    "emulating",
+    "deploying",
+    "synthesizing",
+    "visualizing",
+    "studying"
+  ],
+  "SCI_TITLE_X": [
+    "SCI_TITLE_PREFIX SCI_ACT",
+    "SCI_TITLE_PREP the SCI_ACT",
+    "a SCI_ACT SCI_TITLE_POSTFIX",
+    "SCI_THING SCI_TITLE_NOT considered harmful",
+    "deconstructing SCI_THING SCI_TITLE_POSTFIX",
+    "decoupling SCI_THING from SCI_THING in SCI_THING",
+    "SCI_TITLE_PREFIX a methodology for the SCI_ACT",
+    "a case for SCI_THING",
+    "SCI_VERBING SCI_THING using SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN",
+    "SCI_VERBING SCI_THING and SCI_THING SCI_TITLE_POSTFIX",
+    "SCI_TITLE_PREFIX SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "SCI_TITLE_COMPARE SCI_THING and SCI_THING SCI_TITLE_POSTFIX",
+    "the SCI_TITLE_IMPACT SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN on SCI_FIELD",
+    "SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN for SCI_THING"
+  ],
+  "GRAPH_TYPE_BARGRAPH1": [
+    "\n graphtype bargraph=1\n curvelabel notitle\n\n"
+  ],
+  "EDGES_1": [
+    "EDGE;"
+  ],
+  "CITE_CONF_NAME": [
+    "WMSCI",
+    "OSDI",
+    "SIGCOMM",
+    "INFOCOM",
+    "ASPLOS",
+    "the USENIX Technical Conference",
+    "SIGGRAPH",
+    "PLDI",
+    "NSDI",
+    "PODC",
+    "SOSP",
+    "MICRO",
+    "JAIR",
+    "MOBICOM",
+    "POPL",
+    "the WWW Conference",
+    "FPCA",
+    "the Workshop on Data Mining and Knowledge Discovery",
+    "OOPSLA",
+    "VLDB",
+    "NDSS",
+    "NOSSDAV ",
+    "ECOOP",
+    "IPTPS",
+    "the USENIX Security Conference",
+    "PODS",
+    "HPCA",
+    "SIGMETRICS",
+    "FOCS",
+    "the CITE_CONF_TYPE on SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "the CITE_CONF_TYPE on SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "the CITE_CONF_TYPE on SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "the CITE_CONF_TYPE on SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "the CITE_CONF_TYPE on SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "the CITE_CONF_TYPE on SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "the CITE_CONF_TYPE on SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "the CITE_CONF_TYPE on SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "the CITE_CONF_TYPE on SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "the CITE_CONF_TYPE on SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "the CITE_CONF_TYPE on SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "the CITE_CONF_TYPE on SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "the CITE_CONF_TYPE on SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "the CITE_CONF_TYPE on SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "the CITE_CONF_TYPE on SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN"
+  ],
+  "CITE_INST": [
+    "MIT CSAIL",
+    "UC Berkeley",
+    "Devry Technical Institute",
+    "IIT",
+    "UIUC",
+    "University of Washington",
+    "UCSD",
+    "Harvard University",
+    "Intel Research",
+    "Microsoft Research",
+    "IBM Research",
+    "UT Austin",
+    "CMU",
+    "Stanford University",
+    "University of Northern South Dakota"
+  ],
+  "SCI_CONCL": [
+    "\nCONCL_SEC_LATEX_HEADER\n\nCONCL_BODY_P_FEW\n\n"
+  ],
+  "GRAPH_TYPE_CURVE2": [
+    "\n graphtype curve=2\n curvelabel GRAPH_CURVE_LABEL\n curvelabel GRAPH_CURVE_LABEL\n\n"
+  ],
+  "NODES_6": [
+    "\n  NEW_NODE;\n  NODES_5\n\n"
+  ],
+  "GRAPH_TYPE_SCATTER2": [
+    "\n graphtype scatter=2\n curvelabel GRAPH_CURVE_LABEL\n curvelabel GRAPH_CURVE_LABEL\n\n"
+  ],
+  "SOFTWARE_PROP": [
+    "SOFTWARE_PROP_UNMOD",
+    "SOFTWARE_ADJ SOFTWARE_PROP_UNMOD",
+    "SCI_BUZZWORD_ADJ SOFTWARE_PROP_UNMOD"
+  ],
+  "SCI_INTRO_A": [
+    "Many SCI_PEOPLE would agree that, had it not been for SCI_GENERIC_NOUN , the SCI_ACT might never have occurred XXX",
+    "SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN and SCI_THING_MOD have garnered LIT_GREAT interest from both SCI_PEOPLE and SCI_PEOPLE in the last several years XXX",
+    "SCI_THING_MOD must work XXX",
+    "In recent years, much research has been devoted to the SCI_ACT; LIT_REVERSAL, few have SCI_VERBED the SCI_ACT XXX",
+    "SCI_THING_MOD and SCI_THING_MOD, while SCI_ADJ in theory, have not until recently been considered SCI_ADJ XXX",
+    "The SCI_ACT is a SCI_ADJ SCI_PROBLEM XXX",
+    "The SCI_ACT has SCI_VERBED SCI_THING_MOD, and current trends suggest that the SCI_ACT will soon emerge XXX",
+    "SCI_PEOPLE agree that SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN are an interesting new topic in the field of SCI_FIELD, and SCI_PEOPLE concur XXX",
+    "The SCI_FIELD SCI_APPROACH to SCI_THING_MOD is defined not only by the SCI_ACT, but also by the SCI_ADJ need for SCI_THING_MOD XXX",
+    "Recent advances in SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN and SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN SCI_INTRO_ACT SCI_THING_MOD XXX",
+    "Many SCI_PEOPLE would agree that, had it not been for SCI_THING, the SCI_ACT might never have occurred XXX",
+    "The implications of SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN have been far-reaching and pervasive XXX",
+    "Unified SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN have led to many SCI_ADJ advances, including SCI_THING_MOD and SCI_THING_MOD  XXX"
+  ],
+  "EVAL_SEC_INTRO_BS": [
+    "EVAL_SEC_HYP_SET",
+    "EVAL_SEC_HYP_SET EVAL_SEC_INTRO_B",
+    "EVAL_SEC_HYP_SET EVAL_SEC_INTRO_B LIT_MIDDLE_TWO EVAL_SEC_INTRO_B",
+    "EVAL_SEC_HYP_SET EVAL_SEC_INTRO_B LIT_MIDDLE_TWO EVAL_SEC_INTRO_B LIT_MIDDLE_3 EVAL_SEC_INTRO_B"
+  ],
+  "SCI_GENERIC_THESIS_PAST": [
+    "we SCI_PROVE_VERBED that SCI_OVERALL_THESIS_PROVE",
+    "we used SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN to SCI_PROVE_VERB that SCI_OVERALL_THESIS_PROVE",
+    "we SCI_PRESENT_VERBED SCI_OVERALL_THESIS_THING ({SYSNAME}), SCI_PROVE_VERBING that SCI_OVERALL_THESIS_PROVE",
+    "we SCI_PROVE_VERBED not only that SCI_OVERALL_THESIS_PROVE, but that the same is true for SCI_THING_MOD ",
+    "we PROBE_VERBED how SCI_THING_MOD can be applied to the SCI_ACT",
+    "we SCI_PROVE_VERBED that LIT_ALTHOUGH SCI_OVERALL_THESIS_PROVE, SCI_OVERALL_THESIS_PROVE",
+    "we concentrated our efforts on SCI_PROVE_VERBING that SCI_OVERALL_THESIS_PROVE",
+    "we SCI_PRESENT_VERBED SCI_OVERALL_THESIS_THING ({SYSNAME}), which we used to SCI_PROVE_VERB that SCI_OVERALL_THESIS_PROVE"
+  ],
+  "EVAL_ITEMS_S": [
+    "EVAL_ITEMS_UM_S",
+    "SCI_MATH_ADJ EVAL_ITEMS_UM_S",
+    "SCI_THING_S"
+  ],
+  "PENTIUM_TYPE": [
+    "IV",
+    "III",
+    "Centrino",
+    "II"
+  ],
+  "SCI_ACT": [
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING",
+    "SCI_ACT_A SCI_THING that SCI_EFFECT"
+  ],
+  "SCI_VERBION": [
+    "exploration",
+    "development",
+    "refinement",
+    "investigation",
+    "analysis",
+    "improvement",
+    "emulation",
+    "simulation",
+    "construction",
+    "evaluation",
+    "deployment",
+    "synthesis",
+    "visualization",
+    "study"
+  ],
+  "EDGES_7": [
+    "\n  EDGE;\n  EDGES_6\n\n"
+  ],
+  "NETWORK_BANDWIDTH": [
+    "BANDWIDTH_AMOUNT of BANDWIDTH_TYPE"
+  ],
+  "KERNEL_MODULE_UM": [
+    "kernel module",
+    "kernel patch",
+    "LINKED user-space application",
+    "embedded application",
+    "runtime applet"
+  ],
+  "EDGES_14": [
+    "\n  EDGE;\n  EDGES_13\n\n"
+  ],
+  "CONCL_CONCL": [
+    "we plan to explore more SCI_PROBLEM_PL related to these issues in future work.",
+    "we see no reason not to use SCI_OUR_SYSTEM for SCI_SYS_VERBING SCI_GENERIC_NOUN.",
+    "LIT_CONCLUSION, our vision for the future of SCI_FIELD certainly includes SCI_OUR_SYSTEM.",
+    "we plan to make SCI_OUR_SYSTEM available on the Web for public download.",
+    "the SCI_ACT is more SCI_ADJ than ever, and SCI_OUR_SYSTEM helps SCI_PEOPLE do just that.",
+    "we expect to see many SCI_PEOPLE move to SCI_VERBING SCI_OUR_SYSTEM in the very near future.",
+    "LIT_LAST SCI_GENERIC_THESIS_PAST.",
+    "CONCL_MID_X."
+  ],
+  "FGH": [
+    "FGHL",
+    "FGHL^{FGH_SUP}",
+    "FGHL_{FGH_SUB}",
+    "FGHL^{FGH_SUP}_{FGH_SUB}"
+  ],
+  "NEWDIANUM\\+": [
+    ""
+  ],
+  "PICK_LABEL_TYPE": [
+    "0",
+    "0",
+    "1",
+    "1",
+    "2",
+    "2",
+    "3",
+    "4",
+    "4",
+    "5",
+    "5"
+  ],
+  "EXP_WHERE_UM": [
+    "cluster",
+    "testbed",
+    "overlay network"
+  ],
+  "CITE_CONF": [
+    "Proceedings of CITE_CONF_NAME"
+  ],
+  "EDGE_LABEL_YESNO": [
+    "yes",
+    "no"
+  ],
+  "IMPROVE_VERB": [
+    "improve",
+    "degrade",
+    "amplify"
+  ],
+  "GRAPH_X_AXIS": [
+    "GRAPH_AXIS"
+  ],
+  "EXP_FIG": [
+    "Figure~\\ref{LATEX_FIG_LABEL_REF}"
+  ],
+  "LIT_ALTHOUGH": [
+    "though",
+    "although",
+    "while",
+    "even though",
+    "despite the fact that"
+  ],
+  "EVAL_SEC_INTRO_A1": [
+    "EVALUATING a system as AMBITIOUS as ours proved DIFFICULT.",
+    "Evaluating complex systems is difficult.",
+    "How would our system behave in a real-world scenario?",
+    "Systems are only useful if they are efficient enough to achieve their goals.",
+    "A well designed system that has bad performance is of no use to any man, woman or animal.",
+    "Building a system as AMBITIOUS as our would be for naught without a generous EVALUATION."
+  ],
+  "SCI_THING": [
+    "SCI_THING_P",
+    "SCI_THING_S"
+  ],
+  "LATEX_DIA_LABEL_REF": [
+    "dia:labelNEWDIALABEL#"
+  ],
+  "SCI_CONTR_4": [
+    "SCI_CONTR_3 LIT_LAST SCI_GENERIC_THESIS XXX"
+  ],
+  "SCI_IPF_ORG": [
+    "the rest of this paper is organized as follows.",
+    "the rest of this paper is organized as follows.",
+    "the rest of this paper is organized as follows.",
+    "we proceed as follows.",
+    "the rest of the paper proceeds as follows.",
+    "the roadmap of the paper is as follows."
+  ],
+  "SCI_INTRO_FILLER": [
+    "FILLER_SENTENCE.",
+    "to put this in perspective, consider the fact that SCI_STATUS_ADJ SCI_PEOPLE LIT_OFTEN use SCI_THING_MOD to SCI_SOLVE_CLAUSE.",
+    "LIT_LEADIN the usual methods for the SCI_ACT do not apply in this area.",
+    "LIT_LEADIN the IMPACT SCI_FIELD of this FINDING has been SCI_REACTION.",
+    "LIT_LEADIN this is a direct result of the SCI_ACT CITATION_SOMETIMES.",
+    "LIT_ALTHOUGH RELATED solutions to this SCI_PROBLEM are LIT_GOOD, none have taken the SCI_BUZZWORD_ADJ SCI_APPROACH we propose SCI_IN_THIS_PAPER."
+  ],
+  "CITATION_MULTI": [
+    "\\cite{CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE}",
+    "\\cite{CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE, CITATION_SINGLE}"
+  ],
+  "PROBE_VERBED": [
+    "probed",
+    "examined",
+    "investigated",
+    "discovered",
+    "considered",
+    "have a better understanding",
+    "understood"
+  ],
+  "NODES_5": [
+    "\n  NEW_NODE;\n  NODES_4\n\n"
+  ],
+  "EVAL_SEC_BODY_P_TOPIC": [
+    "EVAL_SEC_BODY_P_TOPIC_LEADIN EVAL_SEC_BODY_P_FINDING"
+  ],
+  "IMPL_RUN_TYPE": [
+    "on the same node",
+    "in the same JVM",
+    "with the same permissions"
+  ],
+  "RELWORK_INTRO_1": [
+    "in this section, we discuss RELATED research into SCI_GENERIC_NOUN, SCI_GENERIC_NOUN, and SCI_GENERIC_NOUN RELWORK_XXX",
+    "in this section, we consider alternative SCI_SYSTEM_PL as well as RELATED work.",
+    "we now consider RELATED work.",
+    "in designing SCI_OUR_SYSTEM, we drew on RELATED work from a number of distinct areas.",
+    "RELWORK_INTRO",
+    "RELWORK_INTRO",
+    "RELWORK_INTRO",
+    "RELWORK_INTRO",
+    "RELWORK_INTRO",
+    "RELWORK_INTRO",
+    "RELWORK_INTRO",
+    "RELWORK_INTRO",
+    "RELWORK_INTRO",
+    "RELWORK_INTRO"
+  ],
+  "GRAPHVIZ": [
+    "\nLAYOUT\n\nsize=\"3,3\";\n\nNODES\nEDGES\n\nEND\n\n"
+  ],
+  "CONSTRAINT_TYPE": [
+    "performance",
+    "security",
+    "usability",
+    "scalability",
+    "complexity",
+    "simplicity"
+  ],
+  "SCI_BY_WHO": [
+    "GENERIC_LASTNAME",
+    "SCI_SOURCE",
+    "GENERIC_LASTNAME et al.",
+    "SCI_SOURCE et al.",
+    "GENERIC_LASTNAME and GENERIC_LASTNAME"
+  ],
+  "SCI_COUNTRY": [
+    "American",
+    "British",
+    "Canadian",
+    "French",
+    "German",
+    "Italian",
+    "Japanese",
+    "Swedish",
+    "Russian",
+    "Soviet"
+  ],
+  "NODES_3": [
+    "\n  NEW_NODE;\n  NODES_2\n\n"
+  ],
+  "EVAL_GUTS_EXP_SET_FOLLOWON": [
+    "",
+    "we discarded the results of some earlier experiments, notably when EVAL_EXP XXX",
+    "all of these experiments completed without RESOURCE_STARVATION or RESOURCE_STARVATION XXX"
+  ],
+  "NODES_9": [
+    "\n  NEW_NODE;\n  NODES_8\n\n"
+  ],
+  "MAXIMIZING": [
+    "maximizing",
+    "minimizing",
+    "optimizing",
+    "improving"
+  ],
+  "MEMORY": [
+    "EVAL_MOD_NMB of MEMORY_TYPE",
+    "EVAL_MOD_AMOUNT MEMORY_TYPE"
+  ],
+  "SCI_INTRO_GENERIC_MID_3": [
+    "SCI_INTRO_GENERIC_MID_2 SCI_INTRO_GENERIC_MID"
+  ],
+  "STORAGE_SIZE": [
+    "EVAL_MOD_NMB",
+    "EVAL_MOD_NkB",
+    "EVAL_MOD_NGB",
+    "EVAL_MOD_N-petabyte",
+    "EVAL_MOD_NTB"
+  ],
+  "LIT_MIDDLE": [
+    "Next,",
+    "Further,",
+    "Furthermore,",
+    "Continuing with this rationale,",
+    "Along these same lines,",
+    "Similarly,",
+    "On a similar note,"
+  ],
+  "SCI_THING_P": [
+    "DHTs",
+    "robots",
+    "agents",
+    "Markov models",
+    "SMPs",
+    "kernels",
+    "suffix trees",
+    "spreadsheets",
+    "operating systems",
+    "systems",
+    "interrupts",
+    "Web services",
+    "massive multiplayer online role-playing games",
+    "Byzantine fault tolerance",
+    "sensor networks",
+    "online algorithms",
+    "object-oriented languages",
+    "information retrieval systems",
+    "web browsers",
+    "thin clients",
+    "B-trees",
+    "hierarchical databases",
+    "randomized algorithms",
+    "flip-flop gates",
+    "neural networks",
+    "von Neumann machines",
+    "digital-to-analog converters",
+    "journaling file systems",
+    "expert systems",
+    "active networks",
+    "superpages",
+    "superblocks",
+    "POWER_OF_TWO bit architectures",
+    "vacuum tubes",
+    "I/O automata",
+    "hash tables",
+    "red-black trees",
+    "linked lists",
+    "fiber-optic cables",
+    "802.11 mesh networks",
+    "access points",
+    "gigabit switches",
+    "multi-processors",
+    "compilers",
+    "semaphores",
+    "RPCs",
+    "virtual machines",
+    "Lamport clocks",
+    "checksums",
+    "link-level acknowledgements",
+    "public-private key pairs",
+    "symmetric encryption",
+    "wide-area networks",
+    "local-area networks",
+    "write-back caches",
+    "multicast SCI_SYSTEM_PL",
+    "SCSI disks"
+  ],
+  "SCI_TITLE_NOT": [
+    "no longer",
+    "",
+    "",
+    ""
+  ],
+  "SCI_INTRO_CLOSING": [
+    "LIT_CONCLUSION, SCI_GENERIC_NOUN and SCI_GENERIC_NOUN SCI_INTRO_ACT the SCI_ACT XXX",
+    "to what extent can SCI_THING_MOD be SCI_VERBED to SCI_SOLVE_CLAUSE?",
+    "LIT_REVERSAL, SCI_THING_MOD alone SCI_CAN fulfill the need for SCI_GENERIC_NOUN XXX",
+    "the SCI_ACT would LIT_GREAT_ADV IMPROVE_VERB SCI_GENERIC_NOUN XXX"
+  ],
+  "EVAL_SEC_BODY_P_FINDING": [
+    "a SIMUL_ADJ SIMUL_TYPE SIMUL_VERB SIMUL_SYSTEM "
+  ],
+  "VERSION_BASE": [
+    "DIGITABCD",
+    "DIGIT.DIGIT",
+    "DIGIT.DIGIT.DIGIT"
+  ],
+  "RELWORK_BODY_INSIDE": [
+    "RELWORK_MID RELWORK_MID RELWORK_MID RELWORK_MID",
+    "RELWORK_MID RELWORK_MID RELWORK_MID",
+    "RELWORK_MID RELWORK_MID RELWORK_MID",
+    "RELWORK_MID RELWORK_MID",
+    "RELWORK_MID RELWORK_MID",
+    "RELWORK_MID RELWORK_MID",
+    "RELWORK_MID"
+  ],
+  "EVAL_SEC_SOFTWARE_P": [
+    "EVAL_SEC_SOFTWARE_INTRO. EVAL_SEC_SOFTWARE_MOD XXX EVAL_SEC_SOFTWARE_MOD XXX LIT_MIDDLE_TWO EVAL_SEC_SOFTWARE_REST"
+  ],
+  "PROP_OR_MEASUREMENT_NO_SYSTEM": [
+    "SOFTWARE_PROP",
+    "HARDWARE_PROP",
+    "EVAL_MEASUREMENT"
+  ],
+  "EVAL_ANALYZE_ONE": [
+    "note the heavy tail on the CDF in EXP_FIG, exhibiting DIFFERENT EVAL_MEASUREMENT",
+    "the many discontinuities in the graphs point to DIFFERENT EVAL_MEASUREMENT introduced with our hardware upgrades",
+    "bugs in our system caused the unstable behavior throughout the experiments",
+    "Gaussian electromagnetic disturbances in our EXP_WHERE caused unstable experimental results",
+    "operator error alone cannot account for these results",
+    "these EVAL_MEASUREMENT observations contrast to those seen in earlier work CITATION, such as SCI_SOURCE's seminal treatise on SCI_THING_P and observed HARDWARE_PROP_OR_MEASUREMENT",
+    "note how EMULATING SCI_THING_P rather than EMULATING_THEM produce SMOOTHER, more reproducible results",
+    "the results come from only DIGIT trial runs, and were not reproducible",
+    "error bars have been elided, since most of our data points fell outside of DIGITDIGIT standard deviations from observed means",
+    "note that EXP_FIG shows the \\textit{STAT_ADJ} and not \\textit{STAT_ADJ} SCI_MATH_ADJ HARDWARE_PROP_OR_MEASUREMENT",
+    "the curve in EXP_FIG should look familiar; it is better known as EVAL_MATH_EXPR",
+    "we scarcely anticipated how ACCURATE our results were in this phase of the EVALUATION",
+    "of course, all sensitive data was anonymized during our EMULATION",
+    "note that SCI_THING_P have SMOOTHER HARDWARE_PROP_OR_MEASUREMENT curves than do HACKED SCI_THING_P",
+    "the key to EXP_FIG is closing the feedback loop; EXP_FIG shows how SCI_OUR_SYSTEM's HARDWARE_PROP_OR_MEASUREMENT does not converge otherwise",
+    "the data in EXP_FIG, in particular, proves that four years of hard work were wasted on this project"
+  ],
+  "LATEX_FIG_FILENAME": [
+    "figureNEWFIGNUM+.eps"
+  ],
+  "AUTHOR_NAME!!!": [
+    ""
+  ],
+  "CODE_LINES": [
+    "lines",
+    "semi-colons",
+    "instructions"
+  ],
+  "THINGS_NO_LONGER_INFLUENCE": [
+    "SCI_THING_P no longer AFFECT",
+    "SCI_THING_S no longer AFFECTs"
+  ],
+  "SCI_INTRO_PARAGRAPH_THESIS": [
+    "SCI_INTRO_THESIS SCI_INTRO_GENERIC_MID_ANY SCI_INTRO_GENERIC_CLOSING"
+  ],
+  "EVAL_SEC_FILLER": [
+    "This configuration step was time-consuming but worth it in the end",
+    "Configurations without this modification showed DIFFERENT EVAL_MEASUREMENT",
+    "With this change, we noted DIFFERENT PERFORMANCE IMPROVEMENT",
+    "This step flies in the face of conventional wisdom, but is INSTRUMENTAL to our results",
+    "This configuration step was time-consuming but worth it in the end",
+    "Configurations without this modification showed DIFFERENT EVAL_MEASUREMENT",
+    "With this change, we noted DIFFERENT PERFORMANCE IMPROVEMENT",
+    "This step flies in the face of conventional wisdom, but is INSTRUMENTAL to our results",
+    "To find the required HARDWARE_ITEMS, we combed eBay and tag sales",
+    "we struggled to amass the necessary HARDWARE_ITEMS",
+    "the HARDWARE_ITEMS described here explain our UNIQUE results",
+    "note that only experiments on our EXP_WHERE (and not on our EXP_WHERE) followed this pattern",
+    "we only NOTED these results when EMULATING_IT",
+    "EVAL_DONE_DIFFERENT",
+    "EVAL_DONE_DIFFERENT",
+    "EVAL_DONE_DIFFERENT"
+  ],
+  "EVAL_ITEMS_UM_S": [
+    "HARDWARE_PROP",
+    "EVAL_MEASUREMENT"
+  ],
+  "SCI_MODEL_TYPE": [
+    "model",
+    "design",
+    "framework",
+    "architecture",
+    "methodology"
+  ],
+  "RELWORK_MID": [
+    "LIT_MIDDLE_MAYBE RELWORK_MID_X RELWORK_XXX"
+  ],
+  "BANDWIDTH_TYPE": [
+    "Ethernet access",
+    "Wi-Fi throughput",
+    "Internet access"
+  ],
+  "LIT_OFTEN": [
+    "often",
+    "usually",
+    "rarely",
+    "never",
+    "always",
+    "mostly",
+    "largely",
+    "entirely",
+    "generally",
+    "regularly",
+    "continuously"
+  ],
+  "EVAL_MOD_PROPERTY": [
+    "throughput",
+    "SCI_MATH_ADJ throughput",
+    "latency"
+  ],
+  "SCI_DIAGRAM_ABOUT": [
+    "a SCI_DIAGRAM_TYPE SCI_DIAGRAM_VERBING the relationship between SCI_OUR_SYSTEM and SCI_GENERIC_NOUN",
+    "SCI_OUR_SYSTEM's SCI_BUZZWORD_ADJ SCI_SYS_VERBION",
+    "the SCI_DIAGRAM_TYPE used by SCI_OUR_SYSTEM",
+    "the relationship between SCI_OUR_SYSTEM and SCI_GENERIC_NOUN",
+    "SCI_OVERALL_THESIS_THING"
+  ],
+  "ANALYZE": [
+    "analyze",
+    "explain",
+    "shed light on",
+    "illuminate"
+  ],
+  "RELWORK_BODY_P_MANY": [
+    "RELWORK_BODY_P",
+    "RELWORK_BODY_P_2",
+    "RELWORK_BODY_P_2",
+    "RELWORK_BODY_P_2"
+  ],
+  "CITE_TRNUM": [
+    "MED_NUM-MED_NUM-MED_NUM",
+    "MED_NUM/MED_NUM",
+    "MED_NUM",
+    "MED_NUM-MED_NUM"
+  ],
+  "PROCESSOR_TYPE": [
+    "CPU",
+    "FPU",
+    "RISC processor",
+    "CISC processor",
+    "CHIP_SPEED Athlon ATHLON_TYPE",
+    "CHIP_SPEED Pentium PENTIUM_TYPE",
+    "CHIP_SPEED Intel 386"
+  ],
+  "EMULATING_IT": [
+    "simulating it in WARE",
+    "emulating it in WARE",
+    "deploying it in THE_WILD"
+  ],
+  "EVAL_UNIT_NUM": [
+    "# nodes",
+    "# CPUs"
+  ],
+  "SCI_TITLE_PREP": [
+    "on",
+    "towards"
+  ],
+  "LIT_MIDDLE_MAYBE": [
+    "LIT_MIDDLE",
+    "",
+    ""
+  ],
+  "WHAT_PL": [
+    "these results",
+    "these algorithms",
+    "a more thorough discussion"
+  ],
+  "EXPR": [
+    "EXPR + EXPR",
+    "EXPR * EXPR",
+    "sin(NUM*EXPR)",
+    "cos(NUM*EXPR)",
+    "atan2(EXPR,EXPR)",
+    "exp(EXPR)",
+    "log(abs(EXPR))",
+    "sqrt(abs(EXPR))",
+    "int(EXPR)+1",
+    "(EXPR)**NUM",
+    "xxx",
+    "xxx",
+    "xxx",
+    "xxx",
+    "NUM"
+  ],
+  "LIT_LEADIN": [
+    "But, ",
+    "In addition, ",
+    "SCI_ADJ_ADV enough, ",
+    "Without a doubt, ",
+    "In the opinion of SCI_PEOPLE, ",
+    "Predictably, ",
+    "By comparison, ",
+    "In the opinions of many, ",
+    "Certainly, ",
+    "LIT_MIDDLE",
+    "LIT_MIDDLE",
+    "LIT_MIDDLE",
+    "LIT_MIDDLE",
+    "LIT_MIDDLE",
+    "LIT_MIDDLE",
+    "LIT_MIDDLE",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "BACK_SEC_HEADER_T": [
+    "Background",
+    "Background",
+    "Background",
+    "Overview",
+    "Overview",
+    "Overview",
+    "Overview of SCI_THING",
+    "SCI_THING",
+    "SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN",
+    "A Brief Primer on SCI_THING"
+  ],
+  "DIR_LAYOUT": [
+    "dot"
+  ],
+  "LATEX_HEADER": [
+    "\nLATEX_DOCCLASS\nLATEX_FONTCLASS\nLATEX_CITEPACK\n\\usepackage{epsfig}\n\\usepackage[latin1]{inputenc}\n\\begin{document}\n\nLATEX_TITLE\nLATEX_AUTHORS\n\n\\date{}\n\n\\maketitle\n\n"
+  ],
+  "SCI_DIAGRAM_CAPTION": [
+    "SCI_DIAGRAM_ABOUT XXX",
+    "SCI_DIAGRAM_ABOUT XXX",
+    "SCI_DIAGRAM_ABOUT XXX",
+    "SCI_DIAGRAM_ABOUT XXX",
+    "SCI_DIAGRAM_ABOUT XXX",
+    "SCI_DIAGRAM_ABOUT XXX",
+    "SCI_DIAGRAM_ABOUT XXX",
+    "SCI_OUR_SYSTEM SCI_SYS_VERBS SCI_GENERIC_NOUN in the manner detailed above XXX"
+  ],
+  "MODEL_INTRO_1": [
+    "in this section, we SCI_PRESENT_VERB a SCI_MODEL_TYPE for SCI_VERBING SCI_GENERIC_NOUN MODEL_XXX",
+    "next, we SCI_PRESENT_VERB our SCI_MODEL_TYPE for SCI_PROVE_VERBING that SCI_OUR_SYSTEM SCI_PROOF_PROP MODEL_XXX",
+    "The properties of SCI_OUR_SYSTEM depend greatly on the assumptions inherent in our SCI_MODEL_TYPE; in this section, we outline those assumptions MODEL_XXX",
+    "motivated by the need for SCI_GENERIC_NOUN, we now SCI_PRESENT_VERB a SCI_MODEL_TYPE for SCI_PROVE_VERBING that SCI_OVERALL_THESIS_PROVE MODEL_XXX",
+    "our research is principled.",
+    "MODEL_INTRO",
+    "MODEL_INTRO",
+    "MODEL_INTRO"
+  ],
+  "SOFTWARE_PROP_UNMOD": [
+    "code complexity",
+    "ABI",
+    "API",
+    "user-kernel boundary",
+    "software architecture"
+  ],
+  "EVAL_MATH_EXPR": [
+    "$FGH(n) = SCC_EXPR$"
+  ],
+  "HARDWARE_PROP_OR_MEASUREMENT": [
+    "HARDWARE_PROP",
+    "effective HARDWARE_PROP",
+    "EVAL_MEASUREMENT"
+  ],
+  "EVAL_WHY_VERB": [
+    "prove",
+    "disprove",
+    "measure",
+    "quantify"
+  ],
+  "EMULATING": [
+    "emulating",
+    "simulating",
+    "deploying",
+    "rolling out"
+  ],
+  "SCI_RELWORK": [
+    "\n RELWORK_SEC_LATEX_HEADER\n\n RELWORK_INTRO_P\n\n RELWORK_BODY_P_MANY\n\n",
+    "\n RELWORK_SEC_LATEX_HEADER\n\n RELWORK_INTRO_P\n\n RELWORK_BODY_P_MANY\n\n",
+    "\n RELWORK_SEC_LATEX_HEADER\n\n RELWORK_INTRO_P\n\n RELWORK_BODY_P_MANY\n\n",
+    "\n RELWORK_SEC_LATEX_HEADER\n\n RELWORK_INTRO_P\n\n RELWORK_BODY_P_MANY\n\n",
+    "\n RELWORK_SEC_LATEX_HEADER\n\n RELWORK_INTRO_P\n\n RELWORK_BODY_P_MANY\n\n",
+    "\n RELWORK_SEC_LATEX_HEADER\n\n RELWORK_INTRO_P\n\n RELWORK_BODY_P_MANY\n\n",
+    "\n RELWORK_SEC_LATEX_HEADER\n\n RELWORK_INTRO_P\n\n RELWORK_BODY_P_MANY\n\n",
+    "\n RELWORK_SEC_LATEX_HEADER\n\n RELWORK_INTRO_P\n\n RELWORK_BODY_P_MANY\n\n",
+    "\n RELWORK_SEC_LATEX_HEADER\n\n RELWORK_INTRO_P\n\n RELWORK_BODY_P_MANY\n\n",
+    "\n RELWORK_SEC_LATEX_HEADER\n\n RELWORK_INTRO_P\n\n RELWORK_BODY_P_MANY\n\n",
+    "\n RELWORK_SEC_LATEX_HEADER\n\n RELWORK_INTRO_P\n\n RELWORK_SUBSEC_LATEX_HEADER\n\n RELWORK_BODY_P_FEW\n\n RELWORK_SUBSEC_LATEX_HEADER\n\n RELWORK_BODY_P_FEW\n\n",
+    "\n RELWORK_SEC_LATEX_HEADER\n\n RELWORK_INTRO_P\n\n RELWORK_SUBSEC_LATEX_HEADER\n\n RELWORK_BODY_P_FEW\n\n RELWORK_SUBSEC_LATEX_HEADER\n\n RELWORK_BODY_P_FEW\n\n",
+    "\n RELWORK_SEC_LATEX_HEADER\n\n RELWORK_INTRO_P\n\n RELWORK_SUBSEC_LATEX_HEADER\n\n RELWORK_BODY_P_FEW\n\n RELWORK_SUBSEC_LATEX_HEADER\n\n RELWORK_BODY_P_FEW\n\n",
+    "\n RELWORK_SEC_LATEX_HEADER\n\n RELWORK_INTRO_P\n\n RELWORK_SUBSEC_LATEX_HEADER\n\n RELWORK_BODY_P_FEW\n\n RELWORK_SUBSEC_LATEX_HEADER\n\n RELWORK_BODY_P_FEW\n\n RELWORK_SUBSEC_LATEX_HEADER\n\n RELWORK_BODY_P_FEW\n\n"
+  ],
+  "SCI_REACTION": [
+    "well-received",
+    "adamantly opposed",
+    "considered SCI_ADJ",
+    "LIT_GOOD"
+  ],
+  "CONCL_MID": [
+    "LIT_MIDDLE_MAYBE CONCL_MID_X XXX"
+  ],
+  "SCI_INTRO_A2": [
+    "SCI_ABSTRACT_A",
+    "SCI_INTRO_FILLER",
+    "SCI_INTRO_GENERIC_MID",
+    "The notion that SCI_PEOPLE SCI_VERB_PL with SCI_GENERIC_NOUN is LIT_OFTEN SCI_REACTION XXX",
+    "LIT_REVERSAL_MAYBE a SCI_ADJ SCI_PROBLEM in SCI_FIELD is the SCI_ACT_A SCI_GENERIC_NOUN XXX"
+  ],
+  "NODE_LABEL!!!": [
+    ""
+  ],
+  "MEMORY_ITEMS": [
+    "MEMORY_TYPE",
+    "EVAL_MOD_NMB of MEMORY_TYPE",
+    "EVAL_MOD_NGB of MEMORY_TYPE",
+    "EVAL_MOD_NkB of MEMORY_TYPE"
+  ],
+  "RELWORK_SUBSEC_LATEX_HEADER": [
+    "\\subsection{SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN}",
+    "\\subsection{SCI_THING}"
+  ],
+  "SCI_PROBLEM": [
+    "problem",
+    "issue",
+    "obstacle",
+    "grand challenge",
+    "challenge",
+    "quandary",
+    "riddle",
+    "quagmire",
+    "question"
+  ],
+  "SCI_EVAL": [
+    "\n EVAL_SEC_LATEX_HEADER\n\n EVAL_SEC_INTRO\n\n EVAL_SEC_SUBHEAD_1_LTX\n\n LATEX_FIGURE\n\n EVAL_SEC_HARDWARE_P\n\n LATEX_FIGURE\n\n EVAL_SEC_SOFTWARE_P\n\n LATEX_FIGURE_MAYBE\n\n EVAL_SEC_SUBHEAD_2_LTX\n\n LATEX_FIGURE_MAYBE\n\n LATEX_FIGURE_MAYBE\n\n EVAL_GUTS\n\n\n\n"
+  ],
+  "SCI_CONTR_3": [
+    "SCI_CONTR_2 LIT_MIDDLE_3 SCI_GENERIC_THESIS XXX"
+  ],
+  "EXPANSION_ITEMS": [
+    "EXPANSION_ITEMs"
+  ],
+  "PERVERSE": [
+    "perverse",
+    "counterintuitive",
+    "unexpected"
+  ],
+  "SCI_DIAGRAM_TYPE": [
+    "diagram",
+    "schematic",
+    "architectural layout",
+    "flowchart",
+    "decision tree",
+    "SCI_MODEL_TYPE"
+  ],
+  "SCI_SYS_VERBING": [
+    "locating",
+    "storing",
+    "preventing",
+    "allowing",
+    "providing",
+    "controlling",
+    "requesting",
+    "caching",
+    "creating",
+    "learning",
+    "observing",
+    "managing",
+    "SCI_VERBING",
+    "SCI_VERBING",
+    "SCI_VERBING",
+    "SCI_VERBING",
+    "SCI_VERBING",
+    "SCI_VERBING",
+    "SCI_VERBING",
+    "SCI_VERBING",
+    "SCI_VERBING",
+    "SCI_VERBING"
+  ],
+  "SCI_PROBLEM_SOLVE": [
+    "solve",
+    "overcome",
+    "surmount",
+    "answer",
+    "fix",
+    "address"
+  ],
+  "SCI_PROBLEM_SOLVED": [
+    "solved",
+    "overcame",
+    "surmounted",
+    "answered",
+    "fixed",
+    "addressed"
+  ],
+  "EVAL_SEC_HARDWARE_P": [
+    "EVAL_HARDWARE_INTRO EVAL_ACTION EVAL_MOD_XXX LIT_FIRST EVAL_MOD EVAL_MOD_XXX LIT_MIDDLE_TWO EVAL_MOD EVAL_MOD_XXX LIT_MIDDLE_3 EVAL_MOD EVAL_MOD_XXX EVAL_SEC_BODY_P_REST \n"
+  ],
+  "SCI_MATH_ADV": [
+    "extremely",
+    "independently",
+    "randomly",
+    "mutually",
+    "collectively",
+    "topologically",
+    "computationally",
+    "opportunistically",
+    "lazily",
+    "provably"
+  ],
+  "SCI_ADJ": [
+    "important",
+    "significant",
+    "key",
+    "unfortunate",
+    "robust",
+    "typical",
+    "unproven",
+    "confusing",
+    "extensive",
+    "appropriate",
+    "confirmed",
+    "theoretical",
+    "technical",
+    "structured",
+    "natural",
+    "essential",
+    "private",
+    "intuitive",
+    "practical",
+    "compelling"
+  ],
+  "EVAL_DONE_DIFFERENT": [
+    "had we EMULATED our EXP_WHERE, as opposed to EMULATING_IT, we would have seen DIFFERENT results"
+  ],
+  "EVAL_MOD_N": [
+    "10",
+    "25",
+    "100",
+    "2",
+    "3",
+    "7",
+    "8",
+    "300",
+    "200",
+    "150"
+  ],
+  "MODEL_GROUNDING": [
+    "is solidly grounded in reality",
+    "is unfounded",
+    "holds for most cases",
+    "is not feasible",
+    "is feasible"
+  ],
+  "CITE_PAGES": [
+    "1--1DIGIT",
+    "20--24",
+    "4DIGIT--5DIGIT",
+    "8DIGIT--10DIGIT",
+    "7DIGIT--9DIGIT",
+    "5DIGIT--6DIGIT",
+    "7DIGIT--8DIGIT",
+    "15DIGIT--19DIGIT"
+  ],
+  "LIT_BASED_ON": [
+    "based on",
+    "derived from",
+    "copied from",
+    "built on"
+  ],
+  "SCI_PROOF_PROP": [
+    "runs in SCI_COMPLEXITY_FUNC(SCI_COMPLEXITY) time",
+    "runs in SCI_COMPLEXITY_FUNC(SCI_COMPLEXITY) time",
+    "runs in SCI_COMPLEXITY_FUNC(SCI_COMPLEXITY) time",
+    "runs in SCI_COMPLEXITY_FUNC(SCI_COMPLEXITY) time",
+    "runs in SCI_COMPLEXITY_FUNC(SCI_COMPLEXITY) time",
+    "is NP-complete",
+    "is impossible",
+    "is recursively enumerable",
+    "is in Co-NP",
+    "is optimal",
+    "is Turing complete",
+    "is maximally efficient",
+    "follows a Zipf-like distribution"
+  ],
+  "METHODOLOGY": [
+    "methodology",
+    "method",
+    "approach",
+    "strategy"
+  ],
+  "MODEL_XXX": [
+    "XXX",
+    "XXX",
+    ". MODEL_FILLER."
+  ],
+  "EDGES_10": [
+    "\n  EDGE;\n  EDGES_9\n\n"
+  ],
+  "IMPL_MID_X": [
+    "SCI_OUR_SYSTEM is composed of a IMPL_COMPONENT, a IMPL_COMPONENT, and a IMPL_COMPONENT",
+    "the IMPL_COMPONENT contains about MED_NUM CODE_LINES of LANGUAGE_UM",
+    "we have not yet implemented the IMPL_COMPONENT, as this is the least SCI_ADJ component of SCI_OUR_SYSTEM",
+    "since SCI_SYSTEM_PROP, PROGRAMMING_VERBING the IMPL_COMPONENT was relatively straightforward",
+    "SCI_OUR_SYSTEM requires root access in order to SCI_SYS_VERB SCI_GENERIC_NOUN",
+    "LIT_ALTHOUGH we have not yet optimized for CONSTRAINT_TYPE, this should be simple once we finish PROGRAMMING_VERBING the IMPL_COMPONENT",
+    "SCI_PEOPLE have complete control over the IMPL_COMPONENT, which of course is necessary so that SCI_OVERALL_THESIS_PROVE",
+    "it was necessary to cap the EVAL_MEASUREMENT_UM used by SCI_OUR_SYSTEM to MED_NUM EVAL_UNIT_UM",
+    "the IMPL_COMPONENT and the IMPL_COMPONENT must run IMPL_RUN_TYPE"
+  ],
+  "LATEX_FIG_LABEL_REF": [
+    "fig:labelNEWFIGLABEL#"
+  ],
+  "CONCL_MID_X": [
+    "SCI_OUR_SYSTEM has set a precedent for SCI_GENERIC_NOUN, and we expect that SCI_PEOPLE will SCI_VERB SCI_OUR_SYSTEM for years to come",
+    "we SCI_PROVE_VERBED that CONSTRAINT_TYPE in SCI_OUR_SYSTEM is not a SCI_PROBLEM",
+    "our SCI_MODEL_TYPE for SCI_VERBING SCI_GENERIC_NOUN is SCI_ADJ_ADV LIT_GOOD",
+    "we also SCI_PRESENT_VERBED SCI_OVERALL_THESIS_THING",
+    "to SCI_SOLVE_CLAUSE for SCI_GENERIC_NOUN, we SCI_PRESENT_VERBED SCI_OVERALL_THESIS_THING",
+    "SCI_OUR_SYSTEM SCI_CAN successfully SCI_SYS_VERB many SCI_THING_P at once",
+    "one potentially LIT_GREAT SCI_DRAWBACK of SCI_OUR_SYSTEM is that it SCI_CAN SCI_SYS_VERB SCI_GENERIC_NOUN; we plan to address this in future work",
+    "the characteristics of SCI_OUR_SYSTEM, in relation to those of more SCI_STATUS_ADJ SCI_SYSTEM_PL, are SCI_ADJ_ADV more SCI_ADJ",
+    "SCI_GENERIC_THESIS_PAST",
+    "SCI_GENERIC_THESIS_PAST",
+    "SCI_GENERIC_THESIS_PAST",
+    "in fact, the main contribution of our work is that SCI_GENERIC_THESIS_PAST"
+  ],
+  "EDGES_11": [
+    "\n  EDGE;\n  EDGES_10\n\n"
+  ],
+  "SCI_INTRO_GENERIC_CLOSING": [
+    "this combination of properties has not yet been SCI_VERBED in RELATED work XXX",
+    "combined with SCI_GENERIC_NOUN, WHAT SCI_VERBS SCI_OVERALL_THESIS_THING XXX",
+    "LIT_CONCLUSION, we see no reason not to use SCI_GENERIC_NOUN to SCI_VERB SCI_GENERIC_NOUN XXX",
+    "LIT_CONCLUSION, SCI_GENERIC_THESIS XXX",
+    "LIT_CONCLUSION, SCI_SYSTEM_PROP XXX",
+    "LIT_ALTHOUGH similar SCI_SYSTEM_PL SCI_VERB SCI_GENERIC_NOUN, we SCI_SOLVE_CLAUSE without SCI_VERBING SCI_GENERIC_NOUN XXX",
+    "SCI_INTRO_GENERIC_MID"
+  ],
+  "SCI_SOURCE": [
+    "Rodney Brooks",
+    "Alan Turing",
+    "Albert Einstein",
+    "Charles Darwin",
+    "Erwin Schroedinger",
+    "Isaac Newton",
+    "Noam Chomsky",
+    "Robert T. Morrison",
+    "Stephen Hawking",
+    "Timothy Leary",
+    "Butler Lampson",
+    "Henry Levy",
+    "Roger Needham",
+    "Matt Welsh",
+    "M. Frans Kaashoek",
+    "Ken Thompson",
+    "Richard Stallman",
+    "Ron Rivest",
+    "A.J. Perlis",
+    "Maurice V. Wilkes",
+    "Richard Hamming",
+    "Marvin Minsky",
+    "J.H. Wilkinson",
+    "John McCarthy",
+    "E.W. Dijkstra",
+    "Paul Erd\\H{o}s",
+    "Charles Bachman",
+    "Donald Knuth",
+    "Allen Newell",
+    "Herbert Simon",
+    "Michael O. Rabin",
+    "Dana S. Scott",
+    "John Backus",
+    "Robert Floyd",
+    "Kenneth Iverson",
+    "C. Antony R. Hoare",
+    "Edgar Codd",
+    "Stephen Cook",
+    "Dennis Ritchie",
+    "Niklaus Wirth",
+    "Andy Tanenbaum",
+    "Richard Karp",
+    "John Hopcroft",
+    "Robert Tarjan",
+    "John Cocke",
+    "Ivan Sutherland",
+    "William Kahan",
+    "Fernando Corbato",
+    "Robin Milner",
+    "Juris Hartmanis",
+    "Richard Stearns",
+    "Edward Feigenbaum",
+    "Raj Reddy",
+    "Manuel Blum",
+    "Amir Pnueli",
+    "Douglas Engelbart",
+    "James Gray",
+    "Fredrick P. Brooks, Jr.",
+    "Andrew Yao",
+    "Ole-Johan Dahl",
+    "Kristen Nygaard",
+    "Adi Shamir",
+    "Leonard Adleman",
+    "David Johnson",
+    "J. Ullman",
+    "A. Gupta",
+    "R. Milner",
+    "Scott Shenker",
+    "Venugopalan Ramasubramanian",
+    "Karthik Lakshminarayanan ",
+    "Lakshminarayanan Subramanian",
+    "Van Jacobson",
+    "M. Garey",
+    "R. Tarjan",
+    "Sally Floyd",
+    "J. Dongarra",
+    "Leslie Lamport",
+    "J. Smith",
+    "E. Clarke",
+    "R. Agarwal",
+    "Christos Papadimitriou",
+    "John Hennessy",
+    "Hector Garcia-Molina",
+    "Mark Gayson",
+    "J. Quinlan",
+    "David Clark",
+    "Charles Leiserson",
+    "David Patterson",
+    "John Kubiatowicz",
+    "C. Hoare",
+    "S. Abiteboul",
+    "I. Daubechies",
+    "Deborah Estrin",
+    "David Culler",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS GENERIC_LASTNAME",
+    "INITIALS TAMIL_LASTNAME",
+    "INITIALS TAMIL_LASTNAME",
+    "INITIALS TAMIL_LASTNAME",
+    "INITIALS TAMIL_LASTNAME",
+    "INITIALS TAMIL_LASTNAME"
+  ],
+  "EXP": [
+    "EXP_TYPE on EXP_WHOSE EXP_WHERE"
+  ],
+  "GRAPH_ERRORS": [
+    "errorbars",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "IMPL_INTRO_P": [
+    "IMPL_INTRO IMPL_BODY_INSIDE IMPL_CONCL"
+  ],
+  "CITE_AUTHOR_LIST": [
+    "SCI_SOURCE and CITE_AUTHOR_LIST",
+    "SCI_SOURCE and CITE_AUTHOR_LIST",
+    "SCI_SOURCE and CITE_AUTHOR_LIST",
+    "SCI_SOURCE and CITE_AUTHOR_LIST",
+    "SCI_SOURCE and CITE_AUTHOR_LIST",
+    "SCI_SOURCE and CITE_AUTHOR_LIST",
+    "SCI_SOURCE and CITE_AUTHOR_LIST",
+    "SCI_SOURCE and CITE_AUTHOR_LIST",
+    "SCI_SOURCE and CITE_AUTHOR_LIST",
+    "SCI_SOURCE and CITE_AUTHOR_LIST",
+    "SCI_SOURCE",
+    "SCI_SOURCE",
+    "SCI_SOURCE",
+    "SCI_SOURCE",
+    "SCI_SOURCE",
+    "SCI_SOURCE",
+    "SCI_SOURCE"
+  ],
+  "WARE": [
+    "software",
+    "hardware",
+    "courseware",
+    "bioware",
+    "middleware"
+  ],
+  "EVAL_ITEMS_P": [
+    "EVAL_ITEMS_UM_P",
+    "SCI_MATH_ADJ EVAL_ITEMS_UM_P"
+  ],
+  "EXP_SET_LEADIN": [
+    "that being said,",
+    "",
+    "with these considerations in mind,",
+    "seizing upon this IDEAL configuration,"
+  ],
+  "SCI_ACH_PRES": [
+    "SCI_VERBING SCI_THING_MOD",
+    "SCI_VERBING SCI_THING_MOD (which SCI_EFFECT )"
+  ],
+  "SCI_MODEL_TYPE_P": [
+    "models",
+    "designs",
+    "frameworks",
+    "architectures",
+    "methodologies"
+  ],
+  "SCI_APPROACH_PL": [
+    "approaches",
+    "solutions",
+    "methods"
+  ],
+  "MODEL_INTRO_P": [
+    "MODEL_INTRO_1 MODEL_BODY_INSIDE MODEL_CONCL"
+  ],
+  "LIT_REVERSAL": [
+    "however",
+    "on the other hand",
+    "nevertheless",
+    "contrarily",
+    "unfortunately"
+  ],
+  "DIFFICULT": [
+    "DIFFICULT_X",
+    "as DIFFICULT_X as EVAL_MODING",
+    "more DIFFICULT_X than with previous systems"
+  ],
+  "SCC_EXPR_BASE": [
+    "SCC_EXPR",
+    "2",
+    "1.32",
+    "\\pi",
+    "e",
+    "n"
+  ],
+  "EVAL_SEC_BODY_P_TOPIC_LEADIN": [
+    "we were suprised to discover that",
+    "as with"
+  ],
+  "SCI_CONTR_ANY": [
+    "SCI_CONTR_3",
+    "SCI_CONTR_4",
+    "SCI_CONTR_2"
+  ],
+  "PICK_SHAPE_TYPE": [
+    "SHAPE_TYPE",
+    "SHAPE_TYPE",
+    "SHAPE_TYPE",
+    "SHAPE_TYPE SHAPE_TYPE",
+    "SHAPE_TYPE SHAPE_TYPE",
+    "SHAPE_TYPE SHAPE_TYPE SHAPE_TYPE",
+    "SHAPE_TYPE SHAPE_TYPE SHAPE_TYPE SHAPE_TYPE SHAPE_TYPE"
+  ],
+  "EMULATED": [
+    "emulated",
+    "simulated",
+    "prototyped",
+    "deployed"
+  ],
+  "SCI_DISC": [
+    "\nDISC_SEC_LATEX_HEADER\n\n"
+  ],
+  "NODES_4": [
+    "\n  NEW_NODE;\n  NODES_3\n\n"
+  ],
+  "PROCESSOR_ITEMS": [
+    "PROCESSOR_TYPEs"
+  ],
+  "SCI_DIAGRAM_VERBING": [
+    "detailing",
+    "diagramming",
+    "plotting",
+    "showing",
+    "depicting"
+  ],
+  "SCI_THING_MOD": [
+    "SCI_THING CITATION_SOMETIMES"
+  ],
+  "DIFFICULT_X": [
+    "difficult",
+    "arduous",
+    "onerous"
+  ],
+  "TAMIL_LASTNAME": [
+    "Abhishek",
+    "Aditya",
+    "Ajay",
+    "Ambarish",
+    "Amit",
+    "Anand",
+    "Ananthagopalan",
+    "Ananthakrishnan",
+    "Ananthapadmanabhan",
+    "Anil",
+    "Anirudh",
+    "Aravind",
+    "Arun",
+    "Arunkumar",
+    "Ashok",
+    "Ashwin",
+    "Avinash",
+    "Badrinath",
+    "Balachandran",
+    "Balaji",
+    "Balakrishnan",
+    "Balasubramaniam",
+    "Bharadwaj",
+    "Bharath",
+    "Bhaskaran",
+    "Chandramouli",
+    "Chandran",
+    "Chandrasekharan",
+    "Deepak",
+    "Dilip",
+    "Dinesh",
+    "Easwaran",
+    "Ganesan",
+    "Gopalakrishnan",
+    "Gopalan",
+    "Govindarajan",
+    "Hari",
+    "Harichandran",
+    "Harikrishnan",
+    "Harikumar",
+    "Hariprasad",
+    "Harishankar",
+    "Jayakumar",
+    "Jayanth",
+    "Jayaraman",
+    "Kalyanakrishnan",
+    "Kalyanaraman",
+    "Kannan",
+    "Karthik",
+    "Kaushik",
+    "Keshavan",
+    "Krishnamachari",
+    "Krishnamurthy",
+    "Krishnan",
+    "Krishnaswamy",
+    "Kumar",
+    "Lakshman",
+    "Lakshminarasimhan",
+    "Lakshminarayanan",
+    "Mahadevan",
+    "Mahalingam",
+    "Manikandan",
+    "Mohan",
+    "Mukund",
+    "Muralidharan",
+    "Muthukrishnan",
+    "Nagarajan",
+    "Narasimhan",
+    "Narayanamurthy",
+    "Narayanan",
+    "Narayanaswamy",
+    "Natarajan",
+    "Padmanabhan",
+    "Parasuraman",
+    "Parthasarathy",
+    "Prasanna",
+    "Prashant",
+    "Purushottaman",
+    "Raghavan",
+    "Raghunathan",
+    "Raghuraman",
+    "Rahul",
+    "Rajagopalan",
+    "Rajam",
+    "Rajamani",
+    "Ramabhadran",
+    "Ramachandran",
+    "Ramagopalan",
+    "Ramakrishnan",
+    "Ramamurthy",
+    "Ramanan",
+    "Ramanarayanan",
+    "Ramanathan",
+    "Ramani",
+    "Ramanujan",
+    "Ramasubramanian",
+    "Ramaswamy",
+    "Ramesh",
+    "Ramkumar",
+    "Rangachari",
+    "Rangan",
+    "Ranganathan",
+    "Rangarajan",
+    "Rao",
+    "Ravi",
+    "Ravikumar",
+    "Ravindran",
+    "Raviprasad",
+    "Ravishankar",
+    "Sadagopan",
+    "Sambasivan",
+    "Sampath",
+    "Sankaran",
+    "Sankaranarayanan",
+    "Sankararaman",
+    "Santhanagopalan",
+    "Santhanakrishnan",
+    "Santhanam",
+    "Seshadri",
+    "Seshagopalan",
+    "Sethuraman",
+    "Sivakumar",
+    "Sivaraman",
+    "Sivashankar",
+    "Sivasubramaniam",
+    "Sridharan",
+    "Sridharanarayanan",
+    "Srikrishnan",
+    "Srikumar",
+    "Srinivasan",
+    "Sriram",
+    "Srivatsan",
+    "Subramaniam",
+    "Sundararajan",
+    "Sundaresan",
+    "Suresh",
+    "Suryanarayanan",
+    "Swaminathan",
+    "Thyagarajan",
+    "Vaidhyanathan",
+    "Varadachari",
+    "Varadarajan",
+    "Varun",
+    "Veeraraghavan",
+    "Venkat",
+    "Venkatachari",
+    "Venkatakrishnan",
+    "Venkataraman",
+    "Venkatasubramanian",
+    "Venkatesh",
+    "Venugopalan",
+    "Vignesh",
+    "Vijay",
+    "Vijayaraghavan",
+    "Vikram",
+    "Vishwanathan",
+    "Vivek"
+  ],
+  "SCI_A_FACT": [
+    "SCI_SOURCE's SCI_ACT in SCI_YEAR",
+    "the SCI_COMPLEXNOUN of SCI_FIELD",
+    "the work of SCI_COUNTRY SCI_PERSON SCI_SOURCE"
+  ],
+  "ABCD": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "SCI_COMPLEXITY_SIMPLE": [
+    "$n$",
+    "$n^2$",
+    "$\\log n$",
+    "$2^n$",
+    "$n!$"
+  ],
+  "SCI_MATH_VERBING": [
+    "separating",
+    "decoupling",
+    "saturating",
+    "composing",
+    "replicating",
+    "pipelining"
+  ],
+  "SCI_TRACE": [
+    "TRACE_UNIT-long trace",
+    "NONZ-TRACE_UNIT-long trace",
+    "trace, over the course of several TRACE_UNITs,"
+  ],
+  "LATEX_DIA_FILENAME": [
+    "diaNEWDIANUM+.eps"
+  ],
+  "STORAGE": [
+    "STORAGE_M",
+    "STORAGE_M",
+    "STORAGE_S"
+  ],
+  "CITATION_SOMETIMES": [
+    "CITATION",
+    "CITATION",
+    "CITATION",
+    "CITATION",
+    "CITATION_MULTI",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "EXP_WHERE_CMN": [
+    "desktop machines",
+    "mobile telephones",
+    "system",
+    "network",
+    "EXP_WHERE_ADJ EXP_WHERE_UM",
+    "EXP_WHERE_ADJ EXP_WHERE_UM",
+    "EXP_WHERE_ADJ EXP_WHERE_UM",
+    "EXP_WHERE_ADJ EXP_WHERE_UM"
+  ],
+  "CITE_YEAR": [
+    "SCI_YEAR",
+    "199DIGIT",
+    "199DIGIT",
+    "199DIGIT",
+    "199DIGIT",
+    "199DIGIT",
+    "199DIGIT",
+    "199DIGIT",
+    "199DIGIT",
+    "199DIGIT",
+    "199DIGIT",
+    "1999",
+    "1999",
+    "2000",
+    "2000",
+    "2001",
+    "2001",
+    "2001",
+    "2002",
+    "2002",
+    "2002",
+    "2003",
+    "2003",
+    "2003",
+    "2003",
+    "2004",
+    "2004",
+    "2004",
+    "2004",
+    "2005",
+    "2005",
+    "2005",
+    "2005"
+  ],
+  "EVAL_SEC_SOFTWARE_END": [
+    "we made all of our software is available under a LICENSE_TYPE license.",
+    "we note that other researchers have tried and failed to enable this functionality.",
+    "this concludes our discussion of software modifications.",
+    "all of these techniques are of interesting historical significance; SCI_SOURCE and SCI_SOURCE investigated a SIMILAR SETUP in SCI_YEAR."
+  ],
+  "SCI_OVERALL_THESIS_PROVE": [
+    "SCI_THING_MOD and SCI_THING_MOD are LIT_OFTEN incompatible ",
+    "SCI_THING_MOD and SCI_THING_MOD can SCI_VERB_PL to SCI_SOLVE_CLAUSE",
+    "SCI_THING_MOD can be made SCI_BUZZWORD_ADJ, SCI_BUZZWORD_ADJ, and SCI_BUZZWORD_ADJ",
+    "the SCI_STATUS_ADJ SCI_BUZZWORD_ADJ algorithm for the SCI_ACT SCI_BY_WHO_SOMETIMES SCI_PROOF_PROP"
+  ],
+  "SCI_INTRO_PARAGRAPH_GENERIC": [
+    "SCI_INTRO_GENERIC_FIRST SCI_INTRO_GENERIC_MID_ANY SCI_INTRO_GENERIC_CLOSING"
+  ],
+  "NEWFIGLABEL\\#": [
+    ""
+  ],
+  "REQUIRED": [
+    "mandated",
+    "required",
+    "necessary"
+  ],
+  "EDGES_8": [
+    "\n  EDGE;\n  EDGES_7\n\n"
+  ],
+  "SCI_COMPLEXITY": [
+    "SCI_COMPLEXITY_SIMPLE",
+    "SCI_COMPLEXITY_SIMPLE",
+    "SCI_COMPLEXITY_COMPLEX"
+  ],
+  "NODE_LABEL_PROG": [
+    "\"Web Browser\"",
+    "Kernel",
+    "Userspace",
+    "JVM",
+    "SYSNAME",
+    "SYSNAME",
+    "SYSNAME",
+    "SYSNAME",
+    "SYSNAME",
+    "SYSNAME",
+    "SYSNAME",
+    "SYSNAME",
+    "SYSNAME",
+    "SYSNAME",
+    "Editor",
+    "Simulator",
+    "Emulator",
+    "\"File System\"",
+    "Network",
+    "\"Video Card\"",
+    "X",
+    "\"Trap handler\"",
+    "Memory",
+    "Shell",
+    "Keyboard",
+    "Display"
+  ],
+  "STORAGE_M": [
+    "EVAL_MOD_AMOUNT STORAGE_TYPE space",
+    "STORAGE_DEVICES_N STORAGE_SIZE STORAGE_TYPEs"
+  ],
+  "EXP_WHOSE": [
+    "MIT's",
+    "UC Berkeley's",
+    "CERN's",
+    "DARPA's",
+    "the NSA's",
+    "the KGB's",
+    "our",
+    "our",
+    "our",
+    "our",
+    "our",
+    "Intel's"
+  ],
+  "TAKE_NOTE_THAT": [
+    "note that",
+    "an astute reader would now infer that for obvious reasons,",
+    "unlike other authors,"
+  ],
+  "EVAL_EXP": [
+    "we ran SCI_THING_P on DIGITDIGIT nodes spread throughout the NETWORK_TYPE network, and compared them against SCI_THING_P running locally",
+    "we deployed DIGITDIGIT OLD_MACHINEs across the NETWORK_TYPE network, and tested our SCI_THING_P accordingly",
+    "we asked (and answered) what would happen if SCI_MATH_ADV SCI_MATH_ADJ SCI_THING_P were used instead of SCI_THING_P",
+    "we measured HARDWARE_PROP as a function of HARDWARE_PROP on a OLD_MACHINE",
+    "we compared EVAL_MEASUREMENT on the OSNAME, OSNAME and OSNAME operating systems",
+    "we measured MEASURABLE_SYSTEM and MEASURABLE_SYSTEM PERFORMANCE on our EXP_WHERE",
+    "we dogfooded SCI_OUR_SYSTEM on our own desktop machines, paying particular attention to HARDWARE_PROP_OR_MEASUREMENT",
+    "we ran DIGITDIGIT trials with a simulated MEASURABLE_SYSTEM workload, and compared results to our EMULATION"
+  ],
+  "KERNEL_MODULE": [
+    "KERNEL_MODULE_UM",
+    "SCI_MATH_ADJ KERNEL_MODULE_UM"
+  ],
+  "FGHL": [
+    "f",
+    "F",
+    "G",
+    "H",
+    "h",
+    "g"
+  ],
+  "EDGES_15": [
+    "\n  EDGE;\n  EDGES_14\n\n"
+  ],
+  "BANDWIDTH_AMOUNT": [
+    "EVAL_MOD_NMB/s",
+    "EVAL_MOD_NkB/s",
+    "EVAL_MOD_NGB/s",
+    "EVAL_MOD_NGb/s"
+  ],
+  "EVAL_GUTS_ANALYSIS_2_A": [
+    "We have seen one type of behavior in EXP_FIGS; our other experiments (shown in Figure~\\ref{LATEX_FIG_LABEL_REF}) paint a different picture",
+    "We next turn to WHICH_EXPERIMENTS, shown in EXP_FIG",
+    "Shown in EXP_FIG, WHICH_EXPERIMENTS call attention to SCI_OUR_SYSTEM's EVAL_MEASUREMENT"
+  ],
+  "RELATED": [
+    "prior",
+    "related",
+    "previous",
+    "existing"
+  ],
+  "SCI_THING_S": [
+    "courseware",
+    "e-commerce",
+    "IPv4",
+    "IPv6",
+    "IPv7",
+    "the memory bus",
+    "the location-identity split",
+    "extreme programming",
+    "Scheme",
+    "DNS",
+    "802.11b",
+    "architecture",
+    "the Turing machine",
+    "the Internet",
+    "consistent hashing",
+    "the transistor",
+    "the UNIVAC computer",
+    "Boolean logic",
+    "voice-over-IP",
+    "the World Wide Web",
+    "Moore's Law",
+    "e-business",
+    "context-free grammar",
+    "evolutionary programming",
+    "simulated annealing",
+    "the partition table",
+    "the lookaside buffer",
+    "Internet QoS",
+    "rasterization",
+    "model checking",
+    "lambda calculus",
+    "scatter/gather I/O",
+    "XML",
+    "the Ethernet",
+    "RAID",
+    "telephony",
+    "Smalltalk",
+    "A* search",
+    "reinforcement learning",
+    "the producer-consumer problem",
+    "forward-error correction",
+    "erasure coding",
+    "redundancy",
+    "replication",
+    "congestion control",
+    "DHCP",
+    "write-ahead logging",
+    "cache coherence"
+  ],
+  "GNUPLOT": [
+    "\n set xlabel \"GRAPH_X_AXIS\"\n set ylabel \"GRAPH_Y_AXIS\"\n GRAPH_TYPE\n GRAPH_LOG\n GRAPH_ERRORS\n\n"
+  ],
+  "EVAL_SEC_INTRO": [
+    "EVAL_SEC_INTRO_A EVAL_SEC_INTRO_BS EVAL_SEC_INTRO_C"
+  ],
+  "SCI_SOLVE_CLAUSE": [
+    "SCI_PROBLEM_SOLVE this SCI_PROBLEM",
+    "SCI_GOAL_ACHIEVE this SCI_GOAL"
+  ],
+  "CONSTRAINT_OR_MEASUREMENT": [
+    "EVAL_MEASUREMENT",
+    "CONSTRAINT_TYPE",
+    "CONSTRAINT_P"
+  ],
+  "CONCL_SEC_LATEX_HEADER": [
+    "\\section{Conclusion}",
+    "\\section{Conclusion}",
+    "\\section{Conclusion}",
+    "\\section{Conclusion}",
+    "\\section{Conclusion}",
+    "\\section{Conclusion}",
+    "\\section{Conclusion}",
+    "\\section{Conclusion}",
+    "\\section{Conclusion}",
+    "\\section{Conclusion}",
+    "\\section{Conclusions}"
+  ],
+  "SCI_COMPLEXNOUN": [
+    "complexity",
+    "contradiction",
+    "uncertainty",
+    "chaos",
+    "change",
+    "mystery",
+    "enigma",
+    "paradox",
+    "incoherence",
+    "simplicity"
+  ],
+  "MULTIPLE_VERBING": [
+    "doubling",
+    "increasing",
+    "tripling",
+    "reducing",
+    "quadrupling"
+  ],
+  "IMPL_CONCL": [
+    "we plan to release all of this code under LICENSE_TYPE XXX",
+    "overall, SCI_OUR_SYSTEM adds only modest overhead and complexity to RELATED SCI_BUZZWORD_ADJ SCI_SYSTEM_PL XXX",
+    "one SCI_CAN imagine other SCI_APPROACH_PL to the implementation that would have made PROGRAMMING_VERBING it much simpler XXX",
+    "IMPL_MID_X XXX",
+    "IMPL_MID_X XXX",
+    "IMPL_MID_X XXX"
+  ],
+  "EVAL_MODING_HARDWARE": [
+    "MULTIPLE_VERBING the HARDWARE_PROP_OR_MEASUREMENT of EVAL_SYSTEM"
+  ],
+  "MODEL_BODY_P_FEW": [
+    "MODEL_BODY_P",
+    "MODEL_BODY_P",
+    "MODEL_BODY_P",
+    "MODEL_BODY_P_2"
+  ],
+  "EVAL_GUTS": [
+    "\nEVAL_GUTS_INTRO EVAL_GUTS_EXP_SET EVAL_GUTS_EXP_SET_FOLLOWON\n\nEVAL_GUTS_ANALYSIS_1\n\nEVAL_GUTS_ANALYSIS_2\n\nEVAL_GUTS_ANALYSIS_3\n\n"
+  ],
+  "STORAGE_TYPE": [
+    "hard disk",
+    "optical drive",
+    "floppy disk",
+    "tape drive",
+    "USB key"
+  ],
+  "FILLER_SENTENCE": [
+    "FILLER_SURPRISE",
+    "FILLER_SURPRISE",
+    "FILLER_SURPRISE",
+    "FILLER_SURPRISE",
+    "FILLER_SURPRISE",
+    "FILLER_SURPRISE",
+    "FILLER_SURPRISE",
+    "FILLER_SURPRISE",
+    "FILLER_SURPRISE",
+    "FILLER_SURPRISE",
+    "our SCI_GOAL here is to set the record straight",
+    "this is an important point to understand",
+    "this is INSTRUMENTAL to the success of our work",
+    "we LIT_OMIT WHAT_PL OMIT_WHY",
+    "of course, this is not always the case",
+    "this follows from the SCI_ACT CITATION_SOMETIMES"
+  ],
+  "ACCURATE": [
+    "accurate",
+    "wildly inaccurate",
+    "precise",
+    "inaccurate"
+  ],
+  "CONSTRAINT_P": [
+    "CONSTRAINT_TYPE constraints"
+  ],
+  "PROVE_THAT": [
+    "prove that",
+    "show that",
+    "exhibit that",
+    "demonstrate that",
+    "make manifest that"
+  ],
+  "SCI_INTRO_GENERIC_MID_ANY": [
+    "SCI_INTRO_GENERIC_MID_2",
+    "SCI_INTRO_GENERIC_MID_3",
+    "SCI_INTRO_GENERIC_MID_4"
+  ],
+  "CITE_JOURNAL": [
+    "Journal of SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "Journal of SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "Journal of SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "Journal of SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "Journal of SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "Journal of SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "Journal of SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "Journal of SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "Journal of SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "Journal of SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "Journal of SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "Journal of SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "Journal of SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "Journal of SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "Journal of SCI_BUZZWORD_ADJ_MULTI SCI_BUZZWORD_NOUN",
+    "TOCS",
+    "Journal of Automated Reasoning",
+    "IEEE JSAC",
+    "OSR",
+    "NTT Technical Review"
+  ],
+  "EVAL_MOD": [
+    "EVAL_WHO EVAL_MOD_ACTION EVAL_MOD_OBJECT",
+    "EVAL_WHO EVAL_MOD_ACTION EVAL_MOD_OBJECT to EVAL_MOD_WHY"
+  ],
+  "FILLER_SURPRISE_2": [
+    "fell in line with our expectations",
+    "is SUPPORTED by RELATED work in the field",
+    "has ample historical precedence",
+    "is derived from known results",
+    "LIT_OFTEN conflicts with the need to provide SCI_THING to SCI_PEOPLE"
+  ],
+  "EDGES_2": [
+    "\n  EDGE;\n  EDGES_1\n\n"
+  ],
+  "FILLER_SURPRISE": [
+    "LIT_ALTHOUGH WHAT FILLER_SURPRISE_1, it FILLER_SURPRISE_2",
+    "WHAT FILLER_SURPRISE_1 but FILLER_SURPRISE_2"
+  ],
+  "LIT_OMIT": [
+    "omit",
+    "withhold",
+    "skip",
+    "leave out"
+  ],
+  "LIT_REVERSAL_MAYBE": [
+    "LIT_REVERSAL,",
+    ""
+  ],
+  "STORAGE_DEVICES_N": [
+    "EVAL_MOD_N"
+  ],
+  "SCI_AB_A_END": [
+    "",
+    ", which embodies the SCI_ADJ principles of SCI_FIELD"
+  ],
+  "TWODIG": [
+    "NONZ",
+    "NONZDIGIT"
+  ],
+  "MODEL_BODY_INSIDE": [
+    "MODEL_MID MODEL_MID MODEL_MID MODEL_MID",
+    "MODEL_MID MODEL_MID MODEL_MID",
+    "MODEL_MID MODEL_MID MODEL_MID",
+    "MODEL_MID MODEL_MID",
+    "MODEL_MID MODEL_MID",
+    "MODEL_MID MODEL_MID",
+    "MODEL_MID"
+  ],
+  "NEWFIGLABEL\\+": [
+    ""
+  ],
+  "SCI_APPROACH": [
+    "approach",
+    "solution",
+    "method"
+  ],
+  "MATTERS": [
+    "is king",
+    "is of import",
+    "really matters",
+    "matters",
+    "might cause us to lose sleep"
+  ],
+  "EVAL_SEC_SUBHEAD_2": [
+    "Experimental Results",
+    "Experiments and Results",
+    "Dogfooding SCI_OUR_SYSTEM"
+  ],
+  "EVAL_MEASUREMENT": [
+    "EVAL_MEASUREMENT_UM",
+    "STAT_ADJ EVAL_MEASUREMENT_UM"
+  ],
+  "OSFULL": [
+    "OSNAME Version VERSION",
+    "OSNAME"
+  ],
+  "SCI_RESPONSE": [
+    "yes",
+    "absolutely",
+    "no",
+    "it is",
+    "unlikely",
+    "exactly so",
+    "it is not",
+    "the answer is yes",
+    "yes, but only in theory",
+    "yes, but with low probability"
+  ],
+  "WINVERS": [
+    "XP",
+    "3.11",
+    "2000",
+    "98",
+    "NT",
+    "for Workgroups",
+    "Longhorn",
+    "1969"
+  ],
+  "SCI_INTRO": [
+    "\n SCI_INTRO_HEADER \n\n SCI_INTRO_PARAGRAPH_A \n\n SCI_INTRO_PARAGRAPH_GENERIC\n\n SCI_INTRO_PARAGRAPH_THESIS\n\n SCI_INTRO_PARAGRAPH_CONTR\n\n SCI_INTRO_PARAGRAPH_FINAL\n\n",
+    "\n SCI_INTRO_HEADER \n\n SCI_INTRO_PARAGRAPH_A \n\n SCI_INTRO_PARAGRAPH_THESIS\n\n SCI_INTRO_PARAGRAPH_CONTR\n\n SCI_INTRO_PARAGRAPH_FINAL\n\n",
+    "\n SCI_INTRO_HEADER \n\n SCI_INTRO_PARAGRAPH_A \n\n SCI_INTRO_PARAGRAPH_THESIS\n\n SCI_INTRO_PARAGRAPH_GENERIC\n\n SCI_INTRO_PARAGRAPH_CONTR\n\n SCI_INTRO_PARAGRAPH_FINAL\n\n",
+    "\n SCI_INTRO_HEADER \n\n SCI_INTRO_PARAGRAPH_A \n\n SCI_INTRO_PARAGRAPH_GENERIC\n\n SCI_INTRO_PARAGRAPH_THESIS\n\n SCI_INTRO_PARAGRAPH_GENERIC\n\n SCI_INTRO_PARAGRAPH_FINAL\n\n",
+    "\n SCI_INTRO_HEADER \n\n SCI_INTRO_PARAGRAPH_A \n\n SCI_INTRO_PARAGRAPH_GENERIC\n\n SCI_INTRO_PARAGRAPH_GENERIC\n\n SCI_INTRO_PARAGRAPH_THESIS\n\n SCI_INTRO_PARAGRAPH_FINAL\n\n",
+    "\n SCI_INTRO_HEADER \n\n SCI_INTRO_PARAGRAPH_A \n\n SCI_INTRO_PARAGRAPH_THESIS\n\n SCI_INTRO_PARAGRAPH_FINAL\n\n"
+  ],
+  "EVAL_UNIT_UM": [
+    "MB/s",
+    "ms",
+    "sec",
+    "Joules",
+    "dB",
+    "percentile",
+    "man-hours",
+    "bytes",
+    "cylinders",
+    "celcius",
+    "pages",
+    "nm",
+    "teraflops",
+    "GHz",
+    "connections/sec"
+  ],
+  "EXP_WHERE_ADJ": [
+    "SCI_BUZZWORD_ADJ",
+    "NETWORK_TYPE"
+  ],
+  "IP_PORT": [
+    "NONZDIGIT"
+  ],
+  "EVAL_SEC_SUBHEAD_2_LTX": [
+    "\\subsection{EVAL_SEC_SUBHEAD_2}"
+  ],
+  "NODES_1": [
+    "NEW_NODE;"
+  ],
+  "PERCENTAGE": [
+    "DIGITDIGIT\\%",
+    "DIGITDIGIT\\%"
+  ],
+  "HACKED": [
+    "hacked",
+    "patched",
+    "refactored",
+    "reprogrammed",
+    "exokernelized",
+    "microkernelized",
+    "distributed",
+    "hardened",
+    "autonomous",
+    "autogenerated",
+    "modified"
+  ],
+  "EVAL_MODING": [
+    "EVAL_MODING_HARDWARE",
+    "EVAL_MODING_SOFTWARE"
+  ],
+  "MODEL_BODY_P": [
+    "MODEL_INTRO MODEL_BODY_INSIDE MODEL_CONCL"
+  ],
+  "NETWORK_TYPE": [
+    "Internet",
+    "Internet-2",
+    "Planetlab",
+    "sensor-net",
+    "NETWORK_TYPE_N-node",
+    "NETWORK_TYPE_N-node",
+    "NETWORK_TYPE_N-node",
+    "planetary-scale",
+    "underwater",
+    "millenium"
+  ],
+  "NODE_LABEL_LET": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z"
+  ],
+  "SCI_AB_A_START": [
+    "SCI_IN_THIS_PAPER, we SCI_PROVE_VERB ",
+    "in fact, few SCI_PEOPLE would disagree with",
+    "given the current status of SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN, SCI_PEOPLE SCI_ADJ_ADV desire",
+    "after years of SCI_ADJ research into SCI_THING_MOD, we SCI_PROVE_VERB"
+  ],
+  "SCI_INTRO_HEADER": [
+    "\\section{Introduction}"
+  ],
+  "SHAPE_TYPE": [
+    "ellipse",
+    "ellipse",
+    "ellipse",
+    "ellipse",
+    "ellipse",
+    "ellipse",
+    "ellipse",
+    "circle",
+    "egg",
+    "triangle",
+    "triangle",
+    "triangle",
+    "triangle",
+    "triangle",
+    "diamond",
+    "diamond",
+    "diamond",
+    "diamond",
+    "diamond",
+    "box",
+    "box",
+    "box",
+    "box",
+    "box",
+    "box",
+    "box",
+    "box",
+    "box",
+    "box",
+    "trapezium",
+    "parallelogram",
+    "house",
+    "hexagon",
+    "octagon",
+    "record",
+    "polygon"
+  ],
+  "EDGES_6": [
+    "\n  EDGE;\n  EDGES_5\n\n"
+  ],
+  "LIT_LAST": [
+    "Finally,",
+    "Lastly,",
+    "In the end,"
+  ],
+  "EVAL_SEC_BODY_P_REST": [
+    "",
+    "LIT_LAST_OR_MIDDLE EVAL_MOD EVAL_MOD_XXX",
+    "LIT_MIDDLE EVAL_MOD EVAL_MOD_XXX LIT_LAST EVAL_MOD EVAL_MOD_XXX",
+    "LIT_MIDDLE EVAL_MOD EVAL_MOD_XXX LIT_MIDDLE EVAL_MOD EVAL_MOD_XXX LIT_LAST EVAL_MOD EVAL_MOD_XXX",
+    "",
+    "LIT_LAST_OR_MIDDLE EVAL_MOD EVAL_MOD_XXX",
+    "LIT_MIDDLE EVAL_MOD EVAL_MOD_XXX LIT_LAST EVAL_MOD EVAL_MOD_XXX",
+    "LIT_MIDDLE EVAL_MOD EVAL_MOD_XXX LIT_MIDDLE EVAL_MOD EVAL_MOD_XXX LIT_LAST EVAL_MOD EVAL_MOD_XXX"
+  ],
+  "OLD_MACHINE": [
+    "Macintosh SE",
+    "UNIVAC",
+    "Apple ][e",
+    "IBM PC Junior",
+    "Atari 2600",
+    "Nintendo Gameboy",
+    "Motorola bag telephone",
+    "Apple Newton",
+    "Commodore 64",
+    "NeXT Workstation",
+    "LISP machine",
+    "PDP 11"
+  ],
+  "COMPILED": [
+    "compiled",
+    "hand hex-editted",
+    "linked",
+    "hand assembled"
+  ],
+  "NODES_7": [
+    "\n  NEW_NODE;\n  NODES_6\n\n"
+  ],
+  "EVAL_SEC_INTRO_A2": [
+    "In this light, we worked hard to arrive at a suitable evaluation METHODOLOGY.",
+    "We did not take any shortcuts here.",
+    "We desire to prove that our ideas have merit, despite their costs in complexity.",
+    "Only with precise measurements might we convince the reader that performance MATTERS."
+  ],
+  "SCI_SYSTEM_PL": [
+    "algorithms",
+    "systems",
+    "frameworks",
+    "heuristics",
+    "applications",
+    "methodologies",
+    "SCI_APPROACH_PL"
+  ],
+  "EVAL_SEC_HYP_SET": [
+    "our overall EVALUATION seeks to prove three hypotheses: (1) EVAL_SEC_HYPOTHESIS; (2) EVAL_SEC_HYPOTHESIS; and finally (3) EVAL_SEC_HYPOTHESIS."
+  ],
+  "LATEX_FIGURE_MAYBE": [
+    "LATEX_FIGURE",
+    ""
+  ],
+  "CONCL_START_MAYBE": [
+    "In conclusion,",
+    "",
+    "",
+    ""
+  ],
+  "EVAL_SEC_LATEX_HEADER": [
+    "\\section{EVAL_SEC_HEADER_T}"
+  ],
+  "PROVES": [
+    "proves",
+    "proves to the reader",
+    "illuminates",
+    "sheds light on "
+  ],
+  "EVALUATING": [
+    "evaluating",
+    "measuring",
+    "analyzing"
+  ],
+  "SCI_ADJ_ADV": [
+    "particularly",
+    "dubiously",
+    "daringly",
+    "shockingly",
+    "daringly",
+    "famously",
+    "predictably",
+    "clearly",
+    "obviously",
+    "urgently",
+    "compellingly"
+  ],
+  "EVAL_SEC_BODY": [
+    "EVAL_SEC_BODY_P_LIST"
+  ],
+  "SCI_CAPTION": [
+    "see Figure~\\ref{LATEX_FIG_LABEL_REF} XXX"
+  ],
+  "TOOLCHAIN": [
+    "GCC VERSION",
+    "AT\\&T System V's compiler",
+    "a standard toolchain",
+    "Microsoft developer's studio"
+  ],
+  "FINDING": [
+    "result",
+    "finding",
+    "outcome",
+    "discussion",
+    "technique",
+    "",
+    "",
+    ""
+  ],
+  "SCI_EXPENSIVE": [
+    "expensive",
+    "costly",
+    "cheap",
+    "flimsy",
+    "fragile"
+  ],
+  "FOLLOWS_SUIT": [
+    "attempts to follow on",
+    "follows suit",
+    "inherits from this previous work"
+  ],
+  "SCI_CONTR_2": [
+    "LIT_FIRST SCI_GENERIC_THESIS XXX LIT_MIDDLE_TWO SCI_GENERIC_THESIS XXX"
+  ],
+  "CONCL_BODY_INSIDE": [
+    "CONCL_MID CONCL_MID CONCL_MID CONCL_MID",
+    "CONCL_MID CONCL_MID CONCL_MID",
+    "CONCL_MID CONCL_MID CONCL_MID",
+    "CONCL_MID CONCL_MID",
+    "CONCL_MID CONCL_MID",
+    "CONCL_MID CONCL_MID",
+    "CONCL_MID"
+  ],
+  "SCI_BUZZWORD_ADJ": [
+    "peer-to-peer",
+    "game-theoretic",
+    "knowledge-based",
+    "relational",
+    "compact",
+    "ubiquitous",
+    "linear-time",
+    "``fuzzy''",
+    "embedded",
+    "constant-time",
+    "client-server",
+    "efficient",
+    "reliable",
+    "replicated",
+    "low-energy",
+    "omniscient",
+    "wireless",
+    "modular",
+    "autonomous",
+    "introspective",
+    "distributed",
+    "flexible",
+    "extensible",
+    "amphibious",
+    "metamorphic",
+    "ambimorphic",
+    "permutable",
+    "adaptive",
+    "self-learning",
+    "trainable",
+    "``smart''",
+    "classical",
+    "atomic",
+    "event-driven",
+    "read-write",
+    "encrypted",
+    "highly-available",
+    "secure",
+    "interposable",
+    "cacheable",
+    "perfect",
+    "electronic",
+    "pervasive",
+    "large-scale",
+    "Bayesian",
+    "multimodal",
+    "authenticated",
+    "interactive",
+    "heterogeneous",
+    "homogeneous",
+    "collaborative",
+    "concurrent",
+    "probabilistic",
+    "mobile",
+    "wearable",
+    "semantic",
+    "real-time",
+    "cooperative",
+    "decentralized",
+    "scalable",
+    "certifiable",
+    "robust",
+    "signed",
+    "virtual",
+    "lossless",
+    "psychoacoustic",
+    "empathic",
+    "optimal",
+    "stable",
+    "unstable",
+    "symbiotic",
+    "stochastic",
+    "random",
+    "pseudorandom"
+  ],
+  "SCI_IPF_FIRST": [
+    "LIT_FIRST we motivate the need for SCI_THING_MOD."
+  ],
+  "MED_NUM": [
+    "NONZDIGIT",
+    "NONZDIGITDIGIT",
+    "NONZDIGITDIGITDIGIT"
+  ],
+  "SCI_GENERIC_NOUN": [
+    "SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN",
+    "SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN",
+    "SCI_THING_MOD",
+    "SCI_THING_MOD",
+    "the SCI_ACT"
+  ],
+  "STORAGE_ITEMS": [
+    "STORAGE_ITEMs"
+  ],
+  "GRAPH_LOG": [
+    "set log x 10",
+    "set log y 10",
+    "set log xy 10",
+    "set log x 2",
+    "set log y 2",
+    "set log xy 2",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "LIT_GREAT": [
+    "great",
+    "profound",
+    "tremendous",
+    "limited",
+    "minimal",
+    "improbable"
+  ],
+  "EVAL_FACT": [
+    "EVAL_SYSTEM's IMPACT SCI_A_FACT",
+    "the SCI_MATH_ADV SCI_BUZZWORD_ADJ nature of EVAL_SYSTEM ",
+    "the SCI_MATH_ADV SCI_BUZZWORD_ADJ behavior of SCI_MATH_ADJ SCI_BUZZWORD_NOUN",
+    "SCI_A_FACT"
+  ],
+  "CITE_AUTHOR_LIST!!!": [
+    ""
+  ],
+  "SCI_GOAL_OR_PROBLEM": [
+    "SCI_PROBLEM",
+    "SCI_GOAL"
+  ],
+  "IMPROVEMENT": [
+    "improvement",
+    "degredation",
+    "amplification"
+  ],
+  "MODEL_BODY_P_3": [
+    "\n MODEL_BODY_P_2\n\n MODEL_BODY_P\n\n"
+  ],
+  "SCI_STATUS_ADJ": [
+    "famous",
+    "well-known",
+    "little-known",
+    "acclaimed",
+    "much-touted",
+    "infamous",
+    "foremost",
+    "seminal"
+  ],
+  "LINKED": [
+    "dynamically-linked",
+    "statically-linked"
+  ],
+  "HARDWARE": [
+    "MEMORY",
+    "PROCESSOR",
+    "STORAGE",
+    "NETWORK_BANDWIDTH"
+  ],
+  "NEWDIALABEL\\+": [
+    ""
+  ],
+  "SCI_ACT_A": [
+    "understanding of",
+    "SCI_ADJ unification of SCI_THING and",
+    "SCI_VERBION of",
+    "SCI_VERBION of",
+    "SCI_VERBION of",
+    "SCI_VERBION of",
+    "SCI_VERBION of",
+    "SCI_VERBION of",
+    "SCI_VERBION of",
+    "SCI_VERBION of",
+    "SCI_VERBION of",
+    "SCI_VERBION of",
+    "SCI_VERBION of",
+    "SCI_VERBION of",
+    "SCI_VERBION of",
+    "SCI_VERBION of",
+    "SCI_VERBION of"
+  ],
+  "EVAL_SEC_INTRO_A": [
+    "EVAL_SEC_INTRO_A1 EVAL_SEC_INTRO_A2",
+    "We now discuss our EVALUATION.",
+    "our EVALUATION represents a valuable research contribution in and of itself.",
+    "as we will soon see, the goals of this section are manifold."
+  ],
+  "EVAL_SEC_SOFTWARE_REST": [
+    "EVAL_SEC_SOFTWARE_END",
+    "LIT_MIDDLE_3 EVAL_SEC_SOFTWARE_MOD XXX EVAL_SEC_SOFTWARE_END"
+  ],
+  "STAT_ADJ": [
+    "effective",
+    "mean",
+    "median",
+    "expected",
+    "average",
+    "10th-percentile"
+  ],
+  "MORE": [
+    "more",
+    "less",
+    "even more"
+  ],
+  "RELWORK_INTRO": [
+    "while we know of no other studies on SCI_GENERIC_NOUN, several efforts have been made to SCI_VERB SCI_THING_MOD RELWORK_XXX",
+    "we now compare our SCI_APPROACH to RELATED SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN SCI_APPROACH_PL RELWORK_XXX",
+    "our SCI_APPROACH is related to research into SCI_GENERIC_NOUN, SCI_GENERIC_NOUN, and SCI_GENERIC_NOUN RELWORK_XXX",
+    "the SCI_VERBION of SCI_GENERIC_NOUN has been widely studied RELWORK_XXX",
+    "LIT_ALTHOUGH we are the first to SCI_PRESENT_VERB SCI_GENERIC_NOUN in this light, much RELATED work has been devoted to the SCI_ACT RELWORK_XXX",
+    "SCI_OUR_SYSTEM builds on RELATED work in SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN and SCI_FIELD RELWORK_XXX",
+    "the concept of SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN has been SCI_VERBED before in the literature RELWORK_XXX",
+    "a major source of our inspiration is early work SCI_BY_WHO_SOMETIMES on SCI_GENERIC_NOUN RELWORK_XXX",
+    "a number of RELATED SCI_SYSTEM_PL have SCI_VERBED SCI_GENERIC_NOUN, either for the SCI_ACT RELWORK_CITATION or for the SCI_ACT RELWORK_XXX",
+    "Several SCI_BUZZWORD_ADJ and SCI_BUZZWORD_ADJ SCI_SYSTEM_PL have been proposed in the literature RELWORK_XXX",
+    "RELWORK_MID_X RELWORK_XXX"
+  ],
+  "LATEX_FOOTER": [
+    "\n\\begin{footnotesize}\n\\bibliography{scigenbibfile} \nLATEX_BIBSTYLE\n\\end{footnotesize}\n\n\\end{document}\n\n"
+  ],
+  "MODEL_SEC_LATEX_HEADER": [
+    "\\section{MODEL_SEC_HEADER_T}"
+  ],
+  "GENERIC_LASTNAME": [
+    "Smith",
+    "Johnson",
+    "Williams",
+    "Jones",
+    "Brown",
+    "Davis",
+    "Miller",
+    "Wilson",
+    "Moore",
+    "Taylor",
+    "Anderson",
+    "Thomas",
+    "Jackson",
+    "White",
+    "Harris",
+    "Martin",
+    "Thompson",
+    "Garcia",
+    "Martinez",
+    "Robinson",
+    "Zhao",
+    "Zhou",
+    "Qian",
+    "Wu",
+    "Sun",
+    "Zheng",
+    "Li",
+    "Lee",
+    "Wang",
+    "Sato",
+    "Sasaki",
+    "Suzuki",
+    "Takahashi",
+    "Watanabe",
+    "Kobayashi",
+    "Maruyama",
+    "Ito",
+    "Raman",
+    "Bhabha",
+    "Bose",
+    "Gupta",
+    "Nehru",
+    "Shastri",
+    "Kumar"
+  ],
+  "SCI_FAIR": [
+    "ill-conceived",
+    "ill-conceived",
+    "ill-conceived",
+    "astute",
+    "fair",
+    "fair",
+    "fair",
+    "unfair",
+    "idiotic",
+    "unreasonable"
+  ],
+  "SCI_OVERALL_THESIS_THING": [
+    "new SCI_BUZZWORD_ADJ SCI_BUZZWORD_NOUN",
+    "a novel SCI_SYSTEM for the SCI_ACT",
+    "an analysis of SCI_THING_MOD",
+    "a SCI_BUZZWORD_ADJ tool for SCI_VERBING SCI_THING_MOD",
+    "a SCI_SYSTEM for SCI_GENERIC_NOUN"
+  ],
+  "NODE_LABEL_IP": [
+    "\"IP_PART.IP_PART.IP_PART.IP_PART\", IP_FONT_SIZE",
+    "\"IP_PART.IP_PART.IP_PART.IP_PART\", IP_FONT_SIZE",
+    "\"IP_PART.IP_PART.IP_PART.IP_PART\", IP_FONT_SIZE",
+    "\"IP_PART.IP_PART.IP_PART.IP_PART\", IP_FONT_SIZE",
+    "\"IP_PART.IP_PART.IP_PART.IP_PART\", IP_FONT_SIZE",
+    "\"IP_PART.IP_PART.IP_PART.0/24\", IP_FONT_SIZE",
+    "\"IP_PART.IP_PART.0.0/16\", IP_FONT_SIZE",
+    "\"IP_PART.0.0.0/8\", IP_FONT_SIZE",
+    "\"IP_PART.IP_PART.IP_PART.IP_PART:IP_PORT\", IP_FONT_SIZE"
+  ],
+  "SCI_IMPL": [
+    "\nIMPL_SEC_LATEX_HEADER\n\nIMPL_INTRO_P\n\n"
+  ],
+  "SCC_EXPR": [
+    "n",
+    "n",
+    "n",
+    "n",
+    "n",
+    "n",
+    "n",
+    "n",
+    "n",
+    "n",
+    "n",
+    "n",
+    "n",
+    "n",
+    "n",
+    "\\log SCC_EXPR",
+    "\\log SCC_EXPR",
+    "\\log SCC_EXPR",
+    "\\log SCC_EXPR",
+    "\\log SCC_EXPR",
+    "\\log SCC_EXPR",
+    "\\log SCC_EXPR",
+    "\\log SCC_EXPR",
+    "\\log SCC_EXPR",
+    "\\log SCC_EXPR",
+    "\\log SCC_EXPR",
+    "( SCC_EXPR + SCC_EXPR )",
+    "SCC_EXPR + SCC_EXPR ",
+    "{SCC_EXPR_BASE} ^ { SCC_EXPR }",
+    "\\frac{SCC_EXPR}{SCC_EXPR}",
+    "\\sqrt{SCC_EXPR}",
+    "SCC_EXPR  !"
+  ],
+  "RESOURCE_STARVATION": [
+    "resource starvation",
+    "LAN congestion",
+    "access-link congestion",
+    "WAN congestion",
+    "the black smoke that results from hardware failure",
+    "paging ",
+    "NETWORK_TYPE congestion",
+    "noticable performance bottlenecks",
+    "unusual heat dissipation"
+  ],
+  "MEMORY_TYPE": [
+    "RAM",
+    "ROM",
+    "flash-memory",
+    "NV-RAM"
+  ],
+  "HARDWARE_ITEMS": [
+    "MEMORY_ITEMS",
+    "PROCESSOR_ITEMS",
+    "STORAGE_ITEMS",
+    "EXPANSION_ITEMS"
+  ],
+  "SCI_PERSON": [
+    "chemist",
+    "physicist",
+    "information theorist",
+    "computational biologist",
+    "system administrator",
+    "gifted hacker",
+    "convicted hacker",
+    "mad scientist",
+    "hardware designer",
+    "complexity theorist",
+    "algorithmist",
+    "analyst"
+  ],
+  "STORAGE_ITEM": [
+    "STORAGE_SIZE STORAGE_TYPE",
+    "STORAGE_TYPE"
+  ],
+  "SCI_SYSTEM_ACTION": [
+    "SCI_SYS_VERBS SCI_GENERIC_NOUN",
+    "SCI_SYS_VERBS SCI_GENERIC_NOUN",
+    "SCI_SYS_VERBS SCI_GENERIC_NOUN",
+    "SCI_PROOF_PROP"
+  ],
+  "EVALUATION": [
+    "evaluation",
+    "performance analysis",
+    "evaluation METHODOLOGY"
+  ],
+  "SCI_INTRO_A3": [
+    "LIT_MIDDLE_MAYBE SCI_INTRO_A2"
+  ],
+  "LATEX_DIA_LABEL": [
+    "dia:labelNEWDIALABEL+"
+  ],
+  "LATEX_AUTHORS": [
+    "\\author{SCIAUTHORS}"
+  ],
+  "RELWORK_BODY_P_3": [
+    "\n RELWORK_BODY_P_2\n\n RELWORK_BODY_P\n\n"
+  ],
+  "LIT_CONCLUSION": [
+    "thus",
+    "thusly",
+    "therefore",
+    "clearly",
+    "obviously",
+    "as a result"
+  ],
+  "CONCL_BODY_P_FEW": [
+    "CONCL_P",
+    "CONCL_P",
+    "CONCL_P",
+    "\n CONCL_P\n\n CONCL_P\n\n"
+  ],
+  "SCI_BY_WHO_SOMETIMES": [
+    "",
+    "CITATION",
+    "by SCI_BY_WHO",
+    "by SCI_BY_WHO",
+    "by SCI_BY_WHO",
+    "by SCI_BY_WHO",
+    "by SCI_BY_WHO",
+    "by SCI_BY_WHO CITATION",
+    "by SCI_BY_WHO CITATION",
+    "by SCI_BY_WHO CITATION",
+    "by SCI_BY_WHO CITATION",
+    "by SCI_BY_WHO CITATION"
+  ],
+  "LATEX_FIGURE": [
+    "\n\\begin{figure}[t]\n\\centerline{\\epsfig{figure=LATEX_FIG_FILENAME,width=3in}}\n\\caption{\\small{\nSCI_GRAPH_CAPTION\n}}\n\\label{LATEX_FIG_LABEL}\n\\end{figure}\n\n"
+  ],
+  "EVAL_GUTS_ANALYSIS_1": [
+    "EVAL_GUTS_ANALYSIS_1_A XXX EVAL_GUTS_ANALYSIS"
+  ],
+  "SCI_ASSUME": [
+    "assume",
+    "assume",
+    "assume",
+    "hypothesize",
+    "postulate",
+    "estimate",
+    "believe"
+  ],
+  "RELWORK_CONCL": [
+    "in general, SCI_OUR_SYSTEM outperformed all RELATED SCI_SYSTEM_PL in this area RELWORK_XXX",
+    "LIT_CONCLUSION, the class of SCI_SYSTEM_PL enabled by SCI_OUR_SYSTEM is fundamentally different from RELATED SCI_APPROACH_PL RELWORK_XXX",
+    "LIT_LAST note that SCI_SYSTEM_PROP; LIT_CONCLUSION, SCI_OUR_SYSTEM SCI_PROOF_PROP RELWORK_XXX",
+    "LIT_REVERSAL, these SCI_APPROACH_PL are entirely orthogonal to our efforts.",
+    "we plan to adopt many of the ideas from this RELATED work in future versions of SCI_OUR_SYSTEM.",
+    "all of these SCI_APPROACH_PL conflict with our assumption that SCI_GENERIC_NOUN and SCI_GENERIC_NOUN are SCI_ADJ RELWORK_XXX",
+    "our SCI_APPROACH to SCI_GENERIC_NOUN differs from that of SCI_BY_WHO RELWORK_CITATION as well RELWORK_XXX",
+    "LIT_ALTHOUGH we have nothing against the RELATED SCI_APPROACH SCI_BY_WHO_SOMETIMES, we do not believe that SCI_APPROACH is applicable to SCI_FIELD RELWORK_XXX",
+    "these SCI_SYSTEM_PL typically require that SCI_OVERALL_THESIS_PROVE RELWORK_CITATION, and we SCI_PROVE_VERBED SCI_IN_THIS_PAPER that this, indeed, is the case.",
+    "SCI_B_LEADIN_C the SCI_SYSTEM of SCI_BY_WHO RELWORK_CITATION is a SCI_ADJ choice for SCI_GENERIC_NOUN RELWORK_XXX",
+    "LIT_CONCLUSION, despite substantial work in this area, our SCI_APPROACH is SCI_ADV the SCI_SYSTEM of choice among SCI_PEOPLE RELWORK_XXX",
+    "RELWORK_MID_X RELWORK_XXX"
+  ],
+  "SCI_IPF_MID": [
+    "LIT_MIDDLE_TWO SCI_IPF_MID_B XXX",
+    "LIT_MIDDLE SCI_IPF_MID_B XXX LIT_MIDDLE_3 SCI_IPF_MID_B XXX",
+    "LIT_MIDDLE_TWO SCI_IPF_MID_B XXX LIT_MIDDLE_3 SCI_IPF_MID_B XXX LIT_MIDDLE SCI_IPF_MID_B XXX"
+  ],
+  "SCI_MODEL": [
+    "\n  MODEL_SEC_LATEX_HEADER\n\n  MODEL_INTRO_P\n\n  LATEX_DIAGRAM\n\n  MODEL_BODY_P_MANY\n\n"
+  ],
+  "SCC_EXPR_EXP": [
+    "2",
+    "3",
+    "\\pi",
+    "e",
+    "SCC_EXPR",
+    "n"
+  ],
+  "SCI_INTRO_GENERIC_FIRST": [
+    "SCI_INTRO_GENERIC_MID",
+    "another SCI_ADJ SCI_GOAL_OR_PROBLEM in this area is the SCI_VERBION of SCI_GENERIC_NOUN XXX",
+    "a SCI_ADJ SCI_APPROACH to SCI_SOLVE_CLAUSE is the SCI_ACT XXX",
+    "motivated by these observations, SCI_GENERIC_NOUN and SCI_GENERIC_NOUN have been extensively SCI_VERBED by SCI_PEOPLE XXX",
+    "SCI_PEOPLE LIT_OFTEN SCI_VERB SCI_GENERIC_NOUN in the place of SCI_GENERIC_NOUN XXX",
+    "SCI_BUZZWORD_ADJ SCI_SYSTEM_PL are particularly SCI_ADJ when it comes to SCI_GENERIC_NOUN XXX",
+    "To our knowledge, our work SCI_IN_THIS_PAPER marks the first SCI_SYSTEM SCI_VERBED specifically for SCI_GENERIC_NOUN XXX",
+    "LIT_REVERSAL, this SCI_APPROACH is fraught with difficulty, largely due to SCI_GENERIC_NOUN XXX",
+    "we question the need for SCI_GENERIC_NOUN XXX"
+  ],
+  "LATEX_DOCCLASS": [
+    "\\documentclass[LATEX_FONTSIZE, twocolumn]{article}",
+    "\\documentclass[LATEX_FONTSIZE, twocolumn]{article}",
+    "\\documentclass[LATEX_FONTSIZE, twocolumn]{article}",
+    "\\documentclass[conference]{IEEEtran}"
+  ],
+  "EVAL_SEC_INTRO_B": [
+    "the reason for this is that studies have shown that EVAL_MEASUREMENT is roughly PERCENTAGE higher than we might expect CITATION.",
+    "our logic follows a new model: performance MATTERS only as long as CONSTRAINT_TAKES a back seat to CONSTRAINT_OR_MEASUREMENT XXX",
+    "TAKE_NOTE_THAT we have intentionally neglected to SCI_VERB PROP_OR_MEASUREMENT XXX",
+    "TAKE_NOTE_THAT we have decided not to SCI_VERB PROP_OR_MEASUREMENT XXX",
+    "only with the benefit of our system's PROP_OR_MEASUREMENT_2 might we optimize for CONSTRAINT_TYPE at the cost of CONSTRAINT_OR_MEASUREMENT.",
+    "we are grateful for SCI_MATH_ADJ SCI_THING_P; without them, we could not optimize for CONSTRAINT_TYPE simultaneously with CONSTRAINT_OR_MEASUREMENT."
+  ],
+  "INSTRUMENTAL": [
+    "instrumental",
+    "crucial",
+    "essential"
+  ],
+  "SCI_PROVE_VERBED": [
+    "demonstrated",
+    "argued",
+    "proved",
+    "showed",
+    "disproved",
+    "validated",
+    "verified",
+    "confirmed",
+    "disconfirmed"
+  ],
+  "RELWORK_XXX": [
+    "RELWORK_CITATION.",
+    "RELWORK_CITATION.",
+    "RELWORK_CITATION. RELWORK_FILLER"
+  ],
+  "NODENUM\\+": [
+    ""
+  ],
+  "IP_PART": [
+    "DIGIT",
+    "NONZDIGIT",
+    "NONZDIGIT",
+    "NONZDIGIT",
+    "NONZDIGIT",
+    "1DIGITDIGIT",
+    "1DIGITDIGIT",
+    "1DIGITDIGIT",
+    "1DIGITDIGIT",
+    "20DIGIT",
+    "21DIGIT",
+    "22DIGIT",
+    "23DIGIT",
+    "23DIGIT",
+    "24DIGIT",
+    "250",
+    "251",
+    "252",
+    "253",
+    "254",
+    "255"
+  ],
+  "RELWORK_BODY_P_2": [
+    "\n RELWORK_BODY_P\n\n RELWORK_BODY_P\n\n"
+  ],
+  "EVAL_MOD_AMOUNT": [
+    "more",
+    "some"
+  ],
+  "EDGES_13": [
+    "\n  EDGE;\n  EDGES_12\n\n"
+  ],
+  "SCIPAPER_LATEX": [
+    "\n LATEX_HEADER\n\n SCI_ABSTRACT \n\n SCI_INTRO\n\n SCI_MODEL\n\n SCI_IMPL\n\n SCI_EVAL\n\n SCI_RELWORK\n\n SCI_CONCL\n\n LATEX_FOOTER\n\n",
+    "\n LATEX_HEADER\n\n SCI_ABSTRACT \n\n SCI_INTRO\n\n SCI_RELWORK\n\n SCI_MODEL\n\n SCI_IMPL\n\n SCI_EVAL\n\n SCI_CONCL\n\n LATEX_FOOTER\n\n"
+  ],
+  "SCI_PRESENT_VERB": [
+    "present",
+    "introduce",
+    "propose",
+    "motivate",
+    "construct",
+    "describe",
+    "explore"
+  ],
+  "LATEX_TITLE": [
+    "\\title{SCI_TITLE}"
+  ],
+  "SCI_DRAWBACK": [
+    "drawback",
+    "disadvantage",
+    "shortcoming",
+    "flaw"
+  ],
+  "LATEX_FONTCLASS": [
+    "\\usepackage{times}",
+    "\\usepackage{times}",
+    "\\usepackage{helvet}",
+    "\\usepackage{palatino}",
+    ""
+  ],
+  "RELWORK_BODY_P_FEW": [
+    "RELWORK_BODY_P",
+    "RELWORK_BODY_P",
+    "RELWORK_BODY_P",
+    "RELWORK_BODY_P_2"
+  ],
+  "EVAL_ITEMS_UM_P": [
+    "EXPANSION_ITEMs",
+    "SCI_THING_P",
+    "OLD_MACHINEs"
+  ],
+  "PROCESSOR": [
+    "EVAL_MOD_AMOUNT PROCESSOR_TYPEs",
+    "EVAL_MOD_N PROCESSOR_TYPEs"
+  ],
+  "NUM_NODES": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
+  "SCI_VERBING_PL": [
+    "interacting",
+    "collaborating",
+    "interfering",
+    "connecting",
+    "agreeing",
+    "colluding",
+    "cooperating",
+    "synchronizing"
+  ],
+  "EXP_WHERE": [
+    "EXP_WHERE_RARE",
+    "EXP_WHERE_CMN",
+    "EXP_WHERE_CMN",
+    "EXP_WHERE_CMN",
+    "EXP_WHERE_CMN",
+    "EXP_WHERE_CMN",
+    "EXP_WHERE_CMN",
+    "EXP_WHERE_CMN",
+    "EXP_WHERE_CMN"
+  ],
+  "EDGES_5": [
+    "\n  EDGE;\n  EDGES_4\n\n"
+  ],
+  "EXP_WHERE_RARE": [
+    "decommissioned OLD_MACHINEs",
+    "XBox network",
+    "human test subjects"
+  ],
+  "RELWORK_FILLER": [
+    "LIT_CONCLUSION, comparisons to this work are SCI_FAIR.",
+    "LIT_REVERSAL, without concrete evidence, there is no reason to believe these claims.",
+    "SCI_OUR_SYSTEM represents a significant advance above this work.",
+    "it remains to be seen how valuable this research is to the SCI_FIELD community.",
+    "this SCI_APPROACH is MORE SCI_EXPENSIVE than ours.",
+    "without using SCI_GENERIC_NOUN, it is hard to imagine that SCI_OVERALL_THESIS_PROVE.",
+    "our design avoids this overhead.",
+    "a comprehensive survey CITATION is available in this space.",
+    "this work follows a long line of RELATED SCI_SYSTEM_PL, all of which have failed RELWORK_CITATION.",
+    "this is arguably SCI_FAIR.",
+    "the only other noteworthy work in this area suffers from SCI_FAIR assumptions about SCI_GENERIC_NOUN RELWORK_CITATION.",
+    "SCI_OUR_SYSTEM also SCI_SYSTEM_ACTION, but without all the unnecssary complexity.",
+    "CONSTRAINT_TYPE aside, SCI_OUR_SYSTEM SCI_VERBS MORE accurately.",
+    "we believe there is room for both schools of thought within the field of SCI_FIELD.",
+    "LIT_ALTHOUGH this work was published before ours, we came up with the SCI_APPROACH first but could not publish it until now due to red tape. ",
+    "SCI_IN_THIS_PAPER, we SCI_PROBLEM_SOLVED all of the SCI_PROBLEM_PL inherent in the RELATED work.",
+    "LIT_REVERSAL, the complexity of their SCI_APPROACH grows SCI_GROWTH_ADV as SCI_GENERIC_NOUN grows.",
+    "LIT_CONCLUSION, if PERFORMANCE is a concern, SCI_OUR_SYSTEM has a clear advantage."
+  ],
+  "LIT_MIDDLE_3": [
+    "",
+    "",
+    "",
+    "",
+    "Third,",
+    "LIT_MIDDLE",
+    "LIT_MIDDLE",
+    "LIT_MIDDLE"
+  ],
+  "MODEL_MID": [
+    "LIT_MIDDLE_MAYBE MODEL_MID_X MODEL_XXX"
+  ],
+  "RELWORK_MID_X": [
+    "LIT_ALTHOUGH SCI_BY_WHO also SCI_PRESENT_VERBED this SCI_APPROACH, we SCI_VERBED it independently and simultaneously",
+    "SCI_BY_WHO RELWORK_CITATION and SCI_BY_WHO RELWORK_CITATION SCI_PRESENT_VERBED the first known instance of SCI_GENERIC_NOUN",
+    "a recent unpublished undergraduate dissertation RELWORK_CITATION SCI_PRESENT_VERBED a similar idea for SCI_GENERIC_NOUN",
+    "recent work SCI_BY_WHO_SOMETIMES suggests a SCI_SYSTEM for SCI_SYS_VERBING SCI_GENERIC_NOUN, but does not offer an implementation",
+    "SCI_BY_WHO SCI_PRESENT_VERBED several SCI_BUZZWORD_ADJ SCI_APPROACH_PL RELWORK_CITATION, and reported that they have LIT_GREAT IMPACT SCI_GENERIC_NOUN",
+    "we had our SCI_APPROACH in mind before SCI_BY_WHO published the recent SCI_STATUS_ADJ work on SCI_GENERIC_NOUN",
+    "SCI_OVERALL_THESIS_THING RELWORK_CITATION proposed by SCI_BY_WHO fails to address several key issues that SCI_OUR_SYSTEM does SCI_PROBLEM_SOLVE",
+    "the SCI_STATUS_ADJ SCI_SYSTEM SCI_BY_WHO_SOMETIMES does not SCI_SYS_VERB SCI_GENERIC_NOUN as well as our SCI_APPROACH",
+    "unlike many RELATED SCI_APPROACH_PL RELWORK_CITATION, we do not attempt to SCI_SYS_VERB or SCI_SYS_VERB SCI_GENERIC_NOUN",
+    "instead of SCI_VERBING SCI_GENERIC_NOUN RELWORK_CITATION, we SCI_SOLVE_CLAUSE simply by SCI_VERBING SCI_GENERIC_NOUN",
+    "the choice of SCI_THING_MOD in CITATION differs from ours in that we SCI_VERB only SCI_ADJ SCI_BUZZWORD_NOUN in SCI_OUR_SYSTEM",
+    "SCI_BY_WHO RELWORK_CITATION originally articulated the need for SCI_GENERIC_NOUN",
+    "the original SCI_APPROACH to this SCI_PROBLEM SCI_BY_WHO_SOMETIMES was SCI_REACTION; LIT_REVERSAL, WHAT did not completely SCI_SOLVE_CLAUSE",
+    "SCI_BY_WHO RELWORK_CITATION suggested a scheme for SCI_VERBING SCI_GENERIC_NOUN, but did not fully realize the implications of SCI_GENERIC_NOUN at the time",
+    "SCI_OUR_SYSTEM is broadly related to work in the field of SCI_FIELD SCI_BY_WHO_SOMETIMES, but we view it from a new perspective: SCI_GENERIC_NOUN",
+    "SCI_BY_WHO RELWORK_CITATION developed a similar SCI_SYSTEM, LIT_REVERSAL we SCI_PROVE_VERBED that SCI_OUR_SYSTEM SCI_PROOF_PROP ",
+    "a litany of RELATED work supports our use of SCI_GENERIC_NOUN"
+  ],
+  "SIMILAR": [
+    "related",
+    "similar",
+    "entirely different",
+    "orthogonal"
+  ],
+  "EVAL_SEC_SUBEHAD_1": [
+    "System Setup",
+    "Experimental Setup"
+  ],
+  "SCI_IPF_MID_B": [
+    "SCI_IPF_MID_REL",
+    "we SCI_PROVE_VERB the SCI_ACT ",
+    "to SCI_SOLVE_CLAUSE, SCI_GENERIC_THESIS "
+  ],
+  "SMOOTHER": [
+    "smoother",
+    "less discretized",
+    "more jagged",
+    "less jagged"
+  ],
+  "EDGES_3": [
+    "\n  EDGE;\n  EDGES_2\n\n"
+  ],
+  "EVAL_GUTS_ANALYSIS_3_A": [
+    "Lastly, we discuss WHICH_EXPERIMENTS"
+  ],
+  "NEWDIALABEL\\#": [
+    ""
+  ],
+  "SCI_TITLE_IMPACT": [
+    "impact of",
+    "effect of",
+    "influence of"
+  ],
+  "CITE_CONF_TYPE": [
+    "Workshop",
+    "Conference",
+    "Symposium"
+  ],
+  "EDGES_9": [
+    "\n  EDGE;\n  EDGES_8\n\n"
+  ],
+  "BACK_SEC_LATEX_HEADER": [
+    "\\section{BACK_SEC_HEADER_T}"
+  ],
+  "EXP_FIG_REF": [
+    "as shown in EXP_FIG",
+    ""
+  ],
+  "SCI_DIAGRAM_VERBS": [
+    "details",
+    "diagrams",
+    "plots",
+    "shows",
+    "depicts"
+  ],
+  "EVAL_ACTION": [
+    "EVAL_WHO EVAL_VERBED a EXP to EVAL_WHY"
+  ],
+  "FGH_SUB": [
+    "X|Y,Z",
+    "ij",
+    "Y",
+    "*"
+  ],
+  "SCI_VERBED": [
+    "explored",
+    "enabled",
+    "harnessed",
+    "developed",
+    "refined",
+    "investigated",
+    "analyzed",
+    "improved",
+    "emulated",
+    "simulated",
+    "constructed",
+    "evaluated",
+    "deployed",
+    "synthesized",
+    "visualized",
+    "studied"
+  ],
+  "LIT_LAST_MAYBE": [
+    "LIT_LAST",
+    ""
+  ],
+  "UNDIR_LAYOUT": [
+    "neato",
+    "twopi",
+    "circo",
+    "fdp"
+  ],
+  "MODEL_BODY_P_MANY": [
+    "MODEL_BODY_P",
+    "MODEL_BODY_P_2",
+    "MODEL_BODY_P_2",
+    "MODEL_BODY_P_2"
+  ],
+  "GRAPH_TYPE_CURVE1": [
+    "\n graphtype curve=1\n curvelabel notitle\n\n"
+  ],
+  "MODEL_MID_X": [
+    "SCI_OUR_SYSTEM does not require such a SCI_ADJ SCI_SYS_VERBION to run correctly, but it doesn't hurt",
+    "we SCI_ASSUME that SCI_OVERALL_THESIS_PROVE",
+    "consider the early SCI_MODEL_TYPE by SCI_BY_WHO; our SCI_MODEL_TYPE is similar, but will actually SCI_SOLVE_CLAUSE",
+    "any SCI_ADJ SCI_VERBION of SCI_GENERIC_NOUN will clearly require that SCI_OVERALL_THESIS_PROVE; SCI_OUR_SYSTEM is no different",
+    "we SCI_ASSUME that SCI_GENERIC_NOUN can SCI_SYS_VERB SCI_GENERIC_NOUN without needing to SCI_SYS_VERB SCI_GENERIC_NOUN",
+    "despite the results by SCI_BY_WHO, we can SCI_PROVE_VERB that SCI_OVERALL_THESIS_PROVE",
+    "we consider a SCI_SYSTEM consisting of $n$ SCI_THING_P",
+    "we SCI_ASSUME that each component of SCI_OUR_SYSTEM SCI_SYSTEM_ACTION, independent of all other components",
+    "the SCI_MODEL_TYPE for SCI_OUR_SYSTEM consists of four independent components: SCI_GENERIC_NOUN, SCI_GENERIC_NOUN, SCI_GENERIC_NOUN, and SCI_GENERIC_NOUN",
+    "rather than SCI_SYS_VERBING SCI_GENERIC_NOUN, SCI_OUR_SYSTEM chooses to SCI_SYS_VERB SCI_GENERIC_NOUN",
+    "we EVAL_VERBED a SCI_TRACE SCI_PROVE_VERBING that our SCI_MODEL_TYPE MODEL_GROUNDING",
+    "Figure~\\ref{LATEX_DIA_LABEL_REF} SCI_DIAGRAM_VERBS SCI_DIAGRAM_ABOUT",
+    "we show SCI_DIAGRAM_ABOUT in Figure~\\ref{LATEX_DIA_LABEL_REF}"
+  ],
+  "NUM": [
+    "2",
+    "3",
+    "10",
+    "($$/1000.0)"
+  ],
+  "LANGUAGE_MOD": [
+    "enhanced",
+    "embedded",
+    "JIT-compiled",
+    "ANSI"
+  ],
+  "SCI_INTRO_PARAGRAPH_A": [
+    "SCI_INTRO_A SCI_INTRO_A2 SCI_INTRO_A3 SCI_INTRO_CLOSING"
+  ],
+  "SCI_ABSTRACT_HEADER": [
+    "\\section*{Abstract}"
+  ],
+  "GRAPH_TYPE_CDF1": [
+    "\n graphtype cdf=1\n curvelabel notitle\n set ylabel \"CDF\"\n\n"
+  ],
+  "SCI_FIELD": [
+    "SCI_BUZZWORD_ADJ SCI_FIELD",
+    "SCI_MATH_ADJ SCI_FIELD",
+    "hardware and architecture",
+    "networking",
+    "operating systems",
+    "programming languages",
+    "theory",
+    "algorithms",
+    "complexity theory",
+    "artificial intelligence",
+    "machine learning",
+    "robotics",
+    "electrical engineering",
+    "e-voting technology",
+    "cryptography",
+    "cryptoanalysis",
+    "cyberinformatics",
+    "steganography",
+    "software engineering"
+  ]
+}

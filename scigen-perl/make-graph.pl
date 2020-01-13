@@ -21,6 +21,7 @@ use strict;
 use scigen;
 use Getopt::Long;
 
+my $rule_dir = "../rules/rules-original";
 my $filename;
 my $seed;
 my $color = "";
@@ -31,7 +32,7 @@ sub usage {
     
 $0 [options]
   Options:
-
+  console.log(rules['CITE_LABEL_GIVEN'])
     --help                    Display this help message
     --seed <seed>             Seed the prng with this
     --file <file>             Save the postscript in this file
@@ -88,7 +89,7 @@ sub add_noise {
 
 }
 
-my $fh = new IO::File ("<scirules.in");
+my $fh = new IO::File ("<$rule_dir/scirules.in");
 my $dat = {};
 my $RE = undef;
 scigen::read_rules ($fh, $dat, \$RE, 0);
@@ -158,7 +159,7 @@ if( $type eq "bargraph" ) {
 @x = sort { $a <=> $b } @x;
 my @y = ();
 
-my $funcfh = new IO::File ("<functions.in");
+my $funcfh = new IO::File ("<$rule_dir/functions.in");
 my $funcdat = {};
 my $funcRE = undef;
 scigen::read_rules ($funcfh, $funcdat, \$funcRE, 0);

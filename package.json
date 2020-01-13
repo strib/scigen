@@ -1,0 +1,22 @@
+{
+  "name": "scigen",
+  "version": "0.1.0",
+  "description": "Create scientific papers on the fly: SciGen brought to the browser and to Node.",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidpomerenke/scigen.git"
+  },
+  "author": "",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/davidpomerenke/scigen/issues"
+  },
+  "homepage": "https://github.com/davidpomerenke/scigen#readme",
+  "dependencies": {
+    "title-case": "^3.0.2"
+  }
+}

@@ -21,6 +21,7 @@ use strict;
 use scigen;
 use Getopt::Long;
 
+my $rule_dir = "../rules/rules-original";
 my $tmp_dir = "/tmp";
 my $tmp_pre = "/$tmp_dir/scimakediagram.$$";
 my $viz_file = "$tmp_pre.viz";
@@ -89,7 +90,7 @@ my %edges = ("digraph" => "->",
 my $dat = {};
 my $RE = undef;
 
-my $fh = new IO::File ("<graphviz.in");
+my $fh = new IO::File ("<$rule_dir/graphviz.in");
 scigen::read_rules ($fh, $dat, \$RE, 0);
 
 my $num_nodes = scigen::generate ($dat, "NUM_NODES", $RE, 0, 0);

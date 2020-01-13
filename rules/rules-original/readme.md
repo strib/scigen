@@ -1,0 +1,3 @@
+This directory contains the original rule files of [the original SCIgen project](https://github.com/strib/scigen).
+
+These files have a very legible syntax, so I decided it is proper to keep them. They can be compiled to JSON files, which are easier to use in JavaScript, by running `perl compile-rules.pl` from the folder above. For the compilation, the original (Perl) SCIgen module is used, which is the reason why it is included (slightly modified) in this repository.

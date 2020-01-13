@@ -23,6 +23,8 @@ use Data::Dumper;
 use Autoformat;
 use vars qw($SCIGEND_PORT);
 
+my $rule_dir = "../rules/rules-original";
+
 #### daemon settings ####
 $SCIGEND_PORT = 4724;
 
@@ -70,7 +72,7 @@ sub read_rules {
 	    if( $debug > 0 ) {
 		print "Opening included file $file\n";
 	    }
-	    my $inc_fh = new IO::File ("<$file");
+	    my $inc_fh = new IO::File ("<$rule_dir/$file");
 	    if( !defined $inc_fh ) {
 		die( "Couldn't open included file $file" );
 	    }

@@ -23,6 +23,7 @@ use IO::File;
 use Getopt::Long;
 use IO::Socket;
 
+my $rule_dir = "../rules/rules-original";
 my $tmp_dir = "/tmp/scitmp.$$";
 my $tmp_pre = "$tmp_dir/scimakelatex.";
 my $tex_prefix = "scimakelatex.$$";
@@ -31,7 +32,7 @@ my $dvi_file = "$tmp_pre$$.dvi";
 my $ps_file = "$tmp_pre$$.ps";
 my $pdf_file = "$tmp_pre$$.pdf";
 my $bib_file = "$tmp_dir/scigenbibfile.bib";
-my $class_files = "IEEEtran.cls IEEE.bst";
+my $class_files = "resources/IEEEtran.cls IEEE.bst";
 my @authors;
 my $seed;
 my $remote = 0;
@@ -108,10 +109,10 @@ if( defined $options{"sysname"} ) {
 my $tex_fh; 
 my $start_rule;
 if( defined $options{"talk"} ) {
-    $tex_fh = new IO::File ("<talkrules.in");
+    $tex_fh = new IO::File ("<$rule_dir/talkrules.in");
     $start_rule = "SCITALK_LATEX";
 } else {
-    $tex_fh = new IO::File ("<scirules.in");
+    $tex_fh = new IO::File ("<$rule_dir/scirules.in");
     $start_rule = "SCIPAPER_LATEX";
 }
 my @a = ($sysname);
@@ -301,7 +302,7 @@ sub get_system_name {
     }
 
     if( !defined $name_RE ) {
-	my $fh = new IO::File ("<system_names.in");
+	my $fh = new IO::File ("<$rule_dir/system_names.in");
         scigen::read_rules ($fh, $name_dat, \$name_RE, 0);
     }
 

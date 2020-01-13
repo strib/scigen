@@ -21,6 +21,8 @@ use strict;
 use IO::Socket;
 use scigen;
 
+my $rule_dir = "../rules/rules-original";
+
 print "about to use port $scigen::SCIGEND_PORT\n";
 my $server = IO::Socket::INET->new( Proto => 'tcp', 
 				    LocalPort => $scigen::SCIGEND_PORT,
@@ -61,10 +63,10 @@ while(1) {
 
 sub initialize {
 
-    my $fh = new IO::File( "<system_names.in" );
+    my $fh = new IO::File( "<$rule_dir/system_names.in" );
     &scigen::read_rules( $fh, $name_dat, \$name_RE, 0 ); 
 
-    $fh = new IO::File( "<scirules.in" );
+    $fh = new IO::File( "<$rule_dir/scirules.in" );
     &scigen::read_rules( $fh, $tex_dat, \$tex_RE, 0 );
 
 }

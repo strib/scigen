@@ -21,6 +21,7 @@ use strict;
 use scigen;
 use Getopt::Long;
 
+my $rule_dir = "../rules/rules-original";
 my $tmp_dir = "/tmp";
 my $tmp_pre = "/$tmp_dir/scimaketalkfig.$$";
 my $svg_file = "$tmp_pre.svg";
@@ -84,7 +85,7 @@ if( defined $filename ) {
 my $dat = {};
 my $RE = undef;
 
-my $fh = new IO::File( "<svg_figures.in" );
+my $fh = new IO::File( "<$rule_dir/svg_figures.in" );
 scigen::read_rules( $fh, $dat, \$RE, 0 );
 
 my $type = "network";
