@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/davidpomerenke/scigen/issues"
   },
-  "homepage": "https://github.com/davidpomerenke/scigen#readme"
+  "homepage": "https://github.com/davidpomerenke/scigen#readme",
+  "dependencies": {
+    "title-case": "^3.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
 }

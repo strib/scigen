@@ -1,6 +1,6 @@
-import titleCase from './resources/title-case.mjs'
-import scirules from './rules/rules-compiled/scirules.json'
-import systemNames from './rules/rules-compiled/system_names.json'
+import titleCase from 'title-case'
+import scirules from '../rules/rules-compiled/scirules.json'
+import systemNames from '../rules/rules-compiled/system_names.json'
 
 export const scigen = authors => {
   const generate = (rules, start) => {
