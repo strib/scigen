@@ -1,4 +1,4 @@
-import titleCase from 'title-case'
+import { titleCase } from 'title-case'
 import scirules from '../rules/rules-compiled/scirules.json'
 import systemNames from '../rules/rules-compiled/system_names.json'
 
@@ -65,7 +65,7 @@ export const scigen = authors => {
           line = line.replace(/\ba\s+([aeiou])/gi, '$1')
           const title = line.match(/(\\(((sub)?section)|(slideheading)|(title))\*?)\{(.*)\}/)
           if (title) {
-            line = title[1] + '{' + titleCase.titleCase(title[7]) + '}'
+            line = title[1] + '{' + titleCase(title[7]) + '}'
           } else {
             line = line.replace(/^\s*[a-z]/, l => l.toUpperCase())
             line = line.replace(/(?=\.\s+)[a-z]/g, l => l.toUpperCase())
@@ -157,4 +157,4 @@ export const scigen = authors => {
   }
 }
 
-// console.log(Object.keys(scigen(['Albert Einstein', 'Jürgen Habermas']).files))
+console.log(scigen(['Albert Einstein', 'Jürgen Habermas']).files['paper.tex'])

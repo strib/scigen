@@ -1,3 +1,3 @@
-import { scigen } from '../src/index.mjs'
+import { scigen } from '../src/index.js'
 
 window.scigen = scigen
