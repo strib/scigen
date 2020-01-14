@@ -1,18 +1,9 @@
-import fs from 'fs'
-import titleCase from 'title-case'
+import titleCase from './resources/title-case.mjs'
+import scirules from './rules/rules-compiled/scirules.json'
+import systemNames from './rules/rules-compiled/system_names.json'
 
 export const scigen = authors => {
-  const ruleDir = 'rules/rules-compiled/'
-
-  const generate = (ruleFile, start, metadata = {}) => {
-    const rules = {
-      ...metadata,
-      ...JSON.parse(
-        fs
-          .readFileSync(ruleFile)
-          .toString())
-    }
-
+  const generate = (rules, start) => {
     const rx = new RegExp(
       '^(' +
       Object
@@ -77,7 +68,7 @@ export const scigen = authors => {
             line = title[1] + '{' + titleCase.titleCase(title[7]) + '}'
           } else {
             line = line.replace(/^\s*[a-z]/, l => l.toUpperCase())
-            line = line.replace(/(?<=\.\s+)[a-z]/g, l => l.toUpperCase())
+            line = line.replace(/(?=\.\s+)[a-z]/g, l => l.toUpperCase())
           }
           line = line.replace(/\\Em /g, '\\em')
           if (line.match(/\n$/)) {
@@ -96,7 +87,7 @@ export const scigen = authors => {
   }
 
   const systemName = () => {
-    const name = generate(ruleDir + 'system_names.json', 'SYSTEM_NAME').text
+    const name = generate(systemNames, 'SYSTEM_NAME').text
     const r = Math.random()
     return r < 0.1
       ? `{\\em ${name}}`
@@ -109,12 +100,12 @@ export const scigen = authors => {
     [...Array(rules.CITATIONLABEL).keys()]
       .map(label =>
         generate(
-          ruleDir + 'scirules.json',
-          'BIBTEX_ENTRY',
           {
+            ...scirules,
             ...metadata,
             CITE_LABEL_GIVEN: ['cite:' + label.toString()]
-          })
+          },
+          'BIBTEX_ENTRY')
           .text)
       .join('')
 
@@ -150,9 +141,11 @@ export const scigen = authors => {
   }
 
   const { text, rules } = generate(
-    ruleDir + 'scirules.json',
-    'SCIPAPER_LATEX',
-    metadata
+    {
+      ...scirules,
+      ...metadata
+    },
+    'SCIPAPER_LATEX'
   )
 
   return {

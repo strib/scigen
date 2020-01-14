@@ -11,12 +11,9 @@
     "url": "git+https://github.com/davidpomerenke/scigen.git"
   },
   "author": "",
-  "license": "GPL v3",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/davidpomerenke/scigen/issues"
   },
-  "homepage": "https://github.com/davidpomerenke/scigen#readme",
-  "dependencies": {
-    "title-case": "^3.0.2"
-  }
+  "homepage": "https://github.com/davidpomerenke/scigen#readme"
 }
