@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/davidpomerenke/scigen#readme",
   "dependencies": {
+    "pdftex.js": "0.0.10",
     "title-case": "^3.0.2"
   },
   "devDependencies": {
