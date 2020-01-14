@@ -5,12 +5,13 @@
   <title>SciGen</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open Sans">
-  <script src="main.js"></script>
+  <script src="bundle.js"></script>
 </head>
 
 <body>
-  <textarea id='target'></textarea>
+  <script>
+    window.document.body.innerText = scigen(['Albert Einstein']).files['paper.tex']
+  </script>
 </body>
 
 </html>

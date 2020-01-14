@@ -1,9 +1,9 @@
 const path = require('path')
 
 module.exports = {
-  entry: './src/web.mjs',
+  entry: './docs/webpack.js',
   output: {
-    filename: 'main.js',
+    filename: 'bundle.js',
     path: path.resolve(__dirname, 'docs')
   }
 }
