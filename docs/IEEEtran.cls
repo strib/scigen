@@ -769,9 +769,9 @@
 
 % IEEE uses Times font, so we'll default to times.
 % These three commands make up the entire times.sty package.
-\renewcommand{\sfdefault}{phv}
-\renewcommand{\rmdefault}{ptm}
-\renewcommand{\ttdefault}{pcr}
+%\renewcommand{\sfdefault}{phv}
+%\renewcommand{\rmdefault}{ptm}
+%\renewcommand{\ttdefault}{pcr}
 % enable Times now - so that all class options can see the correct font families
 \normalfont\selectfont
 

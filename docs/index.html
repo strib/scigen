@@ -64,7 +64,8 @@
     }
 
     var pdf_dataurl = undefined;
-    var compile = function (source_code) {
+    var compile = function (files) {
+      var source_code = files['paper.tex']
       document.getElementById("output").textContent = "";
       showLoadingIndicator(true);
       window.location.href = "#running";
@@ -74,6 +75,9 @@
         pdftex.FS_createLazyFile('/', 'snowden.jpg', 'snowden.jpg', true, true);
         pdftex.FS_createLazyFile('/', 'IEEEtran.cls', 'IEEEtran.cls', true, true)
         pdftex.FS_createLazyFile('/', 'IEEE.bst', 'IEEE.bst', true, true)
+        for (key of Object.keys(files).filter(key => key !== 'paper.tex')) {
+          pdftex.FS_createDataFile('/', key, files[key], true, true)
+        }
 
         pdftex.on_stdout = appendOutput;
         pdftex.on_stderr = appendOutput;
@@ -96,72 +100,7 @@
     }
 
     document.getElementById("compile").addEventListener("click", function (e) {
-      var source_code = scigen(['Albert Einstein']).files['paper.tex']
-      source_code =
-        `\\documentclass[12pt]{article}
-\\usepackage{amsmath}
-\\usepackage{graphicx}
-
-\\title{\\TeX live.js}
-\\author{Created by Manuel Sch\\"olling}
-\\date{\\today}
-\\begin{document}
-  \\maketitle
-  \\TeX{}live.js is a compiler for the \\TeX{}
-  typesetting program created using Mozilla's Emscripten
-  Compiler. It offers programmable desktop
-  publishing features and extensive facilities for
-  automating most aspects of typesetting and desktop
-  publishing, including numbering and cross-referencing,
-  tables and figures, page layout, bibliographies, and
-  much more. It supports \\LaTeX{} which was originally written 
-  in 1984 by Leslie Lamport and has become the dominant method for
-  using \\TeX;
- 
-  % This is a comment, not shown in final output.
-  % The following shows typesetting power of LaTeX:
-  \\begin{align}
-    E_0 &= mc^2                              \\\\
-    E &= \\frac{mc^2}{\\sqrt{1-\\frac{v^2}{c^2}}}
-  \\end{align}
-
-
-  \\TeX{}live.js even supports images! This photo was taken by Laura Poitras/Praxis Films
-
-  \\includegraphics[height=5cm, keepaspectratio]{snowden}
-\\end{document}`
-      source_code = `
-%\\documentclass[conference]{IEEEtran}
-\\documentclass[12pt]{article}
-
-
-\\usepackage{epsfig}
-\\usepackage[latin1]{inputenc}
-\\begin{document}
-
-\\title{DewTab: Deployment of E-Commerce}
-\\author{Albert Einstein and Jürgen Habermas}
-
-\\date{}
-
-\\maketitle
-
-
-
-
-\\section*{Abstract}
-
-Many cyberinformaticians would agree that, had it not been for voice-over-IP, the study of virtual machines might never have occurred. in fact, few steganographers would disagree with the exploration of link-level acknowledgements. we construct application for context-free grammar, which we call DewTab.
-
-
-
-
-\\section{Introduction}
-
-Many futurists would agree that, had it not been for architecture, the investigation of fiber-optic cables might never have occurred. given the current status of large-scale models, futurists shockingly desire the significant unification of cache coherence and RPCs, which embodies the compelling principles of machine learning. despite the fact that such a hypothesis at first glance seems counterintuitive, it fell in line with our expectations. unfortunately, a structured challenge in algorithms is the visualization of write-back caches. thusly, semaphores and robust archetypes offer a viable alternative to the emulation of congestion control.
-
-\\end{document}`
-      compile(source_code);
+      compile(scigen(['Albert Einstein']).files);
     });
 
     document.getElementById("open_pdf_btn").addEventListener("click", function (e) {
