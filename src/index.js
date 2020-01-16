@@ -1,4 +1,6 @@
+import minimist from 'minimist'
 import { titleCase } from 'title-case'
+import fs from 'fs'
 import scirules from '../rules/rules-compiled/scirules.json'
 import systemNames from '../rules/rules-compiled/system_names.json'
 
@@ -55,31 +57,6 @@ export const scigen = authors => {
       }
     }
 
-    const prettyPrint = text => {
-      text = text
-        .split('\n')
-        .map(line => {
-          line = line.trim()
-          line = line.replace(/ +/g, ' ')
-          line = line.replace(/\s+([.,?;:])/g, '$1')
-          line = line.replace(/\ba\s+([aeiou])/gi, '$1')
-          const title = line.match(/(\\(((sub)?section)|(slideheading)|(title))\*?)\{(.*)\}/)
-          if (title) {
-            line = title[1] + '{' + titleCase(title[7]) + '}'
-          } else {
-            line = line.replace(/^\s*[a-z]/, l => l.toUpperCase())
-            line = line.replace(/(?=\.\s+)[a-z]/g, l => l.toUpperCase())
-          }
-          line = line.replace(/\\Em /g, '\\em')
-          if (line.match(/\n$/)) {
-            line += '\n'
-          }
-          return line
-        })
-        .join('\n')
-      return text
-    }
-
     return {
       text: prettyPrint(expand(start)),
       rules: rules
@@ -99,14 +76,15 @@ export const scigen = authors => {
   const bibtex = rules =>
     [...Array(rules.CITATIONLABEL).keys()]
       .map(label =>
-        generate(
-          {
-            ...scirules,
-            ...metadata,
-            CITE_LABEL_GIVEN: ['cite:' + label.toString()]
-          },
-          'BIBTEX_ENTRY')
-          .text)
+        prettyPrint(
+          generate(
+            {
+              ...scirules,
+              ...metadata,
+              CITE_LABEL_GIVEN: ['cite:' + label.toString()]
+            },
+            'BIBTEX_ENTRY')
+            .text))
       .join('')
 
   const makeFigures = rules => {
@@ -126,17 +104,49 @@ export const scigen = authors => {
     return figures
   }
 
+  const prettyPrint = text => {
+    text = text
+      .split('\n')
+      .map(line => {
+        line = line.trim()
+        line = line.replace(/ +/g, ' ')
+        line = line.replace(/\s+([.,?;:])/g, '$1')
+        line = line.replace(/\ba\s+([aeiou])/gi, '$1')
+        const title = line.match(/(\\(((sub)?section)|(slideheading)|(title))\*?)\{(.*)\}/)
+        if (title) {
+          line = title[1] + '{' + titleCase(title[7]) + '}'
+        } else {
+          line = line.replace(/^\s*[a-z]/, l => l.toUpperCase())
+          line = line.replace(/(\.\s+)|(=\s*\{\s*)[a-z]/g, l => l.toUpperCase())
+        }
+        line = line.replace(/\\Em /g, '\\em')
+        if (line.match(/\n$/)) {
+          line += '\n'
+        }
+        return line
+      })
+      .join('\n')
+    return text
+  }
+
+  authors = authors || [
+    generate(scirules, 'SCI_SOURCE').text,
+    ...Math.random() > 0.5 ? [generate(scirules, 'SCI_SOURCE').text] : [],
+    ...Math.random() > 0.5 ? [generate(scirules, 'SCI_SOURCE').text] : [],
+    ...Math.random() > 0.5 ? [generate(scirules, 'SCI_SOURCE').text] : []
+  ]
+
   const metadata = {
     SYSNAME: [systemName()],
     AUTHOR_NAME: authors,
-    SCI_SOURCE: authors,
     SCIAUTHORS: [
       authors
         .slice(0, -1)
         .join(', ') +
       (authors.length > 1
-        ? (' and ' + authors[authors.length - 1])
-        : '')
+        ? ' and '
+        : '') +
+      authors[authors.length - 1]
     ]
   }
 
@@ -157,4 +167,20 @@ export const scigen = authors => {
   }
 }
 
-console.log(scigen(['Albert Einstein', 'Jürgen Habermas']).files['paper.tex'])
+{
+  const argv = minimist(process.argv.slice(2))
+
+  if ('save' in argv && argv.save) {
+    let dir = ''
+    if (typeof argv.save === 'string') {
+      dir = argv.save.replace(/\/$/, '') + '/'
+      if (!fs.existsSync('tmp')) {
+        fs.mkdirSync(dir)
+      }
+    }
+    const files = scigen().files
+    Object.keys(files)
+      .forEach(key =>
+        fs.writeFileSync(dir + key, files[key]))
+  }
+}
