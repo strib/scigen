@@ -112,15 +112,16 @@ export const scigen = (authors, bibInLatex) => {
         line = line.replace(/ +/g, ' ')
         line = line.replace(/\s+([.,?;:])/g, '$1')
         line = line.replace(/\ba\s+([aeiou])/gi, '$1')
+        line = line.replace(/^\s*[a-z]/, l => l.toUpperCase())
+        line = line.replace(/((([.:]\s+)|(=\s*\{\s*))[a-z])/g, l => l.toUpperCase())
+        line = line.replace(
+          /((jan)|(feb)|(mar)|(apr)|(jun)|(jul)|(aug)|(sep)|(oct)|(nov)|(dec))\s/gi,
+          l => l[0].toUpperCase() + l.substring(1, l.length) + '. ')
+        line = line.replace(/\\Em /g, '\\em')
         const title = line.match(/(\\(((sub)?section)|(slideheading)|(title))\*?)\{(.*)\}/)
         if (title) {
           line = title[1] + '{' + titleCase(title[7]) + '}'
-        } else {
-          line = line.replace(/^\s*[a-z]/, l => l.toUpperCase())
-          line = line.replace(/((([.:]\s+)|(=\s*\{\s*)|\()[a-z])/g, l => l.toUpperCase())
-          line = line.replace(/((jan)|(feb)|(mar)|(apr)|(may)|(jun)|(jul)|(aug)|(sep)|(oct)|(nov)|(dec))\s/gi, l => l.substring(0, l.length) + '. ')
         }
-        line = line.replace(/\\Em /g, '\\em')
         if (line.match(/\n$/)) {
           line += '\n'
         }
@@ -163,25 +164,33 @@ export const scigen = (authors, bibInLatex) => {
     files: {
       'paper.tex': bibInLatex
         ? text
-          .replace(
+          .replace( // replace citations by plain Latex
             /\\cite\{((cite:\d+(, )?)+)\}/g,
-            (...args) => {
-              const a = '[' +
+            (...args) =>
+              '[' +
+              args[1]
+                .split(', ')
+                .map(c =>
+                  parseInt(
+                    c.replace(/cite:/, '')) +
+                  1)
+                .join(', ') +
+              ']')
+          .replace( // replace references to figures / diagrams by plain Latex
+            /\\ref\{([a-z0-9:,]+)\}/g,
+            (...args) =>
+              parseInt(
                 args[1]
-                  .split(', ')
-                  .map(c =>
-                    c.replace(/cite:/, ''))
-                  .join(', ') +
-                ']'
-              return a
-            })
-          .replace(
-            /\\bibliography\{scigenbibfile\}/,
-            `\\section*{References}\n
-             \\begin{enumerate}[label={[\\arabic*]}, labelindent=0pt]\n` +
+                  .replace(/((fig)|(dia)):label/, '')) +
+              1)
+          .replace( // create bibliography in plain Latex
+            /\\bibliography\{scigenbibfile\}\n\\bibliographystyle\{((acm)|(IEEE))\}/,
+            '\\section*{References}\n' +
+            '\\renewcommand\\labelenumi{[\\theenumi]}\n' +
+            '\\begin{enumerate}\n' +
             bibtex(rules, true)
               .replace(
-                /\\textsc\{(.*)\}\. /g,
+                /\\textsc\{([^{}]*)\}\. /g,
                 (match, authors) => {
                   authors = authors
                     .split(' and ')

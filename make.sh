@@ -14,3 +14,4 @@ pdflatex -interaction=nonstopmode paper.tex
 cd ..
 mv tmp/paper.pdf paper.pdf
 rm tmp/*
+npx webpack

@@ -3,9 +3,6 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <script src="bundle.js"></script>
-  <script>
-    // var text = scigen(['Albert Einstein']).files['paper.tex']
-  </script>
 </head>
 
 <body>
@@ -100,7 +97,9 @@
     }
 
     document.getElementById("compile").addEventListener("click", function (e) {
-      compile(scigen(/*authors=*/undefined, /*bibInLatex=*/true).files);
+      var files = scigen(/*authors=*/undefined, /*bibInLatex=*/true).files
+      console.log(files["paper.tex"])
+      compile(files);
     });
 
     document.getElementById("open_pdf_btn").addEventListener("click", function (e) {

@@ -3493,10 +3493,8 @@ LATEX_HEADER {
 
 LATEX_DOCCLASS
 LATEX_FONTCLASS
-LATEX_CITEPACK
 \usepackage{epsfig}
 \usepackage[latin1]{inputenc}
-\usepackage{enumitem}
 \begin{document}
 
 LATEX_TITLE
@@ -3508,12 +3506,9 @@ LATEX_AUTHORS
 
 }
 
-LATEX_CITEPACK \usepackage{cite}
-LATEX_CITEPACK+3 
-
-LATEX_FONTCLASS+2 \usepackage{times}
+#LATEX_FONTCLASS+2 \usepackage{times}
 LATEX_FONTCLASS \usepackage{helvet}
-LATEX_FONTCLASS \usepackage{palatino}
+#LATEX_FONTCLASS \usepackage{palatino}
 LATEX_FONTCLASS 
 
 LATEX_DOCCLASS+3 \documentclass[LATEX_FONTSIZE, twocolumn]{article}
