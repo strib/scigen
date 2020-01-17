@@ -19,6 +19,9 @@
 #    along with SCIgen; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
+# Modifications by David Pomerenke:
+# - Added BIB_IN_LATEX_ENTRY entries for rendering without BibTex backend.
+
 
 SCIPAPER_LATEX {
 
@@ -3493,6 +3496,7 @@ LATEX_FONTCLASS
 LATEX_CITEPACK
 \usepackage{epsfig}
 \usepackage[latin1]{inputenc}
+\usepackage{enumitem}
 \begin{document}
 
 LATEX_TITLE
@@ -3742,7 +3746,7 @@ CITE_TRNUM MED_NUM-MED_NUM
 
 BIBTEX_ENTRY+10 {
 
- @InProceedings{CITE_LABEL_GIVEN, 
+ @InProceedings{cite:CITE_LABEL_GIVEN, 
   author = {CITE_AUTHOR_LIST},
   title = {SCI_TITLE_X},
   booktitle = {CITE_CONF},
@@ -3751,9 +3755,15 @@ BIBTEX_ENTRY+10 {
 
 }
 
+BIB_IN_LATEX_ENTRY+10 {
+\item \textsc{CITE_AUTHOR_LIST}. SCI_TITLE_X. In \emph{CITE_CONF} (CITE_MONTH CITE_YEAR).
+
+
+}
+
 BIBTEX_ENTRY+6 {
 
- @article{CITE_LABEL_GIVEN, 
+ @article{cite:CITE_LABEL_GIVEN, 
   author = {CITE_AUTHOR_LIST},
   title = {SCI_TITLE_X},
   journal = {CITE_JOURNAL},
@@ -3764,14 +3774,26 @@ BIBTEX_ENTRY+6 {
 
 }
 
+BIB_IN_LATEX_ENTRY+6 {
+\item \textsc{CITE_AUTHOR_LIST}. SCI_TITLE_X. \emph{CITE_JOURNAL CITE_VOLUME} (CITE_MONTH CITE_YEAR), CITE_PAGES.
+
+
+}
+
 BIBTEX_ENTRY {
 
- @techreport{CITE_LABEL_GIVEN, 
+ @techreport{cite:CITE_LABEL_GIVEN, 
   author = {CITE_AUTHOR_LIST},
   title = {SCI_TITLE_X},
   institution = {CITE_INST},
   number = {CITE_TRNUM},	
   month = CITE_MONTH,
   year = CITE_YEAR}
+
+}
+
+BIB_IN_LATEX_ENTRY {
+\item \textsc{CITE_AUTHOR_LIST}. SCI_TITLE_X. Tech. Rep. CITE_TRNUM, CITE_INST, CITE_MONTH CITE_YEAR.
+
 
 }

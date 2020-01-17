@@ -100,7 +100,7 @@
     }
 
     document.getElementById("compile").addEventListener("click", function (e) {
-      compile(scigen(['Albert Einstein']).files);
+      compile(scigen(/*authors=*/undefined, /*bibInLatex=*/true).files);
     });
 
     document.getElementById("open_pdf_btn").addEventListener("click", function (e) {

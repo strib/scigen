@@ -1,10 +1,8 @@
-import minimist from 'minimist'
 import { titleCase } from 'title-case'
-import fs from 'fs'
 import scirules from '../rules/rules-compiled/scirules.json'
 import systemNames from '../rules/rules-compiled/system_names.json'
 
-export const scigen = authors => {
+export const scigen = (authors, bibInLatex) => {
   const generate = (rules, start) => {
     const rx = new RegExp(
       '^(' +
@@ -73,7 +71,7 @@ export const scigen = authors => {
         : name
   }
 
-  const bibtex = rules =>
+  const bibtex = (rules, bibInLatex) =>
     [...Array(rules.CITATIONLABEL).keys()]
       .map(label =>
         prettyPrint(
@@ -81,9 +79,11 @@ export const scigen = authors => {
             {
               ...scirules,
               ...metadata,
-              CITE_LABEL_GIVEN: ['cite:' + label.toString()]
+              CITE_LABEL_GIVEN: [label.toString()]
             },
-            'BIBTEX_ENTRY')
+            bibInLatex
+              ? 'BIB_IN_LATEX_ENTRY'
+              : 'BIBTEX_ENTRY')
             .text))
       .join('')
 
@@ -117,7 +117,8 @@ export const scigen = authors => {
           line = title[1] + '{' + titleCase(title[7]) + '}'
         } else {
           line = line.replace(/^\s*[a-z]/, l => l.toUpperCase())
-          line = line.replace(/(\.\s+)|(=\s*\{\s*)[a-z]/g, l => l.toUpperCase())
+          line = line.replace(/((([.:]\s+)|(=\s*\{\s*)|\()[a-z])/g, l => l.toUpperCase())
+          line = line.replace(/((jan)|(feb)|(mar)|(apr)|(may)|(jun)|(jul)|(aug)|(sep)|(oct)|(nov)|(dec))\s/gi, l => l.substring(0, l.length) + '. ')
         }
         line = line.replace(/\\Em /g, '\\em')
         if (line.match(/\n$/)) {
@@ -160,27 +161,54 @@ export const scigen = authors => {
 
   return {
     files: {
-      'paper.tex': text,
-      'scigenbibfile.bib': bibtex(rules),
+      'paper.tex': bibInLatex
+        ? text
+          .replace(
+            /\\cite\{((cite:\d+(, )?)+)\}/g,
+            (...args) => {
+              const a = '[' +
+                args[1]
+                  .split(', ')
+                  .map(c =>
+                    c.replace(/cite:/, ''))
+                  .join(', ') +
+                ']'
+              return a
+            })
+          .replace(
+            /\\bibliography\{scigenbibfile\}/,
+            `\\section*{References}\n
+             \\begin{enumerate}[label={[\\arabic*]}, labelindent=0pt]\n` +
+            bibtex(rules, true)
+              .replace(
+                /\\textsc\{(.*)\}\. /g,
+                (match, authors) => {
+                  authors = authors
+                    .split(' and ')
+                    .map(author => {
+                      author = author.split(' ')
+                      return author[author.length - 1] + ', ' +
+                        author
+                          .slice(0, -1)
+                          .map(fName => fName[0] + '.')
+                          .join(' ')
+                    })
+                  return '\\textsc{' +
+                    authors
+                      .slice(0, -1)
+                      .join(', ') +
+                    (authors.length >= 3
+                      ? ','
+                      : '') +
+                    (authors.length >= 2
+                      ? ' and '
+                      : '') +
+                    authors[authors.length - 1] + '} '
+                }) +
+            '\\end{enumerate}')
+        : text,
+      'scigenbibfile.bib': bibtex(rules, false),
       ...makeFigures(rules)
     }
-  }
-}
-
-{
-  const argv = minimist(process.argv.slice(2))
-
-  if ('save' in argv && argv.save) {
-    let dir = ''
-    if (typeof argv.save === 'string') {
-      dir = argv.save.replace(/\/$/, '') + '/'
-      if (!fs.existsSync('tmp')) {
-        fs.mkdirSync(dir)
-      }
-    }
-    const files = scigen().files
-    Object.keys(files)
-      .forEach(key =>
-        fs.writeFileSync(dir + key, files[key]))
   }
 }

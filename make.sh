@@ -1,6 +1,9 @@
 #!/usr/bin/bash
+cd rules
+./compile-rules.pl
+cd ..
 npm run build
-node lib/index.js --save tmp
+node lib/cli.js --save tmp --bibinlatex
 cp resources/IEEEtran.cls tmp/IEEEtran.cls
 cp resources/IEEE.bst tmp/IEEE.bst
 cd tmp
