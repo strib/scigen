@@ -2,6 +2,16 @@
   "name": "scigen",
   "version": "0.1.2",
   "description": "Create scientific papers on the fly: SciGen brought to the browser and to Node.",
+  "keywords": [
+    "scigen",
+    "context-free grammar",
+    "paper generator",
+    "text generator",
+    "essay generator",
+    "science",
+    "bogus",
+    "hoax"
+  ],
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

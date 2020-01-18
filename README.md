@@ -25,7 +25,7 @@ scigenSave(
   /* avoid bibtex dependency = */ true)
 ```
 
-### CLI
+### Command Line
 ```bash
 $ git clone git@github.com:davidpomerenke/scigen.js && cd scigen
 $ node lib/cli.js --help
