@@ -1,6 +1,7 @@
 import { titleCase } from 'title-case'
 import scirules from '../rules/rules-compiled/scirules.json'
 import systemNames from '../rules/rules-compiled/system_names.json'
+export { scigenSave } from './cli.js'
 
 export const scigen = (authors, bibInLatex) => {
   const generate = (rules, start) => {
@@ -113,9 +114,9 @@ export const scigen = (authors, bibInLatex) => {
         line = line.replace(/\s+([.,?;:])/g, '$1')
         line = line.replace(/\ba\s+([aeiou])/gi, '$1')
         line = line.replace(/^\s*[a-z]/, l => l.toUpperCase())
-        line = line.replace(/((([.:]\s+)|(=\s*\{\s*))[a-z])/g, l => l.toUpperCase())
+        line = line.replace(/((([.:?!]\s+)|(=\s*\{\s*))[a-z])/g, l => l.toUpperCase())
         line = line.replace(
-          /((jan)|(feb)|(mar)|(apr)|(jun)|(jul)|(aug)|(sep)|(oct)|(nov)|(dec))\s/gi,
+          /\W((jan)|(feb)|(mar)|(apr)|(jun)|(jul)|(aug)|(sep)|(oct)|(nov)|(dec))\s/gi,
           l => l[0].toUpperCase() + l.substring(1, l.length) + '. ')
         line = line.replace(/\\Em /g, '\\em')
         const title = line.match(/(\\(((sub)?section)|(slideheading)|(title))\*?)\{(.*)\}/)
@@ -149,6 +150,11 @@ export const scigen = (authors, bibInLatex) => {
         ? ' and '
         : '') +
       authors[authors.length - 1]
+    ],
+    SCI_SOURCE: [
+      ...scirules.SCI_SOURCE,
+      ...authors.flatMap((l, i, a) =>
+        Array((a.length - i) * 5).fill(l))
     ]
   }
 

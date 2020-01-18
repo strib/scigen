@@ -2,7 +2,7 @@
   "name": "scigen",
   "version": "0.1.0",
   "description": "Create scientific papers on the fly: SciGen brought to the browser and to Node.",
-  "main": "index.mjs",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d lib",

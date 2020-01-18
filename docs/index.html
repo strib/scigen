@@ -1,105 +1,69 @@
 <html>
 
 <head>
+  <title>SciGen.js</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <script src="bundle.js"></script>
 </head>
 
 <body>
+  <script src="bundle.js"></script>
   <script src="promisejs/promise.js"></script>
   <script src="pdftex.js"></script>
-  <div id="tabs">
-    <div class="tab" id="tab_input">
-      <button id="compile" autofocus>Compile this LaTeX code to a PDF</button>
-    </div>
 
-    <div class="tab" id="tab_output">
-      <h3>Console Output</h3>
-
-      <pre id="output" style="overflow: scroll; max-height: 300px">
-        Click "Compile this LaTeX code to PDF" at the top of this page and watch the console output here.
-        </pre>
-
-      <a name="running" id="running" style="display: none">
-        Compiling…
-        <img src="loading.gif" />
-      </a>
-    </div>
-
-    <div class="tab" id="tab_open_pdf" style="display: none">
-      <h3>View your PDF</h3>
-
-      <button id="open_pdf_btn">Open your PDF</button>
-      <p>
-        Your LaTeX code is now compiled to a PDF document. The document is converted to a <a
-          href="https://developer.mozilla.org/en-US/docs/data_URIs">data URI</a> that makes it possible to interpret the
-        format correctly.
-      </p>
-      <a name="open_pdf"></a>
-    </div>
-
-  </div>
+  Authors (comma-separated, optional):
+  <input id="authors" type="text" />
+  <button id="compile" style="width: 150px; display: inline-block">Create PDF</button>
+  <button id="running" style="width: 150px; display: none"><img src="loading.gif" /></button>
+  <button id="open_pdf_btn" style="width: 150px; display: none">Open PDF</button>
+  <a href="https://github.com/davidpomerenke/scigen.js/blob/master/LICENSE" target="_blank">License</a>
+  <a href="https://github.com/davidpomerenke/scigen.js" target="_blank">Github</a>
 
   <script>
-    var visibilityChanger = function (element_id) {
-      return function (visible) {
-        document.getElementById(element_id).style.display = visible ? 'block' : 'none';
-      }
-    }
-
-    var showLoadingIndicator = visibilityChanger("running")
-    var showOpenButton = visibilityChanger("tab_open_pdf")
-
-    var appendOutput = function (msg) {
-      var content = document.getElementById("output").textContent;
-
-      var output = document.getElementById("output");
-      output.textContent = content + "\r\n" + msg;
-
-      output.scrollTop = 999999;
-      console.log(msg);
-    }
-
     var pdf_dataurl = undefined;
     var compile = function (files) {
-      var source_code = files['paper.tex']
-      document.getElementById("output").textContent = "";
-      showLoadingIndicator(true);
-      window.location.href = "#running";
+      var files = scigen(
+          /*authors=*/document.getElementById("authors").value
+            .split(',')
+            .map(l => l.trim()),
+          /*bibInLatex=*/true).files
+
+      document.getElementById("compile").style.display = 'none'
+      document.getElementById("running").style.display = 'inline-block'
 
       var pdftex = new PDFTeX();
+
       pdftex.set_TOTAL_MEMORY(80 * 1024 * 1024).then(function () {
-        pdftex.FS_createLazyFile('/', 'snowden.jpg', 'snowden.jpg', true, true);
         pdftex.FS_createLazyFile('/', 'IEEEtran.cls', 'IEEEtran.cls', true, true)
         pdftex.FS_createLazyFile('/', 'IEEE.bst', 'IEEE.bst', true, true)
         for (key of Object.keys(files).filter(key => key !== 'paper.tex')) {
           pdftex.FS_createDataFile('/', key, files[key], true, true)
         }
 
-        pdftex.on_stdout = appendOutput;
-        pdftex.on_stderr = appendOutput;
+        pdftex.on_stdout = msg => console.log(msg)
+        pdftex.on_stderr = msg => console.log(msg)
 
         var start_time = new Date().getTime();
 
-        pdftex.compile(source_code).then(function (pdf_dataurl) {
+        pdftex.compile(files['paper.tex']).then(function (pdf_dataurl) {
           var end_time = new Date().getTime();
           console.info("Execution time: " + (end_time - start_time) / 1000 + ' sec');
 
-          showLoadingIndicator(false);
-
-          if (pdf_dataurl === false)
+          if (pdf_dataurl === false) {
+            document.getElementById("running").style.display = 'none'
+            document.getElementById("compile").style.display = 'inline-block'
+            document.getElementById("compile").innerHTML = 'Fail :/ Try again!'
             return;
-          showOpenButton(true);
-          window.location.href = "#open_pdf";
+          }
+
+          document.getElementById("running").style.display = 'none'
+          document.getElementById("open_pdf_btn").style.display = 'inline-block'
           document.getElementById("open_pdf_btn").focus();
         });
       });
     }
 
     document.getElementById("compile").addEventListener("click", function (e) {
-      var files = scigen(/*authors=*/undefined, /*bibInLatex=*/true).files
-      console.log(files["paper.tex"])
-      compile(files);
+      compile();
     });
 
     document.getElementById("open_pdf_btn").addEventListener("click", function (e) {

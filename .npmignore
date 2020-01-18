@@ -1,10 +1,11 @@
 # custom
 docs/
+rules/
 scigen-perl/
-rules/rules-original/
-rules/compile-rules.pl
-.gitignore
-webpack.config.js
+src/
+logo.png
+README.md
+TODO
 
 
 # Logs
