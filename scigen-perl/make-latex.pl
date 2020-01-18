@@ -32,7 +32,7 @@ my $dvi_file = "$tmp_pre$$.dvi";
 my $ps_file = "$tmp_pre$$.ps";
 my $pdf_file = "$tmp_pre$$.pdf";
 my $bib_file = "$tmp_dir/scigenbibfile.bib";
-my $class_files = "resources/IEEEtran.cls IEEE.bst";
+my $class_files = "IEEEtran.cls IEEE.bst";
 my @authors;
 my $seed;
 my $remote = 0;

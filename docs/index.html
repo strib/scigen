@@ -24,6 +24,14 @@
     <p>Note: Works in Firefox & Mobile, and in Chrome Mobile; not currently in Chrome/Chromium Desktop.</p>
   </div>
   <script>
+    var shuffle = a => {
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
     var pdf_dataurl = undefined
     var compile = function (authors) {
       var files = scigen(
@@ -46,6 +54,14 @@
         for (key of Object.keys(files).filter(key => key !== 'paper.tex')) {
           pdftex.FS_createDataFile('/', key, files[key], true, true)
         }
+        diaNums = shuffle([...Array(15).keys()])
+        figNums = shuffle([...Array(36).keys()])
+        diaNums.forEach((num, i) => {
+          pdftex.FS_createLazyFile('/', `dia${i}-eps-converted-to.pdf`, `precompiled-figures/dia${num}-eps-converted-to.pdf`, true, true)
+        })
+        figNums.forEach((num, i) => {
+          pdftex.FS_createLazyFile('/', `figure${i}-eps-converted-to.pdf`, `precompiled-figures/figure${num}-eps-converted-to.pdf`, true, true)
+        })
 
         pdftex.on_stdout = msg => console.log(msg)
         pdftex.on_stderr = msg => console.log(msg)
