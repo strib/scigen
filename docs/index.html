@@ -25,10 +25,9 @@
   </div>
   <script>
     var pdf_dataurl = undefined
-    var authors = document.getElementById("authors").value
-    var compile = function (files) {
+    var compile = function (authors) {
       var files = scigen(
-          /* authors = */ authors
+          /* authors = */ authors.length > 0
           ? authors
             .split(',')
             .map(l => l.trim())
@@ -72,7 +71,8 @@
     }
 
     document.getElementById("compile").addEventListener("click", function (e) {
-      compile()
+      var authors = document.getElementById("authors").value
+      compile(authors)
     })
 
     document.getElementById("open_pdf_btn").addEventListener("click", function (e) {
