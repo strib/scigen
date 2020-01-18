@@ -3,36 +3,43 @@
 <head>
   <title>SciGen.js</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
   <script src="bundle.js"></script>
   <script src="promisejs/promise.js"></script>
   <script src="pdftex.js"></script>
-
-  Authors (comma-separated, optional):
-  <input id="authors" type="text" />
-  <button id="compile" style="width: 150px; display: inline-block">Create PDF</button>
-  <button id="running" style="width: 150px; display: none"><img src="loading.gif" /></button>
-  <button id="open_pdf_btn" style="width: 150px; display: none">Open PDF</button>
-  <a href="https://github.com/davidpomerenke/scigen.js/blob/master/LICENSE" target="_blank">License</a>
-  <a href="https://github.com/davidpomerenke/scigen.js" target="_blank">Github</a>
-  <br />
-  Note: Only works in Firefox, not currently in Chrome/Chromium.
-
+  <div style="text-align: center">
+    Authors (comma-separated, optional):
+    <input id="authors" type="text" style="width: 200px; height: 30px;" />
+    <br /><br />
+    <button id="compile" style="width: 200px; height: 30px; display: inline-block">Create PDF</button>
+    <button id="running" style="width: 200px; height: 30px; display: none"><img src="loading.gif" /></button>
+    <button id="open_pdf_btn" style="width: 200px; height: 30px; display: none">Open PDF</button>
+    <br /><br />
+    <a href="https://github.com/davidpomerenke/scigen.js/blob/master/LICENSE" target="_blank">License</a>
+    <a href="https://github.com/davidpomerenke/scigen.js" target="_blank">Github</a>
+    <br />
+    <p>Note: Works in Firefox & Mobile, and in Chrome Mobile; not currently in Chrome/Chromium Desktop.</p>
+  </div>
   <script>
-    var pdf_dataurl = undefined;
+    var pdf_dataurl = undefined
+    var authors = document.getElementById("authors").value
     var compile = function (files) {
       var files = scigen(
-          /*authors=*/document.getElementById("authors").value
+          /* authors = */ authors
+          ? authors
             .split(',')
-            .map(l => l.trim()),
-          /*bibInLatex=*/true).files
+            .map(l => l.trim())
+          : undefined,
+          /* bibInLatex = */ true)
+        .files
 
       document.getElementById("compile").style.display = 'none'
       document.getElementById("running").style.display = 'inline-block'
 
-      var pdftex = new PDFTeX();
+      var pdftex = new PDFTeX()
 
       pdftex.set_TOTAL_MEMORY(80 * 1024 * 1024).then(function () {
         pdftex.FS_createLazyFile('/', 'IEEEtran.cls', 'IEEEtran.cls', true, true)
@@ -44,11 +51,11 @@
         pdftex.on_stdout = msg => console.log(msg)
         pdftex.on_stderr = msg => console.log(msg)
 
-        var start_time = new Date().getTime();
+        var start_time = new Date().getTime()
 
         pdftex.compile(files['paper.tex']).then(function (pdf_dataurl) {
-          var end_time = new Date().getTime();
-          console.info("Execution time: " + (end_time - start_time) / 1000 + ' sec');
+          var end_time = new Date().getTime()
+          console.info("Execution time: " + (end_time - start_time) / 1000 + ' sec')
 
           if (pdf_dataurl === false) {
             document.getElementById("running").style.display = 'none'
@@ -59,22 +66,22 @@
 
           document.getElementById("running").style.display = 'none'
           document.getElementById("open_pdf_btn").style.display = 'inline-block'
-          document.getElementById("open_pdf_btn").focus();
+          document.getElementById("open_pdf_btn").focus()
         });
       });
     }
 
     document.getElementById("compile").addEventListener("click", function (e) {
-      compile();
-    });
+      compile()
+    })
 
     document.getElementById("open_pdf_btn").addEventListener("click", function (e) {
-      window.open(pdf_dataurl);
-      e.preventDefault();
-    });
+      window.open(pdf_dataurl)
+      e.preventDefault()
+    })
 
-    var pdftex_preload = new PDFTeX("pdftex-worker.js");
-    pdftex_preload = undefined;
+    var pdftex_preload = new PDFTeX("pdftex-worker.js")
+    pdftex_preload = undefined
   </script>
 </body>
 

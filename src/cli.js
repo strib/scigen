@@ -2,7 +2,7 @@
 import minimist from 'minimist'
 import fs from 'fs'
 import path from 'path'
-import { scigen } from './index.js'
+import { scigen } from './scigen.js'
 
 export const saveScigen = (authors, bibinlatex, directory = 'scigen', silent) => {
   directory = path.resolve(...directory.split(/\\|\//g))
