@@ -53,13 +53,13 @@ $ xdg-open http://localhost:8000
 
 See also the [TexLive.js Wiki](https://github.com/manuels/texlive.js/wiki).
 
-### Rule Compilation
+## Rule Compilation
 The almost original rule files from the [original SciGen project](https://github.com/strib/scigen) are found in `rules/rules-original`. They can be compiled to JSON by running `perl rules/compile-rules.pl`. The JSON files are required for running the module. They are already included in the module and only need to be re-compiled for applying changes in the original `.in` rule files.
 
-### Limitations
+## Limitations
 - Bibtex is not available for the browser (cf. [here](https://github.com/manuels/texlive.js/issues/7)). An almost perfect workaround is implemented for the parameter `--bibinlatex` (or setting the second/third function parameter to `true` in Node, see the above examples).
 - Rendering diagrams and figures requires _Ghostscript_ in the [original SciGen project](https://github.com/strib/scigen). _Ghostscript_ is not available for the browser. A workaround would probably involve rewriting the original EPS rules in some format which is supported by _TexLive.js_ (maybe SVG or TIKZ). As this module is aimed at the browser, the diagram and figure code production is not yet implemented in the JavaScript code. For locally producing TEX and PDF files with figures and diagrams, use the [original SciGen project](https://github.com/strib/scigen) with [this unmerged fix](https://github.com/strib/scigen/pull/5).
 - Works in Firefox Desktop & Mobile and in Chrome Mobile, but not in Chrome/Chromium Desktop. Cf. [this issue with TexLive.js](https://github.com/manuels/texlive.js/issues/63).
 
-### Motivation
+## Motivation
 The server-side code at the [original SciGen website](https://pdos.csail.mit.edu/archive/scigen/) appears to be broken. The aim of this project is therefore to provide a more server-independent implementation.
