@@ -3559,7 +3559,7 @@ NEWFIGLABEL\#
 LATEX_DIAGRAM {
 
 \begin{figure}[t]
-\centerline{\epsfig{figure=LATEX_DIA_FILENAME,width=3in}}
+\centerline{\epsfig{figure=LATEX_DIA_FILENAME}}
 \caption{\small{
 SCI_DIAGRAM_CAPTION
 }}

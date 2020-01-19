@@ -21,7 +21,7 @@
     <a href="https://github.com/davidpomerenke/scigen.js/blob/master/LICENSE" target="_blank">License</a>
     <a href="https://github.com/davidpomerenke/scigen.js" target="_blank">Github</a>
     <br />
-    <p>Note: Works in Firefox & Mobile, and in Chrome Mobile; not currently in Chrome/Chromium Desktop.</p>
+    <p>Note: Works in Firefox Desktop & Mobile, and in Chrome Mobile; not currently in Chrome/Chromium Desktop.</p>
   </div>
   <script>
     var shuffle = a => {
@@ -54,10 +54,13 @@
         for (key of Object.keys(files).filter(key => key !== 'paper.tex')) {
           pdftex.FS_createDataFile('/', key, files[key], true, true)
         }
+
+        // bad workaround for figures
         diaNums = shuffle([...Array(15).keys()])
         figNums = shuffle([...Array(36).keys()])
         diaNums.forEach((num, i) => {
-          pdftex.FS_createLazyFile('/', `dia${i}-eps-converted-to.pdf`, `precompiled-figures/dia${num}-eps-converted-to.pdf`, true, true)
+          // pdftex.FS_createDataFile('/', `dia${i}-eps-converted-to.pdf`, ' ', true, true)
+          // pdftex.FS_createLazyFile('/', `dia${i}-eps-converted-to.pdf`, `precompiled-figures/figure${num}-eps-converted-to.pdf`, true, true)
         })
         figNums.forEach((num, i) => {
           pdftex.FS_createLazyFile('/', `figure${i}-eps-converted-to.pdf`, `precompiled-figures/figure${num}-eps-converted-to.pdf`, true, true)

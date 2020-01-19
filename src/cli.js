@@ -19,7 +19,8 @@ export const saveScigen = (authors, bibinlatex, directory = 'scigen', silent) =>
       fs.writeFileSync(path.resolve(directory, key), files[key]))
   if (!silent) {
     console.log(
-      `Saved in ${path.resolve(directory)}. Run\n` +
+      `Saved in ${path.resolve(directory)}.\n` +
+      'Run\n' +
       `\tcd ${path.resolve(directory)}\n` +
       '\tpdflatex paper.tex\n' +
       ('bibinlatex' in argv && argv.bibinlatex ? '' : '\tbibtex paper.aux\n') +
