@@ -1,0 +1,24 @@
+<!doctype html>
+<head>
+  <style>
+     .success { color: #090; }
+     .failure { color: #900; }
+  </style>
+  <script type="text/javascript" src="promise.js"></script>
+  <script type="text/javascript" src="tests.js"></script>
+  <script type="text/javascript">
+    function success(name){
+        var ul = document.getElementById("tests");
+        ul.innerHTML += "<li class='success'>Success: " + name +"</li>"
+    }
+    function failure(name){
+        var ul = document.getElementById("tests");
+        ul.innerHTML += "<li class=failure>Failure: " + name +"</li>"
+    }
+    window.onload = test;
+  </script>
+</head>
+
+<body>
+  <ul id="tests"></ul>
+</body>
