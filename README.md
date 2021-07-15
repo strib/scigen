@@ -76,3 +76,8 @@ The almost original rule files from the [original SciGen project](https://github
 
 ## Motivation
 The server-side code at the [original SciGen website](https://pdos.csail.mit.edu/archive/scigen/) appears to be broken. The aim of this project is therefore to provide a more server-independent implementation.
+
+## Also interesting
+Here's an interesting paper on the topic of scientific fake text generators. 
+
+- Guillaume Cabanac, Cyril Labbé, Alexander Magazinov. _Tortured phrases: A dubious writing style emerging in science. Evidence of critical issues affecting established journals._ 2021. [[arXiv]](https://arxiv.org/abs/2107.06751)
