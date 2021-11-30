@@ -1,6 +1,6 @@
 {
   "name": "scigen",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Create scientific papers on the fly: SciGen brought to the browser and to Node.",
   "keywords": [
     "scigen",
