@@ -79,7 +79,7 @@ export const scigen = (
               ...metadata,
               CITE_LABEL_GIVEN: [label.toString()],
             },
-            useBibtex ? "BIBTEX_ENTRY" : "BIB_IN_LATEX_ENTRY"
+            useBibtex ? "BIB_IN_LATEX_ENTRY" : "BIBTEX_ENTRY"
           ).text
         )
       )

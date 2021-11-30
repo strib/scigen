@@ -10,10 +10,10 @@ let lastPaper = "";
 for (let i = 0; i < 2; i++) {
   const files = scigen({
     authors: ["Jeremy Stribling", "Max Krohn", "Dan Aguayo"],
-    useBibtex: true,
+    useBibtex: false,
   });
   assert.ok(files["paper.tex"].length > 5000);
-  assert.ok(files["scigenbibfile.bib"].length > 1000);
+  assert.ok(!("scigenbibfile.bib" in files));
   assert.ok(
     files["paper.tex"].match(
       /\\author\{Jeremy Stribling, Max Krohn and Dan Aguayo\}/
@@ -33,7 +33,7 @@ for (let i = 0; i < 1; i++) {
   scigenSave({
     directory: folder,
     authors: undefined,
-    useBibtex: false,
+    useBibtex: true,
     silent: true,
   });
   const files = Object.assign(
@@ -42,7 +42,7 @@ for (let i = 0; i < 1; i++) {
     }))
   );
   assert.ok(files["paper.tex"].length > 5000);
-  assert.ok(!("scigenbibfile.bib" in files));
+  assert.ok(files["scigenbibfile.bib"].length > 1000);
   assert.ok(
     files["paper.tex"].match(
       /\\author\{Jeremy Stribling, Max Krohn and Dan Aguayo\}/

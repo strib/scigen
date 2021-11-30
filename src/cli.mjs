@@ -33,7 +33,7 @@ export const scigenSave = (
         (useBibtex
           ? "\tbibtex paper.aux\n\tpdflatex paper.tex\n\tpdflatex paper.tex\n"
           : "") +
-        +"\nto compile to PDF."
+        "\nto compile to PDF."
     );
   }
 };
