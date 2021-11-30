@@ -1,2 +1,2 @@
-export { scigen } from './scigen.mjs'
-export { scigenSave } from './cli.mjs'
+export { scigen } from "./scigen";
+export { scigenSave } from "./cli";
