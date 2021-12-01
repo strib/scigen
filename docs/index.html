@@ -1,0 +1,145 @@
+<html>
+  <head>
+    <title>SciGen.js</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <script src="bundle.js"></script>
+    <script src="promisejs/promise.js"></script>
+    <script src="pdftex.js"></script>
+    <div style="text-align: center">
+      Authors (comma-separated, optional):
+      <input id="authors" type="text" style="width: 200px; height: 30px" />
+      <br /><br />
+      <button
+        id="compile"
+        style="width: 200px; height: 30px; display: inline-block"
+      >
+        Create PDF
+      </button>
+      <button id="running" style="width: 200px; height: 30px; display: none">
+        <img src="loading.gif" />
+      </button>
+      <button
+        id="open_pdf_btn"
+        style="width: 200px; height: 30px; display: none"
+      >
+        Open PDF
+      </button>
+      <br /><br />
+      <a
+        href="https://github.com/davidpomerenke/scigen.js/blob/master/LICENSE"
+        target="_blank"
+        >License</a
+      >
+      <a href="https://github.com/davidpomerenke/scigen.js" target="_blank"
+        >Github</a
+      >
+      <br />
+      <p>
+        Note: Works in Firefox Desktop & Mobile, and in Chrome Mobile; not
+        currently in Chrome/Chromium Desktop.
+      </p>
+    </div>
+    <script>
+      var shuffle = (a) => {
+        for (let i = a.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+      };
+
+      var pdf_dataurl = undefined;
+      var compile = function (authors) {
+        var files = scigen({
+          authors:
+            authors.length > 0
+              ? authors.split(",").map((l) => l.trim())
+              : undefined,
+          useBibtex: false,
+        });
+
+        document.getElementById("compile").style.display = "none";
+        document.getElementById("running").style.display = "inline-block";
+
+        var pdftex = new PDFTeX();
+
+        pdftex.set_TOTAL_MEMORY(80 * 1024 * 1024).then(function () {
+          pdftex.FS_createLazyFile(
+            "/",
+            "IEEEtran.cls",
+            "IEEEtran.cls",
+            true,
+            true
+          );
+          pdftex.FS_createLazyFile("/", "IEEE.bst", "IEEE.bst", true, true);
+          for (key of Object.keys(files).filter((key) => key !== "paper.tex")) {
+            pdftex.FS_createDataFile("/", key, files[key], true, true);
+          }
+
+          // bad workaround for figures
+          diaNums = shuffle([...Array(15).keys()]);
+          figNums = shuffle([...Array(36).keys()]);
+          diaNums.forEach((num, i) => {
+            // pdftex.FS_createDataFile('/', `dia${i}-eps-converted-to.pdf`, ' ', true, true)
+            // pdftex.FS_createLazyFile('/', `dia${i}-eps-converted-to.pdf`, `precompiled-figures/figure${num}-eps-converted-to.pdf`, true, true)
+          });
+          figNums.forEach((num, i) => {
+            pdftex.FS_createLazyFile(
+              "/",
+              `figure${i}-eps-converted-to.pdf`,
+              `precompiled-figures/figure${num}-eps-converted-to.pdf`,
+              true,
+              true
+            );
+          });
+
+          pdftex.on_stdout = (msg) => console.log(msg);
+          pdftex.on_stderr = (msg) => console.log(msg);
+
+          var start_time = new Date().getTime();
+
+          pdftex.compile(files["paper.tex"]).then(function (pdf_dataurl) {
+            var end_time = new Date().getTime();
+            console.info(
+              "Execution time: " + (end_time - start_time) / 1000 + " sec"
+            );
+
+            if (pdf_dataurl === false) {
+              document.getElementById("running").style.display = "none";
+              document.getElementById("compile").style.display = "inline-block";
+              document.getElementById("compile").innerHTML =
+                "Fail :/ Try again!";
+              return;
+            }
+
+            document.getElementById("running").style.display = "none";
+            document.getElementById("open_pdf_btn").style.display =
+              "inline-block";
+            document.getElementById("open_pdf_btn").focus();
+          });
+        });
+      };
+
+      document
+        .getElementById("compile")
+        .addEventListener("click", function (e) {
+          var authors = document.getElementById("authors").value;
+          compile(authors);
+        });
+
+      document
+        .getElementById("open_pdf_btn")
+        .addEventListener("click", function (e) {
+          window.open(pdf_dataurl);
+          e.preventDefault();
+        });
+
+      var pdftex_preload = new PDFTeX("pdftex-worker.js");
+      pdftex_preload = undefined;
+    </script>
+  </body>
+</html>

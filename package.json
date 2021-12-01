@@ -1,0 +1,47 @@
+{
+  "name": "scigen",
+  "version": "0.2.1",
+  "description": "Create scientific papers on the fly: SciGen brought to the browser and to Node.",
+  "keywords": [
+    "scigen",
+    "context-free grammar",
+    "paper generator",
+    "text generator",
+    "essay generator",
+    "science",
+    "bogus",
+    "hoax"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test/test.mjs",
+    "build": "babel src -d lib",
+    "start": "node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidpomerenke/scigen.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/davidpomerenke/scigen/issues"
+  },
+  "homepage": "https://github.com/davidpomerenke/scigen#readme",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "pdftex.js": "0.0.10",
+    "title-case": "^3.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

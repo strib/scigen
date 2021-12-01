@@ -1,0 +1,1 @@
+{"EXPR":["EXPR + EXPR","EXPR * EXPR","sin(NUM*EXPR)","cos(NUM*EXPR)","atan2(EXPR,EXPR)","exp(EXPR)","log(abs(EXPR))","sqrt(abs(EXPR))","int(EXPR)+1","(EXPR)**NUM","xxx","xxx","xxx","xxx","NUM"],"NUM":["2","3","10","($$/1000.0)"]}
