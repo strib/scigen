@@ -521,8 +521,8 @@ sub entitle {
 	s/ ( [:;] \s+ ) ($alword) /$1 . recase($2,'title')/ex;
 }
 
-my $abbrev = join '|', qw{
         # modified by JS: add al. and Jr.
+my $abbrev = join '|', qw{
 	etc[.]	pp[.]	ph[.]?d[.]	U[.]S[.]  al. Jr.
 };
 
