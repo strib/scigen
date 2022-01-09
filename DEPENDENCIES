@@ -1,0 +1,6 @@
+    required:
+gnuplot
+latex
+graphviz
+    optional:
+gv

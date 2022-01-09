@@ -36,27 +36,28 @@ my @authors;
 my $seed;
 my $remote = 0;
 my $title;
+my $pdfview;
 
 sub usage {
     select(STDERR);
     print <<EOUsage;
-    
+
 $0 [options]
   Options:
 
     --help                    Display this help message
-    --author <quoted_name>    An author of the paper (can be specified 
+    --author <quoted_name>    An author of the paper (can be specified
                               multiple times)
     --seed <seed>             Seed the prng with this
     --file <file>             Save the postscript in this file
     --tar  <file>             Tar all the files up
-    --savedir <dir>           Save the files in a directory; do not latex 
+    --savedir <dir>           Save the files in a directory; do not latex
                               or dvips.  Must specify full path
     --remote                  Use a daemon to resolve symbols
     --talk                    Make a talk, instead of a paper
     --title <title>           Set the title (useful for talks)
     --sysname <name>          Set the system name
-
+    --pdfview <name>          name of PDF viewer
 EOUsage
 
     exit(1);
@@ -66,8 +67,8 @@ EOUsage
 # Get the user-defined parameters.
 # First parse options
 my %options;
-&GetOptions( \%options, "help|?", "author=s@", "seed=s", "tar=s", "file=s", 
-	     "savedir=s", "remote", "talk", "title=s", "sysname=s" )
+&GetOptions( \%options, "help|?", "author=s@", "seed=s", "tar=s", "file=s",
+	     "savedir=s", "remote", "talk", "title=s", "sysname=s" , "pdfview=s")
     or &usage;
 
 if( $options{"help"} ) {
@@ -87,6 +88,10 @@ if( defined $options{"seed"} ) {
 } else {
     $seed = int rand 0xffffffff;
 }
+if( defined $options{"pdfview"} ) {
+    $pdfview = $options{"pdfview"};
+}
+
 srand($seed);
 
 my $name_dat = {};
@@ -249,7 +254,14 @@ if( !defined $options{"savedir"} ) {
 	system( "ps2pdf $ps_file $pdf_file; acroread $pdf_file" ) 
 	    and die( "Couldn't ps2pdf/acroread $ps_file" );
     } else {
-	system( "gv $ps_file" ) and die( "Couldn't gv $ps_file" );
+	if ( defined $options{pdfview} ){
+	    system( "ps2pdf $ps_file $pdf_file;" ) 
+	        and die( "Couldn't ps2pdf $ps_file" );
+	    system( "$options{pdfview} $pdf_file" ) 
+                and die( "Couldn't $options{pdfview} $pdf_file" );
+	} else {    
+	    system( "gv $ps_file" ) and die( "Couldn't gv $ps_file" );
+        }
     }
 
 }
