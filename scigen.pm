@@ -176,29 +176,29 @@ sub pretty_print {
 	$line =~ s/(\s+)([\.\,\?\;\:])/$2/g;
 	$line =~ s/(\b)(a)\s+([aeiou])/$1$2n $3/gi;
 
-	if( $line =~ /\\section(\*?){(.*)}/ ) {
+	if( $line =~ /\\section(\*?)\{(.*)\}/ ) {
 	    $newline = "\\section${1}{" . 
 	      Autoformat::autoformat( $2, { case => 'highlight', 
 					    squeeze => 0 } );
 	    chomp $newline;
 	    chomp $newline;
 	    $newline .= "}";
-	} elsif( $line =~ /(\\subsection){(.*)}/ or 
-		 $line =~ /(\\slideheading){(.*)}/ ) {
+	} elsif( $line =~ /(\\subsection)\{(.*)\}/ or
+		 $line =~ /(\\slideheading)\{(.*)\}/ ) {
 	    $newline = $1 . "{" . 
 	      Autoformat::autoformat( $2, { case => 'highlight', 
 					    squeeze => 0 } );
 	    chomp $newline;
 	    chomp $newline;
 	    $newline .= "}";
-	} elsif( $line =~ /\\title{(.*)}/ ) {
+	} elsif( $line =~ /\\title\{(.*)\}/ ) {
 	    $newline = "\\title{" . 
 	      Autoformat::autoformat( $1, { case => 'highlight', 
 					    squeeze => 0  } );
 	    chomp $newline;
 	    chomp $newline;
 	    $newline .= "}";
-	} elsif( $line =~ /(.*) = {(.*)}\,/ ) {
+	} elsif( $line =~ /(.*) = \{(.*)\}\,/ ) {
 	    my $label = $1;
 	    my $curr = $2;
 	    # place brackets around any words containing capital letters
